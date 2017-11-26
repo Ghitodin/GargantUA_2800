@@ -1,0 +1,454 @@
+#CODE;UKRAINIAN;x
+character_owe_favor;This character will owe you a §YFavor§!.;x
+EVTDESC_ZE_22300;While passing judgement onto criminals from the safety of your throne, a young noble is brought before you. You quickly come to the conclusion that the man is indeed guilty. Condemning him might not be the wisest choice, as he is of noble birth. If you were to pardon the man he might prove himself useful to you, as he would be in your debt.;x
+EVTOPTA_ZE_22300;Release him! Now, do not forget what I did for you...;x
+EVTOPTB_ZE_22300;Being of noble birth means nothing. To the dungeons with him!;x
+EVTDESC_ZE_22400;During a particularly heated argument in the council, [target_saved_voter.GetTitledFirstName] stepped in as you were about to make a fool out of yourself. [target_saved_voter.GetSheHeCap] was able to argue for your point, not only saving your face but also winning the argument for you! It is obvious that [target_saved_voter.GetFirstName]'s smooth talking was the sole reason for your success, and denying that fact would likely paint you in a bad light.;x
+EVTOPTA_ZE_22400;Thank you! I do truly owe you in return!;x
+EVTOPTB_ZE_22400;Bah! I would have won that argument by myself!;x
+EVTDESC_ZE_22410;During a particularly heated argument in the council, you stepped in as [From.GetBestName] was making a fool of [From.GetHerselfHimself]. You managed to soothe the debaters and win the argument for [From.GetHerHim]. This turned out to be a great move on your part, as [From.GetSheHe] now feels indebted to you!;x
+EVTOPTA_ZE_22410;Now, when to call in the favor...;x
+EVTDESC_ZE_22420;During a particularly heated argument in the council, you stepped in as [From.GetBestName] was making a fool of [From.GetHerselfHimself]. You managed to soothe the debaters and win the argument for [From.GetHerHim]. Though this only infuriated [From.GetHerHim], as [From.GetSheHe] wanted to win the argument by [From.GetHerHis] own means! Throwing a tantrum like this has publicly shamed [From.GetFirstName].;x
+EVTOPTA_ZE_22420;Ingratitude is the world's reward.;x
+EVTDESC_ZE_22500;As the council meeting ends, [target_pious_voter.GetTitledFirstName] pulls you to the side. [target_pious_voter.GetSheHeCap] talks to you at length about the need to respect the authority of [Root.Religion.GetScriptureName] when making decisions in the council. Apparently the council is in agreement on you having neglected to do so, but fortunately [target_pious_voter.GetFirstName] offers to help you!;x
+EVTOPTA_ZE_22500;You would do that for me? I am in your debt!;x
+EVTOPTB_ZE_22500;No, there is no place for [Root.Religion.GetScriptureName] in politics!;x
+EVTDESC_ZE_22510;The council agreed that [From.GetBestName] had been acting in a very impious way, ignoring many wisdoms of [Root.Religion.GetScriptureName]. Being a pious [Root.GetManWoman] you decided to help [From.GetHerHim] not repeat the same mistakes. [From.GetFirstName] was very grateful for this help, and told you that [From.GetSheHe] was in your debt!;x
+EVTOPTA_ZE_22510;Excellent, I can make use of this favor.;x
+EVTDESC_ZE_22520;The council agreed that [From.GetBestName] had been acting in a very impious way, ignoring many wisdoms of [Root.Religion.GetScriptureName]. Being a pious [Root.GetManWoman] you decided to help [From.GetHerHim] not repeat the same mistake. Though, [From.GetFirstName] was infuriated by what [From.GetSheHe] assumed to be you trying to trick [From.GetHerHim]!;x
+EVTOPTA_ZE_22520;No better than a heretic...;x
+EVTDESC_ZE_22600;Word has reached you of a [target_foreign_voter.GetJobTitle] in a foreign realm who is of masterful skill and handles [target_foreign_voter.GetHerHis] tasks with ease. Seeing as your own abilities are often doubted by the rest of the Council, perhaps you should write a letter to this '[target_foreign_voter.GetBestName]' and ask for [target_foreign_voter.GetHerHis] advice?;x
+EVTOPTA_ZE_22600;Yes, I will write [target_foreign_voter.GetHerHim]!;x
+EVTOPTB_ZE_22600;No, why bother...;x
+EVTDESC_ZE_22610;To the masterful [Root.GetTitledFirstName],\n\nI am [From.GetTitledFirstName], [From.GetJobTitle] of [From.Liege.GetTitledFirstName].\nYour skill as a [Root.GetJobTitle] on the Council of [Root.Liege.GetTitledFirstName] is known far and wide. I implore you to advise me in matters of politics, so that I may serve my liege as admirably as you serve yours.\n\nRegards,\n[From.GetTitledName];x
+EVTOPTA_ZE_22610;A touching request, I will help you!;x
+EVTOPTB_ZE_22610;Fraternizing with the enemy? I think not!;x
+EVTDESC_ZE_22620;To the [GetFromRootCompliment] [Root.GetFirstName],\n\nI agree to lend you advice on how to serve on the Council more effectively. Along with this letter I have enclosed a book which treatise my own experience as a [From.GetJobTitle], I hope its contents will serve you well!\n\nRegards,\n[From.GetTitledName];x
+EVTOPTA_ZE_22620;Truly a great [From.GetManWoman]!;x
+EVTDESC_ZE_22630;To the [GetFromRootInsult] [Root.GetFirstName],\n\nDo you really think I would convey my secrets to you? You are a pathetic [From.GetJobTitle] and I do not see that changing soon!\n\nSincerely,\n[From.GetTitledName];x
+EVTOPTA_ZE_22630;I was foolish to ask...;x
+EVTOPTB_ZE_22630;Why the...! [From.GetSheHeCap] dares to insult me when I ask for help?;x
+EVTOPTC_ZE_22630;Perhaps some money will change [From.GetHerHis] tone?;x
+EVTDESC_ZE_22640;To the [GetFromRootCompliment] [Root.GetFirstName],\n\nKnow that I will never forget what you did for me! Please do not hesitate to ask if there is anything I can do for you, and know I will treat you like the dearest of friends.\n\nSincerely,\n[From.GetTitledName];x
+EVTOPTA_ZE_22640;Perfect!;x
+EVTDESC_ZE_22650;To [Root.GetTitledFirstName],\n\nKnow that I asked out of curiosity and not malice, but even so I apologize for what I did.\nSincerely,\n\n[From.GetTitledName];x
+EVTOPTA_ZE_22650;Perhaps I was too harsh in my response...;x
+EVTDESC_ZE_22660;To the [GetFromRootInsult] [Root.GetFirstName],\n\nYou dare to refuse me help? Know that I will not soon forget this insult to my honor.\n\nSigned,\n[From.GetTitledName];x
+EVTOPTA_ZE_22660;Truly a fool...;x
+EVTDESC_ZE_22670;To the [GetFromRootCompliment] [Root.GetFirstName],\n\nI excuse my forward request. Perhaps some gold would make you reconsider my offer?\n\nSigned,\n[From.GetTitledName];x
+EVTOPTA_ZE_22670;Well, when you put it like that!;x
+EVTOPTB_ZE_22670;No amount of gold will help your cause.;x
+EVTDESC_ZE_22680;To the [GetFromRootCompliment] [Root.GetFirstName],\n\nI excuse my previous behavior! Along with this letter I have enclosed a book which treatise my own experience as a [From.GetJobTitle], I hope its contents will serve you well!\n\nRegards,\n[From.GetTitledName];x
+EVTOPTA_ZE_22680;I knew some gold would loosen [From.GetHerHis] tongue!;x
+EVTDESC_ZE_22690;To the [GetFromRootInsult] [Root.GetFirstName],\n\nDid you really think that I could be bought? Take your money back and leave me be, you will never partake of my secrets!\n\nSigned,\n[From.GetTitledName];x
+EVTOPTA_ZE_22690;It was worth a try...!;x
+stats_increased_tooltip;§Y[From.GetTitledFirstName]'s§! stats are increased.\n;x
+EVTDESC_ZE_22702;Your friend, [target_unlanded_friend.GetTitledFirstName], does not stand to inherit any land of [target_unlanded_friend.GetHerHis] own. You have always considered [target_unlanded_friend.GetHerHim] a [GetRootFromCompliment], and as such it would be a shame to see [target_unlanded_friend.GetHerHim] fade into irrelevance. If you were to offer [target_unlanded_friend.GetHerHim] the [target_friend_land.GetFullName] it would not only bring your friend closer, but you would also gain a vassal your entire family could trust!;x
+EVTOPTA_ZE_22702;I shall offer [target_unlanded_friend.GetHerHim] land!;x
+EVTOPTB_ZE_22702;Alas, [target_unlanded_friend.GetFirstName] was never meant to rule...;x
+indebted_to_family_tooltip;§Y[target_unlanded_friend.GetFirstName]'s§! opinion of all your §YDynasty Members§! changes by §G50§! §Y(Loyal Servant)§!\n;x
+INFAMY;§YThreat§!;x
+INFAMY_DESC;§YThreat§! is a measure of how feared a Realm is. The higher this value is, the more likely nearby rulers might form a §YDefensive Pact§! to hinder further expansion. §YThreat§! increases when a Realm expands too quickly - the larger the Realm already is, the more §YThreat§! it will get. §YThreat§! decreases when a Realm shrinks, and it also decays over time. The stronger the realm is, the slower the decay will be.;x
+INTERACTION_CANT_DOW_IN_COALITION;Is not fighting as part of a Defensive Pact;x
+INTERACTION_CANT_LEAVE_COALITION_AT_WAR;Is not part of a Defensive Pact war opposing §Y[Recipient.GetTitledFirstName]§!;x
+MAPMODE_COALITIONS;§YDefensive Pacts§!;x
+MAPMODE_COALITIONS_DESC;This map mode shows any Defensive Pacts formed opposing the selected Realm.;x
+COALITION_TARGET;A Defensive Pact has been formed opposing this Realm;x
+VALID_COALITION_TARGET;Is Threatening enough to form a Defensive Pact against;x
+COALITION_TARGETS;In a Defensive Pact opposing $TARGETS|Y$;x
+PACTS_TAB_DRO;Pacts such as Alliances, Non-aggression Pacts, and Defensive Pacts are shown here.;x
+REMOVE_ACTOR_FROM_COALITION;This will remove me from the Defensive Pact opposing §Y[Recipient.GetTitledFirstName]§!.;x
+REMOVE_RECIPIENT_FROM_COALITION;This will remove §Y[Recipient.GetTitledFirstName]§! from the Defensive Pact opposing me.;x
+JOINED_WAR_DEFENSIVE_COALITION_SETUP;Joined Defensive Pact War;x
+JOINED_WAR_DEFENSIVE_COALITION_LOG;$ALLY|Y$ has accepted a call to arms from $CALLER|Y$ opposing $TARGET|Y$. Due to a Defensive Pact, $ALLY|Y$ had no other choice.;x
+START_COALITION;Form Defensive Pact Against;x
+LEAVE_COALITION;Leave Defensive Pact;x
+JOIN_COALITION;Join Existing Defensive Pact;x
+START_COALITION_LONG_DESC;A Defensive Pact is a group of characters uniting opposing a common enemy who has grown too big and become too much of a threat. If the target of the Defensive Pact attacks any member of the Pact, the members will unite in a war to stop their common enemy.;x
+start_coalition_opposing;Do you want to start a Defensive Pact opposing $TARGET|Y$?;x
+leave_coalition_opposing;Do you want to leave the Defensive Pact opposing $TARGET|Y$?;x
+join_coalition_opposing;Do you want to join the existing Defensive Pact opposing $TARGET|Y$?;x
+coalition_title;Defensive Pact opposing $TARGET$;x
+RELATION_COALITION_TARGET;$TARGET|Y$ is opposed by a Defensive Pact that $MEMBER|Y$ is a member of.;x
+RELATION_COALITION_MEMBER;$MEMBER|Y$ is a member of a Defensive Pact opposing $TARGET|Y$;x
+COALITION_STARTED_SETUP;Defensive Pact Formed;x
+COALITION_STARTED_LOG;$MEMBER|Y$ formed a Defensive Pact opposing $TARGET|Y$;x
+COALITION_JOINED_SETUP;Joined Defensive Pact;x
+COALITION_JOINED_LOG;§Y$MEMBER$§! joined the existing Defensive Pact opposing §Y$TARGET$§!;x
+COALITION_LEFT_SETUP;Left Defensive Pact;x
+COALITION_LEFT_LOG;§Y$MEMBER$§! left the Defensive Pact opposing §Y$TARGET$§!;x
+COALITION_DISSOLVED_SETUP;Defensive Pact Disbanded;x
+COALITION_DISSOLVED_LOG;The Defensive Pact opposing §Y$TARGET$§! has been disbanded.;x
+GAME_SETUP_COALITION_TARGET_ICON;Is the target of a Defensive Pact with $NUM_MEMBERS|Y$ members in it.;x
+GAME_SETUP_COALITION_MEMBER_ICON;Is in a Defensive Pact opposing $TARGET|Y$ together with $NUM_MEMBERS|Y$ other members.;x
+BADBOY_EFFECT;$DIRECTION$ $VALUE$ Threat.\n;x
+TRANSFER_INFAMY;Threat from $SOURCE$;x
+INFAMY_NON_RULER_DESC;Cannot gain Threat since $CHARACTER|Y$ is not a ruler.;x
+alert_high_infamy_instant;§YYou are Threatening!§!;x
+RELEASE_VASSAL_INTERACTION_0;Grant Independence to §Y[Recipient.GetTitledFirstName]§W. [Recipient.GetSubjectPronounCap] will be duly grateful (§G+$OPINION$§! Opinion, §G$INFAMY$%§! Threat).;x
+GRANT_LANDED_TITLE_INTERACTION_6;Grant the §Y[ThirdPartyTitle.GetFullName]§W and all titles under it to §Y[Recipient.GetTitledFirstName]§W, increasing [Recipient.GetPossPronoun] opinion of you by §G$OPINION$§! and lowering your Threat by §G$INFAMY$%§!.;x
+GRANT_LANDED_TITLE_INTERACTION_1;Grant the §Y[ThirdPartyTitle.GetFullName]§W to §Y[Recipient.GetTitledFirstName]§W, increasing [Recipient.GetPossPronoun] opinion of you by §G$OPINION$§! and lowering your threat by §G$INFAMY$%§!.;x
+INTERACTION_COALITION_REQUIRES_INFAMY_LIMIT;§Y[Recipient.GetTitledFirstName]§! must have at least $NUM|Y0%$ Threat;x
+COALITION_SIZE;Threat: $INFAMY|%Y0$/$LIMIT|%Y0$;x
+INFAMY_LOWER_TRIGGER;$CHAR|Y$ Threat lower than $VALUE|Y$.;x
+INFAMY_HIGHER_TRIGGER;$CHAR|Y$ Threat higher than $VALUE|Y$.;x
+CHANGE_INFAMY_EFFECT;$CHAR|Y$ Threat $VALUE|Y$ added.\n;x
+nogovernment;No Government;x
+nogovernment_desc;No Government;x
+alert_council_discontent_name;Council Discontent;x
+alert_liege_council_discontent_name;Liege Council Discontent;x
+alert_peace_soon_enforced_name;Realm Peace Imminent;x
+alert_peace_being_enforced_name;Realm Peace Enforced;x
+alert_my_peace_soon_enforced_name;My Realm will soon be at Peace;x
+alert_high_infamy_name;Threatening;x
+EVTDESC_ZE_23000;Being on your liege's council is not always easy. You have a huge amount of work that needs attention and there is so much to do. The list seems endless. Just as you are about to give up, [target_help_councillor.GetTitledFirstName] steps through the door and asks if you want any help. As tempting it may be, you would be in [target_help_councillor.GetHerHis] debt for it.;x
+EVTOPTA_ZE_23000;I suppose I could use some help...;x
+EVTOPTB_ZE_23000;No! I can manage!;x
+EVTDESC_ZE_23001;When casually strolling around the premises, as one often do, you come across [From.GetTitledFirstName] sitting at [From.GetHerHis] desk, overburdened with work. Seeing this as the perfect opportunity to help [From.GetHerHim] out and perhaps gain a favor in return, you offer a helping hand. [From.GetSheHeCap] looks at you with heavy eyes and after a moment, decides to accept your offer!;x
+EVTOPTA_ZE_23001;I wasn't doing anything important anyway.;x
+EVTDESC_ZE_23002;When casually strolling around the premises, as one often do, you come across [From.GetTitledFirstName] sitting at [From.GetHerHis] desk, overburdened with work. You see this as a great opportunity to help [From.GetHerHim] out and gain a favor in return. But to your surprise, [From.GetSheHe] not only refuses your help but has the nerve to insult you for it!;x
+EVTOPTA_ZE_23002;Ha! Well good luck with that work of yours!;x
+EVTDESC_ZE_23005;Every ruler needs to go out and meet the peasants in person from time to time. Just to make sure that they know you still exist if nothing else. As you visit the locals of [helping_vassal.Capital.GetName], you speak very frankly about what you think of them. Something that they took great offense in it seems. You look back to ensure that your guards are there to keep you out of harm's way, only to notice that they have all gone into the local tavern! Before you know it, the peasants begin to throw things at you!;x
+EVTOPTA_ZE_23005;I could run to [helping_vassal.GetTitledFirstName] and hide there!;x
+EVTOPTB_ZE_23005;Maybe I can just outrun them?;x
+EVTOPTA_ZE_23005_custom_tooltip_a;Run for safety at the nearby residence of [helping_vassal.GetTitledFirstName] and hope that [helping_vassal.GetSheHe] will help.;x
+EVTOPTA_ZE_23005_custom_tooltip_b;[Root.GetTitledName] getting away safely;x
+EVTDESC_ZE_23006;You are calmly minding your own business, when you suddenly hear an awful ruckus outside. You open the door to see [From.GetTitledFirstName] running towards you with a mob of angry peasants at [From.GetHerHis] heels! If you would offer [From.GetHerHim] a place to hide, [From.GetSheHe] would truly be in your debt.;x
+EVTOPTA_ZE_23006;Quickly! Over here!;x
+EVTOPTB_ZE_23006;I'm not getting involved in this!;x
+EVTDESC_ZE_23007;As you get closer you can see [From.GetTitledFirstName] standing in a doorway waving at you! You hurry towards [From.GetHerHim] and once inside, [From.GetFirstName] quickly closes the door. Safe at last. Who would ever have thought that peasants would be so easily insulted?;x
+EVTOPTA_ZE_23007;Thank you! I owe you one.;x
+EVTDESC_ZE_23008;Running as fast as you possibly could, you see [From.GetTitledFirstName] standing in a doorway. But instead of offering you a safe place to hide, [From.GetSheHe] quickly closes the door right in front of you! Leaving you to fend for yourself!;x
+EVTOPTA_ZE_23008;Why that little...;x
+change_composition_mercenary_company_feudal;Send Equipment to Company;x
+change_composition_mercenary_company_feudal_desc;By sending more equipment to the Mercenary Company, they will be able to equip lighter units to become heavier units and change its composition.;x
+send_troops_mercenary_company_feudal;Send Troops to Company;x
+send_troops_mercenary_company_feudal_desc;By paying for more troops for the Mercenary Company you can increase its size.;x
+EVTDESC_ZE_23101;I can send equipment of higher quality to the troops of [From.PrimaryTitle.GetName] in order to change its troop composition and make them perform better in combat.;x
+EVTOPTA_ZE_23101;Send equipment for heavy infantry.;x
+EVTOPTB_ZE_23101;Send equipment for pikemen.;x
+EVTOPTC_ZE_23101;Send equipment for heavy cavalry.;x
+EVTOPTD_ZE_23101;I changed my mind.;x
+EVTDESC_ZE_23106;I have the possibility to send troops to [From.GetFirstName] and his [From.PrimaryTitle.GetName] to reinforce them.;x
+EVTOPTA_ZE_23106;Send more soldiers.;x
+EVTOPTB_ZE_23106;Send more cavalry.;x
+EVTDESC_ZE_23152;While being in your service, [From.GetTitledFirstName] has been speaking to you about his employer, [merc_band_employer.GetTitledFirstName]. So far you have only heard good things about [merc_band_employer.GetHerHim] and it has made you intrigued. Perhaps one should try to establish contact and offer a pact or a meeting?;x
+EVTOPTA_ZE_23152;I shall write a letter at once!;x
+EVTOPTB_ZE_23152;This person is of no interest to me.;x
+EVTDESC_ZE_23154;To the [GetFromRootCompliment] [Root.GetFirstName],\n\nYour servant [FromFrom.GetTitledFirstName] has been speaking a great deal about you and your virtues. I would be delighted to meet you face to face and as such, I invite you to a grand feast to be held in your name.\n\n[From.GetTitledName];x
+EVTOPTA_ZE_23154;Of course I shall attend!;x
+EVTOPTB_ZE_23154;I have no interest in such an arrangement.;x
+EVTDESC_ZE_23155;To the [GetFromRootCompliment] [Root.GetFirstName],\n\nI received your letter and read it with much joy. I would love to attend your feast, and will make preparations to depart shortly.\n\n[From.GetTitledName];x
+EVTOPTA_ZE_23155;Splendid!;x
+EVTDESC_ZE_23156;To the [GetFromRootCompliment] [Root.GetFirstName],\n\nI appreciate your letter and the effort you put into it. Unfortunately, I am afraid that I am unable to attend at this time.\n\n[From.GetTitledName];x
+EVTOPTA_ZE_23156;How disappointing.;x
+EVTDESC_ZE_23157;When [FromFrom.GetTitledFirstName] arrived, you welcomed [FromFrom.GetHerHim] with great splendor and expressed your happiness of having [FromFrom.GetHerHim] there. The two of you ate and spoke at great length about all sorts of things. When it was time for [FromFrom.GetFirstName] to leave, you had not only decided on a non-aggression pact, but could also depart as friends!;x
+EVTOPTA_ZE_23157;Let us do this again sometime!;x
+EVTTITLE_ZE_23157;Attended feast together;x
+EVTDESC_ZE_23158;When you arrived, [From.GetTitledFirstName] was there to welcome you in the most grandeur of ways. [From.GetSheHe] showed you inside, where you ate and spoke at great length and had a great time together. Both of you decided on a non-aggression pact and could also depart as friends!;x
+EVTOPTA_ZE_23158;I was glad to have accepted your invitation!;x
+#INFAMY_LOWER_TRIGGER;$CHAR|Y$ Infamy lower than $VALUE|Y$.;x
+#INFAMY_HIGHER_TRIGGER;$CHAR|Y$ Infamy higher than $VALUE|Y$.;x
+#CHANGE_INFAMY_EFFECT;$CHAR|Y$ Infamy $VALUE|Y$ added.;x
+RESTORE_SUCCESSION_EFFECT;$TITLE|Y$ restores the law of $LAW|Y$.;x
+succ_council_elective;Council Elective;x
+COUNCIL_SUCCESSION_VOTE_ON;Enables council voting on succession;x
+COUNCIL_SUCCESSION_VOTE_OFF;Disables council voting on succession;x
+ATTRITION_SHATTERED_HOSTILE_TERRITORY;Shattered retreat in enemy territory: §R+$VALUE$%§!;x
+ATTRITION_SHATTERED_NEUTRAL_TERRITORY;Shattered retreat in neutral territory: §R+$VALUE$%§!;x
+ATTRITION_SHATTERED_FRIENDLY_TERRITORY;Shattered retreat in friendly territory: §R+$VALUE$%§!;x
+SHATTERED_IGNORES_LEADER_ATTRITION;Shattered armies ignores leaders attrition reduction;x
+#BATTLE_WARSCORE_LIMIT_ATTACKERS;Warscore from battles is limited to $VALUE$ for attackers;x
+#BATTLE_WARSCORE_LIMIT_DEFENDERS;Warscore from battles is limited to $VALUE$ for defenders;x
+INTERACTION_CANNOT_BREAK_FAVOR_BETROTHAL;Favor wasn't used to arrange the betrothal;x
+haughty_desc;This child is proud and vain, convinced of their own superiority. Can develop into: §YProud§!, §YArbitrary§! or §YCruel§!.;x
+affectionate_desc;This child is kind and is quick to show love and affection. Can develop into: §YKind§!, §YContent§! or §YTrusting§!.;x
+timid_desc;This child is shy and quiet and usually avoids open conflicts. Can develop into: §YHumble§!, §YShy§! or §YCraven§!.;x
+rowdy_desc;This child is loud and lively and usually prefers rough physical activity over calmer pursuits. Can develop into: §YBrawny§!, §YHonest§! or §YDull§!.;x
+willful_desc;This child is stubborn and strong-willed, and doesn't obey or give way easily. Can develop into: §YAmbitious§!, §YBrave§! or §YStubborn§!.;x
+brooding_desc;This child is a quiet thinker, often sitting inside in deep ponderings as others play outside in the sun. Can develop into: §YJust§!, §YWroth§! or §YEnvious§!.;x
+indolent_desc;This child is very averse to any kind of exertion, be it mental or physical. Can develop into: §YCharitable§!, §YSlothful§! or §YGluttonous§!.;x
+playful_desc;This child loves to engage in fun and games, almost always turning any activity into an excuse to play. Can develop into: §YGregarious§!, §YDeceitful§! or (rarely) §YLunatic§!.;x
+conscientious_desc;This child is unusually scrupulous and responsible, taking delight in completing any chores and tasks to perfection. Can develop into: §YDiligent§! or §YTemperate§!.;x
+fussy_desc;This child is very particular about details which seem trivial to others, sometimes to the point of causing anxiety and frustration. Can develop into: §YPatient§!, §YGreedy§! or §YParanoid§!.;x
+curious_desc;This child has an inquisitive nature and is constantly asking questions and poking around looking for new and interesting things. Can develop into: §YShrewd§!, §YCynical§! or §Ysympathies for other religions§!.;x
+idolizer_desc;This child is easily impressed and also has a fervent desire to seek for ultimate truths. Can develop into: §YZealous§!, §YErudite§! or §YFrail§!.;x
+CHRONICLE_RUNESTONE_POSSESSED;[Root.GetTitledName] raised a rune stone as a reminder that the demonic lord Xuhmalz of the Realm of Zulmarakh will return in the next millennia to bring destruction and chaos upon this pitiful world.;x
+CHRONICLE_HELD_NERGE;[Root.GetTitledName] held a great nerge at [Root.Location.GetName].;x
+EVTDESC_ZE_10076;To the [GetFromRootInsult] [Root.GetTitledFirstName].\n\nMy men and I have put up with your leeching of our abilities for too long now. You failed to treat us with the proper respect on multiple occasions and therefore we will from now on pay no respect or allegiance towards you. It will be my pleasure to aid your enemies to defeat your armies on the battlefield.;x
+EVTOPTA_ZE_10076;That ungrateful [GetRootFromInsult]!;x
+#pattern_selfish_affects_council_stability_tooltip;This affects the stability of the Council!;x
+tooltip_disables_advisors;\nDisables the Advisor minor titles for Kings and Emperors\n;x
+tooltip_enables_advisors;\nEnables the Advisor minor titles for Kings and Emperors.\n;x
+opinion_denied_request;Denied Request;x
+#EDUCATE_CHARACTER_INTERACTION_LONG_DESC_CONCLAVE;At age 6, a guardian can be entrusted with your child. A guardian's religion and culture as well as some traits can affect your child's upbringing.;x
+EVTOPTX_ZE_6021;No, I had something else in mind.;x
+EVTOPTY_ZE_6021;[From.GetSheHeCap] should be my Advisor.;x
+well_mannered;Well Mannered;x
+ask_for_pardon;Ask for Pardon;x
+ask_for_pardon_desc;Call in a §YFavor§! to remove any reason to banish, execute, imprison or revoke titles your liege may have.;x
+EVTDESC_ZE_8120;The crooked [pardon_target.GetBestName] has called in the Favor you owe [pardon_target.GetHerHim] in order to force you to pardon [pardon_target.GetHerHis] devious crimes! You will no longer be able to take hostile actions against [pardon_target.GetHerHim] without looking like a tyrant in the eyes of the realm.;x
+EVTOPTA_ZE_8120;Forgive and forget.;x
+faction_powerful_vassal_takeover_title;Overthrow [From.Liege.GetBestName];x
+opinion_abdicated;Abdicated on Request;x
+EVTDESC8220;You are a tyrant and a [GetFromRootInsult]! We will no longer stand idly by as you ignore the Council and the well-being of your subjects. The time has come for you to abdicate in favor of [new_title_holder.GetFullName]! Submit to this demand peacefully or face the consequences.\n\nSigned,\n[From.GetTitledName];x
+EVTDESC8223;Rather than risking civil war tearing the realm apart, I have decided to give in to your demand and abdicate the throne. But this treacherous act of blackmail will not be forgotten...\n\nSigned,\n[From.GetTitledName];x
+faction_powerful_vassal_takeover_ultimatum;Demand Abdication;x
+faction_powerful_vassal_takeover_ultimatum_desc;Present an ultimatum to §Y[Root.Liege.GetBestName]§!, demanding that [Root.Liege.GetSheHe] abdicates in favor of the most liked vassal in the realm. If [Root.Liege.GetSubjectPronoun] refuses to comply, your Faction will rise in revolt.;x
+CB_NAME_POWERFUL_VASSAL_TAKEOVER;Oust Ruler;x
+WAR_NAME_POWERFUL_VASSAL_TAKEOVER;$ORDER$War to Oust $DEFENDER$ from Power;x
+AIREASON_IS_MY_VASSAL;Is my Vassal;x
+EVTOPTREFUSE_WOL100;It will never happen.;x
+EVTDESC_WOL_119;Apparently [FromFromFrom.GetBestName] has a reputation for not giving in to flirting. Any more time spent chasing [FromFromFrom.GetHerHim] is a waste.;x
+EVTOPTA_WOL_119;Moving on.;x
+EVTDESC_WOL_120;The response from [From.GetBestName] wasn't quite what I expected, apparently I am to 'stay away forever'.;x
+EVTOPTA_WOL_120;So be it.;x
+opinion_seduced_refused;Refused Seduction;x
+dismissed_proposal;Rejecting Seduction Attempts;x
+EVTDESC8225;I am humbled by the responsibility given to me today. I accept the title of [new_title_holder.GetTitle] to serve you every way that I can. Your efforts to make a change will be remembered.\n\n[new_title_holder.GetTitledName];x
+EVTOPTA8225;Wonderful.;x
+EVTDESC8226;The faction led by [From.GetBestName] won their war and have chosen me as successor to the title of [Root.GetTitle]. In the future I am expected to show generosity towards anyone who helped make this happen.;x
+EVTOPTA8226;A great honor.;x
+EVTOPTHAU;May lead to §YHaughty§!;x
+EVTOPTAFF;May lead to §YAffectionate§!;x
+EVTOPTTIM;May lead to §YTimid§!;x
+EVTOPTROW;May lead to §YRowdy§!;x
+EVTOPTWIL;May lead to §YWillful§!;x
+EVTOPTBRO;May lead to §YBrooding§!;x
+EVTOPTIND;May lead to §YIndolent§!;x
+EVTOPTPLA;May lead to §YPlayful§!;x
+EVTOPTCON;May lead to §YConscientious§!;x
+EVTOPTFUS;May lead to §YFussy§!;x
+EVTOPTIDO;May lead to §YIdolizer§!;x
+EVTOPTHAU_FROM;§Y[From.GetFirstName]§! may gain §YHaughty§!;x
+EVTOPTAFF_FROM;§Y[From.GetFirstName]§! may gain §YAffectionate§!;x
+EVTOPTTIM_FROM;§Y[From.GetFirstName]§! may gain §YTimid§!;x
+EVTOPTROW_FROM;§Y[From.GetFirstName]§! may gain §YRowdy§!;x
+EVTOPTWIL_FROM;§Y[From.GetFirstName]§! may gain §YWillful§!;x
+#EVTOPTBRO_FROM;§Y[From.GetFirstName]§! may gain §YBrooding§!;x
+EVTOPTIND_FROM;§Y[From.GetFirstName]§! may gain §YIndolent§!;x
+EVTOPTPLA_FROM;§Y[From.GetFirstName]§! may gain §YPlayful§!;x
+EVTOPTCON_FROM;§Y[From.GetFirstName]§! may gain §YConscientious§!;x
+EVTOPTFUS_FROM;§Y[From.GetFirstName]§! may gain §YFussy§!;x
+EVTOPTIDO_FROM;§Y[From.GetFirstName]§! may gain §YIdolizer§!;x
+pattern_selfish_affects_council_stability_tooltip;This affects the stability of the Council!\n;x
+pattern_glory_hound_weakening_ruling_dynasty_tooltip;I do not want you to weaken your Dynasty!\n;x
+pattern_glory_hound_weakening_powerful_vassal_tooltip;I do not want you to weaken Powerful vassals!\n;x
+pattern_glory_hound_defenseless_child_tooltip;There is no glory in this, the character is a defenseless child!\n;x
+pattern_pragmatist_dislike_landing_ruling_family_tooltip;I do not want you to grant land to your Dynasty!\n;x
+pattern_pragmatist_were_already_busy_fighting_tooltip;We're already busy fighting another war\n;x
+pattern_pragmatist_were_not_already_busy_fighting_tooltip;We are not occupied with another war\n;x
+pattern_zealot_should_focus_on_great_holy_war;There is an ongoing [Root.Religion.GetCrusadeName] that I want us to focus on\n;x
+pattern_zealot_fromfrom_is_pious_tooltip;The target is pious and of my religion\n;x
+pattern_vastly_over_demesne_tooltip;You are vastly over your Demesne Limit and are handing out a Barony or a County\n;x
+out_of_patience;Out of Patience;x
+chattermouth;Chattermouth;x
+too_honest;Too Honest;x
+impious_teachings;Impious Teachings;x
+opinion_hypocrite;Hypocrite;x
+opinion_boring;Boring;x
+EVTOPTC_ZE_13620;[From.GetFirstName] must learn on [From.GetHerHis] own.;x
+EVTDESC_ZE_13625;As [From.GetSheHe] is growing older, I can see that [From.GetFirstName] could use some guidance in some of my experienced areas. It will require hard work and may not always be appreciated but this is my chance to make a self-sacrifice for the sake of [From.GetFirstName].;x
+EVTDESC_ZE_13620;As [From.GetSheHe] is growing older, I can see that [From.GetFirstName] could use some guidance in one of my experienced areas, diplomacy. This is my chance to make an effort for the sake of [From.GetHerHis] education but what can I offer?;x
+EVTDESC_ZE_13621;As [From.GetSheHe] is growing older, I can see that [From.GetFirstName] could use some guidance in one of my experienced areas, the art of war. This is my chance to make an effort for the sake of [From.GetHerHis] education but what can I offer?;x
+EVTDESC_ZE_13622;As [From.GetSheHe] is growing older, I can see that [From.GetFirstName] could use some guidance in one of my experienced areas, stewardship. This is my chance to make an effort for the sake of [From.GetHerHis] education but what can I offer?;x
+EVTDESC_ZE_13623;As [From.GetSheHe] is growing older, I can see that [From.GetFirstName] could use some guidance in one of my experienced areas, intrigue. This is my chance to make an effort for the sake of [From.GetHerHis] education but what can I offer?;x
+EVTDESC_ZE_13624;As [From.GetSheHe] is growing older, I can see that [From.GetFirstName] could use some guidance in one of my experienced areas, learning. This is my chance to make an effort for the sake of [From.GetHerHis] education but what can I offer?;x
+EVTDESC_ZE_22800;It is clear to you that [Root.Liege.GetTitledFirstName]'s commanders are nothing more than rabble - all brawn and no finesse. You, on the other hand, are an experienced tactician and a great teacher to boot! Perhaps you should offer to train [Root.Liege.GetFirstName]'s commanders in the hopes of gaining [Root.Liege.GetHerHis] favor?;x
+EVTOPTA_ZE_22800;I shall send [Root.Liege.GetHerHim] a letter offering my services!;x
+EVTOPTB_ZE_22800;It is not worth it.;x
+EVTDESC_ZE_22801;To my liege, the [GetFromRootCompliment] [Root.GetFirstName],\nIt has not escaped me that several of your commanders lack formal training in military tactics. I would like to offer my services by training [commander_one.GetFirstName], [commander_two.GetFirstName] and [commander_three.GetFirstName] in the use of advanced battlefield stratagems!\n\nRegards,\n[From.GetTitledName];x
+EVTOPTA_ZE_22801;A most generous offer, for this I will owe [From.GetHerHim]!;x
+EVTOPTB_ZE_22801;No! [From.GetSheHeCap] is just trying to gain leverage on me!;x
+EVTDESC_ZE_22802;To my loyal subject, the [GetFromRootCompliment] [Root.GetFirstName],\n\nYour offer is most generous! I graciously accept your offer and will remember this good deed in the future.\n\nRegards,\n[From.GetTitledName];x
+EVTOPTA_ZE_22802;Excellent! Now I have leverage on [From.GetHerHim]...;x
+EVTDESC_ZE_22803;To my subject, the [GetFromRootInsult] [Root.GetFirstName],\n\nYour offer is obviously nothing but thinly-veiled deception. That you would even suggest that my commanders are anything but the very best is an insult!\n\nRegards,\n[From.GetTitledName];x
+EVTOPTA_ZE_22803;This was not what I meant to happen!;x
+EVTOPTA_ZE_13620;Honesty, if anything.;x
+EVTOPTB_ZE_13620;Being sociable is key.;x
+EVTOPTA_ZE_13621;Show bravery to inspire others.;x
+EVTOPTB_ZE_13621;I'll have to toughen [From.GetHerHim] up...;x
+EVTOPTA_ZE_13622;Treat all as equals.;x
+EVTOPTB_ZE_13622;Self-restraint, a life of moderation.;x
+EVTOPTA_ZE_13623;Knowledge is power others don't need.;x
+EVTOPTB_ZE_13623;Others may try to trick you.;x
+EVTOPTA_ZE_13624;Knowledge is power, always learn more.;x
+EVTOPTB_ZE_13624;Don't be distracted by lust.;x
+EVTOPTA_ZE_13625;[From.GetSheHeCap] deserves greatness. Go get it!;x
+EVTOPTB_ZE_13625;Be thorough, make others count on you.;x
+EVTOPTC_ZE_13625;Make your move at the right time.;x
+obj_groom_an_heir_title;Groom an Heir;x
+obj_groom_an_heir_desc;[This.GetTitledFirstName] wants to have a male child and see him reach adulthood.\n\nIf [This.GetFirstName]'s succession law is §YAbsolute Cognatic§! raising either a male child or a female child will fulfill the ambition.\n\nWhile this ambition is active, §YFertility§! is increased by §Y20%§!.;x
+opinion_boost_child;Increases the opinion of §Y[Root.GetFullName]'s§! adult child towards [Root.GetHerHim] by §G15§! for §Y240 months§!!\n;x
+introduce_heir;Introduce Heir to the Realm;x
+introduce_heir_named;Introduce Heir to the Realm;x
+introduce_heir_desc;As your heir is soon of age you can choose to formally introduce him or her to the vassals of the realm. This can help build trust that will certainly prove useful for the child in the future.;x
+introduce_heir_custom_tooltip;Send out the invitations.;x
+EVTDESC_ZE_22900;You have invited your vassals to partake in a formal introduction of your heir, [introduced_heir.GetTitledFirstName]. [introduced_heir.GetSheHeCap] will have to exchange many pleasantries and act in a very formal way, something that might be tiresome for someone as young as [introduced_heir.GetHerHim]. However, you have full confidence that [introduced_heir.GetSheHe] will not disappoint you!;x
+EVTOPTA_ZE_22900;They will be here soon!;x
+EVTDESC_ZE_22901;The last of your vassals have left and [introduced_heir.GetTitledFirstName] looks relieved. [introduced_heir.GetSheHeCap] is obviously exhausted from all the formalities, but having been introduced like this will hopefully serve [introduced_heir.GetHerHim] well in the future!;x
+EVTOPTA_ZE_22901;I've done my best to groom [introduced_heir.GetHerHim] into a worthy heir.;x
+groomed_to_perfection;Groomed to Perfection;x
+EVTDESC_ZE_22902;[vassal_teacher.GetBestName] is a renowned godly and learned vassal of yours. After having introduced [vassal_teacher.GetHerselfHimself] to [introduced_heir.GetFirstName], [vassal_teacher.GetFirstName] approaches you with an offer. [vassal_teacher.GetFirstName] is willing to spend some time teaching [introduced_heir.GetFirstName] some of the more intricate parts of [Root.Religion.GetScriptureName] in exchange for your favor.;x
+EVTOPTA_ZE_22902;Anything for [introduced_heir.GetTitledFirstName]!;x
+EVTOPTB_ZE_22902;There is no need for that.;x
+EVTDESC_ZE_22903;As [introduced_heir.GetFirstName] introduces [introduced_heir.GetHerselfHimself] to [compliment_vassal.GetBestName] [introduced_heir.GetSheHe] not only presents [introduced_heir.GetHerselfHimself] with grace, but also manages to impress [compliment_vassal.GetFirstName] by skillfully complimenting [compliment_vassal.GetHerHim]!;x
+EVTOPTA_ZE_22903;I taught [introduced_heir.GetHerHim] everything [introduced_heir.GetSheHe] knows!;x
+EVTDESC_ZE_22904;As [introduced_heir.GetFirstName] introduces [introduced_heir.GetHerselfHimself] to [insult_vassal.GetBestName] [introduced_heir.GetSheHe] not only accidently spills a beverage on [insult_vassal.GetFirstName]'s shoes, but also manages to insult ALL of [insult_vassal.GetFirstName]'s ancestors!;x
+EVTOPTA_ZE_22904;That kid is a disaster!;x
+EVTDESC_ZE_22905;It seems as if [introduced_heir.GetFirstName] has started getting along incredibly well with the child of one of the visiting vassals! Indeed, apparently [introduced_heir.GetFirstName] and [befriended_child.GetBestName] are becoming fast friends.;x
+EVTOPTA_ZE_22905;How lovely!;x
+EVTDESC_ZE_22906;While having a pleasant conversation you are suddenly interrupted by an infernal ruckus, upon further investigation it seems as if [introduced_heir.GetFirstName] has gotten into a fight with the child of one of the visiting vassals! You tear the two children apart, but it is obvious that [introduced_heir.GetFirstName] and [rival_child.GetBestName] will not ever be friends after this encounter...;x
+EVTOPTA_ZE_22906;I wonder who started it?;x
+EVTDESC_ZE_22907;As the hours go by you notice [introduced_heir.GetFirstName]'s mood starting to drop. [introduced_heir.GetSheHeCap] is obviously trying [introduced_heir.GetHerHis] best to impress the visiting vassals, but it is evidently tearing at [introduced_heir.GetHerHim]. Hopefully this slump in [introduced_heir.GetFirstName]'s mood will pass soon.;x
+EVTOPTA_ZE_22907;Now, there are still more vassals to greet...;x
+EVTDESC_ZE_22908;[vassal_teacher_martial.GetBestName] is a renowned fighter and tactician. After having introduced [vassal_teacher_martial.GetHerselfHimself] to [introduced_heir.GetFirstName], [vassal_teacher_martial.GetFirstName] approaches you with an offer. [vassal_teacher_martial.GetFirstName] is willing to spend some time teaching [introduced_heir.GetFirstName] how to fight in exchange for your favor.;x
+EVTOPTA_ZE_22908;That would be useful, I will bestow my favor upon you!;x
+EVTOPTB_ZE_22908;Learn how to fight? There is no need for such nonsense!;x
+EVTDESC_ZE_22909;It is evidently clear to all of the visiting vassals that [introduced_heir.GetTitledFirstName] has been infatuated with [husband_target.GetTitledFirstName]'s wife, [wife_target.GetTitledFirstName]. While harmless, [introduced_heir.GetFirstName] is still following her around like a dog. [husband_target.GetFirstName] does not seem to be amused.;x
+EVTOPTA_ZE_22909;There is no time for this nonsense!;x
+COUNCIL_VOTE_WAR_ACCEPT_SETUP;Council voting outcome for war;x
+STOP_ENFORCE_PEACE_INTERACTION_ACCEPT_SETUP;Request to stop Enforce Peace accepted;x
+STOP_ENFORCE_PEACE_INTERACTION_DECLINE_SETUP;Request to stop Enforce Peace denied;x
+ASK_REALM_PEACE_INTERACTION_ACCEPT_SETUP;Request for Enforce Peace accepted;x
+ASK_COUNCIL_POSITION_INTERACTION_ACCEPT_SETUP;Accepting Council Position request;x
+FORCE_JOIN_FACTION_INTERACTION_ACCEPT_SETUP;Forced into joining faction;x
+ASSIGN_VOTER_TITLE_INTERACTION_DECLINE_SETUP;Councillor Declined;x
+succession_voting_power;Council Authority;x
+succession_voting_power_desc;The Council's authority in regards to the right of holding office and voting for succession.;x
+succession_voting_power_0_desc;The ruler has full authority over choice of succession law and can fire council members at will.\n;x
+succession_voting_power_1_desc;The Council's authority reaches its peak, with the ruler unable to fire council members at will and unable to completely control the succession of the realm.\n;x
+succession_voting_power_0_option;Limited;x
+succession_voting_power_1_option;Full;x
+succession_voting_power_0;Limited Council Authority;x
+succession_voting_power_1;Full Council Authority;x
+#faction_powerful_vassal_takeover_desc;Members seek to remove §Y[From.Liege.GetBestName]§! from power and significantly increase the Council's power by instituting the §YFull Council Authority§! and §YElective Monarchy§! laws. Once this faction is sufficiently powerful, §Y[From.GetBestName]§! may present an ultimatum to §Y[From.Liege.GetBestName]§!.;x
+#EVTDESC8221;Rather than letting civil war tear the realm apart, [From.GetTitledName] has agreed to give up [From.GetHerHis] title for the good of the realm. We have chosen [new_title_holder.GetFullName] as our new ruler, and Elective Monarchy has been instituted in the realm. Your valuable support in this matter will not be forgotten.\n\nSincerely,\n[FromFrom.GetTitledName];x
+#EVTDESC8222;Under pressure from a powerful Faction, §Y[From.GetTitledName]§! has agreed to abdicate the throne and institute full council authority and Elective Monarchy. Hail the new ruler, §Y[new_title_holder.GetFullName]§!!;x
+succession_voting_power_1_effect_tooltip;§YPowerful Vassals§! cannot be fired from the §YCouncil§!\nEnables the §YElective Monarchy§! law for Indian and Muslim religions\nCan no longer change succession if §YElective Monarchy§! is instituted;x
+succession_voting_power_0_effect_tooltip;§YPowerful Vassals§! can be fired from the §YCouncil§!\nDisables the §YElective Monarchy§! law for Indian and Muslim religions\nCan now change succession if §YElective Monarchy§! is instituted;x
+#RENEGOTIATED_NAP;Renegotiated Non-Aggression Pact;x
+MATRILINEAL_MARRIAGE_CONCLAVE;Both parties must allow matrilineal marriage;x
+STEAM_SUBSCRIBER_AGREEMENT;Agree to Steam Subscriber Agreement;x
+VICE_ROYALTY_CHANGE_PRIMARY_FORBIDDEN;Vice Royalties are not allowed to change primary title;x
+CONFIRM_ABANDON_GAME_TITLE;Abandon Game;x
+CONFIRM_ABANDON_GAME_DESC;Are you sure you want to abandon the game?;x
+SM_CONTEXTMUSIC;Context Sensitive Music;x
+MINIMAP_NEXTSONG;Next Song;x
+MINIMAP_NEXTSONG_DELAYED;Now playing: $SONG|Y$;x
+PEACE_ENFORCE_COUNCIL_DISCONTENT;Council must be Content;x
+COUNCIL_DISCONTENT_EFFECT;Councillors cannot join or start §YFactions§! while the council is §YContent§! and the §YWar Declaration§! law is set to §YCouncil§! (Nomadic and Tribal councillors can always join and start factions).\nThe liege cannot §YEnforce Realm Peace§! while the council is §YDiscontent§!.;x
+alert_council_discontent_delayed;Your Council has been Discontent for $DISCONTENT_DURATION|Y$ month(s), and will be until §Y$DISCONTENT_END_DATE$§!. This means that if Councillors were prohibited by law from forming and joining factions, they may now do so. This could potentially destabilize the realm.;x
+alert_liege_council_discontent_delayed;Your Liege's Council has been Discontent for $DISCONTENT_DURATION$ month(s), and will be until §Y$DISCONTENT_END_DATE$§!. This means that if Councillors were prohibited by law from forming and joining Factions, they may now do so. This could potentially destabilize the realm.;x
+coalitions_title;$GROUP$ Defensive Pact against $TARGET$;x
+coalition_group;§YMembers:§!$MEMBERS$;x
+gov_bad_pope;Papacy;x
+gov_pope;[Religion.GetName]Papacy;x
+gov_patriarchate;[Religion.GetName] Patriarchate;x
+gov_theocracy;[Religion.GetName] Theocracy;x
+gov_republic;Republic;x
+gov_elective_muslim_aristocratic_monarchy;Elective Aristocratic [PrimaryTitle.GetTier];x
+gov_elective_muslim_despotic_monarchy;Elective Despotic [PrimaryTitle.GetTier];x
+gov_elective_muslim_absolute_monarchy;Elective Absolute [PrimaryTitle.GetTier];x
+gov_elective_muslim_absolute_autocracy;Elective Absolute Imperial Autocracy;x
+gov_elective_muslim_despotic_autocracy;Elective Despotic Imperial Autocracy;x
+gov_elective_muslim_aristocratic_autocracy;Elective Aristocratic Imperial Autocracy;x
+INTERACTION_COALITION_RANGE;Is close enough to threaten us;x
+GAME_SETUP_COALITIONS_TARGET_ICON;Is the target of one or more §YDefensive Pacts§! with a total of $NUM_MEMBERS|Y$ members.;x
+GAME_SETUP_COALITIONS_MEMBER_ICON;Is in a §YDefensive Pact§! against $TARGET|Y$. A total of $NUM_MEMBERS|Y$ characters have joined §YDefensive Pacts§! against the same target.;x
+alert_high_infamy_delayed;Effects of §YThreat§!:\n\n- With over $COALITION_INFAMY_LIMIT|%Y0$ §YThreat§! other realms can form §YDefensive Pacts§! to protect themselves from you. Each religious group has their own separate §YDefensive Pact§! and will only defend members belonging to that same §YDefensive Pact§!.\n\n- With over $OTHER_COALITION_JOIN_INFAMY|%Y0$ §YThreat§! all §YDefensive Pacts§! of other religious groups band together if you attack one of them.\n\n- With over $EVERY_COALITION_EXCEPT_HEADS_JOIN_INFAMY|%Y0$ §YThreat§! all §YDefensive Pacts§! including that of your own religious group will band together if you attack one of them.\n\n- With over $EVERY_COALITION_JOIN_INFAMY|%Y0$ §YThreat§! you are considered threatening enough that even your own religious head and holy orders from your religious group will defend other §YDefensive Pacts§! from you.\n\n- As your §YThreat§! increases, larger and more distant realms are allowed to join the §YDefensive Pacts§! opposing you.\n\n- As your §YThreat§! decreases, larger or more distant realms are forced to leave the §YDefensive Pacts§! opposing you.\n\n--------------\n§YThreat§! will decline slowly over time but you can manually lower it by granting independence to land not part of your De Jure realm.;x
+INTERACTION_COALITION_REQUIRES_COUNTY_COMPARE;§Y[Actor.GetTitledFirstName]§! can be at most $RATIO|Y%0$ the size of §Y[Recipient.GetTitledFirstName]§!;x
+COUNCIL_ELECTIVE;Council Elective;x
+WANTS_PARDON;I don't want to be imprisoned;x
+COUNCIL_ELECTIVE_DESC;Council Elective is a special form of succession that can only be enabled by enacting certain laws. The ruler and each council member can nominate a successor from among the direct vassals and legitimate children and siblings of the ruler. All council members have a vote, regardless if they are landed or not. In this form of elective succession there are no elector titles, instead the ruler and the council members each get one vote. Council Elective Succession is very popular with the vassals.;x
+IS_POWERFUL_VASSAL_TRIGGER;$CHAR$ is a powerful vassal.\n;x
+IS_NOT_POWERFUL_VASSAL_TRIGGER;$CHAR$ is not a powerful vassal.\n;x
+CANNOT_JOIN_FACTION_COUNCIL_CONTENT;§RAs you are on the Council and the Council gets to vote on War Declarations, you can only create or join factions while the Council is Discontent.§!;x
+INTERACTION_REQUIRES_NOT_IS_IN_PRISON;§Y[Recipient.GetTitledFirstName]§! is not Imprisoned;x
+INTERACTION_REQUIRES_RECIPIENT_NOT_INCAPABLE;§Y[Recipient.GetTitledFirstName]§! Is not incapable;x
+INSULT_SCARECROW;scarecrow;x # male female child - (bad_priest)
+INSULT_LOVER_OF_HEATHENS;lover of heathens;x # male female - (sympathy_)
+INSULT_UNPRINCIPLED;unprincipled;x # male female - (sympathy_)
+INSULT_STUPID;stupid;x # child - 
+INSULT_LAZY;lazy;x # child - decadent slothful
+INSULT_FARTMASTER;fartmaster;x # child - decadent
+INSULT_JUNGLE_SNAKE;jungle snake;x # male female - jungle_terrain_leader
+INSULT_SNEAKING;sneaking;x # male female - in_hiding
+COMPL_ARCHITECT;architect;x # male female - architect
+INSULT_SCHEMING;scheming;x # male female - (schemer)
+INSULT_BLABBERER;blabberer;x # male female - socializer
+INSULT_SILLY;silly;x # child - eunuch socializer
+INSULT_INSTIGATOR;instigator;x # male female - schemer
+INSULT_BOOKWORM;bookworm;x # male female - scholar theologian physician
+INSULT_SQUINTEYED;squint-eyed;x # male female - scholar theologian physician
+INSULT_UPSTART;upstart;x # male female - adventurer
+INSULT_PEABRAIN;peabrain;x # child - adventurer heresiarch imbecile homosexual
+INSULT_HAYBRAIN;haybrain;x # child - hedonist
+INSULT_CRUMMY;crummy;x # child - adventurer (bad_priest)
+COMPL_CONQUEROR;conqueror;x # male female - adventurer
+COMPL_AUDACIOUS;audacious;x # male female - adventurer
+INSULT_GRABBING;grabbing;x # male female - adventurer
+INSULT_BRAT;brat;x # male female - haughty
+INSULT_ARROGANT;arrogant;x # male female - haughty
+INSULT_GROUCHY;grouchy;x # child - paranoid haughty
+INSULT_CLINGY;clingy;x # male female - affectionate
+INSULT_FLOPPY;floppy;x # child - affectionate
+INSULT_TICK;tick;x # male female - affectionate
+INSULT_CREEPY;creepy;x # male female timid brooding \ lustful child
+INSULT_RUFFIAN;ruffian;x # male female - rowdy
+INSULT_MONGREL;mongrel;x #UNUSED
+INSULT_CRAZY;crazy;x # child - lunatic homosexual hedonist berserker rowdy
+INSULT_WILD;wild;x # male female - rowdy
+COMPL_CLEVER;clever;x # male female child - genius...
+COMPL_LOVELY;lovely;x # male female - playful
+INSULT_SCURRYING;scurrying;x #UNUSED
+INSULT_WORM;worm;x #male female - idolizer
+INSULT_DESERT_RAT;desert rat;x #male female - desert_terrain_leader
+INSULT_FANATIC;fanatic;x # male female - (religious warriors)
+INSULT_TROLL;troll;x # inbred lustful cruel berserker haughty child \ ugly female
+INSULT_UGLY;ugly;x # child - syphilitic leper ugly inbred
+INSULT_TWOFACED;two-faced;x # male female - (diplomacy)
+INSULT_MISERLY;miserly;x # male female - (stewardship)
+COMPL_ELOQUENT;eloquent;x # male female - (diplomacy)
+COMPL_NICE;nice;x # shy gregarious just child (diplomacy) \ lustful female
+COMPL_THRIFTY;thrifty;x # male female - (stewardship)
+INSULT_GROVELING;groveling;x # male female - humble
+INSULT_DEVIL;devil;x # child - cynical mystic excommunicated possessed
+INSULT_GRUMBLER;grumbler;x # male female - depressed
+INSULT_SYPHILITIC;syphilitic;x # male female - syphilitic
+INSULT_DECAYING;decaying;x # male female - has_bubonic_plague
+INSULT_SMELLY;smelly;x # male female child - has_typhus has_bubonic_plague
+INSULT_RENEGADE;renegade;x # male female - excommunicated
+INSULT_GODLESS;godless;x # male female - excommunicated mystic
+COMPL_PRETTY;pretty;x # child - fair
+COMPL_SMARTY;smarty;x # child - genius mystic scholar arbitrary
+INSULT_FRIGID;frigid;x # female - celibate
+INSULT_UNMANLY;unmanly;x # male - celibate
+COMPL_VIRTUOUS;virtuous;x # male female - celibate
+INSULT_TREEHUGGER;treehugger;x # male female - gardener
+INSULT_WEIRD;weird;x # child - mystic
+INSULT_DRIVELING;driveling;x # male female - (ecclesiastical)
+COMPL_BLADEMASTER;blademaster;x # male - duelist
+COMPL_CHAMPION;champion;x # female - duelist
+COMPL_HUNTMASTER;huntmaster;x # male - hunter
+INSULT_FLABBY;flabby;x # child - gluttonous
+INSULT_MEANIE;meanie;x # child - wroth
+INSULT_DONKEY;donkey;x # child - patient
+INSULT_WICKED;wicked;x # child - impaler deceitful ambitious arbitrary cruel
+COMPL_HERO;hero;x # child - gregarious
+INSULT_SPINELESS;spineless;x # male female - content
+INSULT_NASTY;nasty;x # child - zealous
+EVTDESCHL1;[FromFrom.GetTitledName] has decided to abandon nomadic life and settle down in [FromFrom.PrimaryTitle.GetName] with [FromFrom.GetHerHis] followers, making it a new homeland for the [FromFrom.Culture.GetName] people.;x
+FORM_NON_AGGRESSION_PACT_INTERACTION_TITLE;Offer Non-Aggression Pact;x
+malcontent_desc;A Malcontent councillor is unhappy with the current state of affairs in the realm. They are a troublesome force on the council and will always oppose the will of the ruler unless they directly stand to gain power.;x
+zealot_desc;A Zealot councillor will strive towards bringing religion to the forefront of the realm's political agenda. If religious war targets are available this councillor might oppose wars against other targets. The councillor will also be more inclined to accept hostile action against heathen and heretic characters.;x
+robust;Brawny;x
+feeble;Frail;x
+robust_desc;This character is physically brawny.;x
+feeble_desc;This character is physically frail.;x
+weak_desc;This character has been cursed with a weak physique.;x
+shrewd;Shrewd;x
+shrewd_desc;This character has developed a sharp and astute mind.;x
+dull;Dull;x
+dull_desc;This character isn't the sharpest knife in the drawer.;x
+suicide;Suicide;x

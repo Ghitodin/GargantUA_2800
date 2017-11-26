@@ -1,0 +1,107 @@
+#CODE;UKRAINIAN;x
+TOOLTIP_DISALLOW_TRUE_COGNATIC;Disallows Absolute Cognatic succession laws\n;x
+TOOLTIP_ALLOW_TRUE_COGNATIC;Allows Absolute Cognatic succession laws\n;x
+#TOOLTIP_ALLOW_ADDITIONAL_SUCCESSION_LAWS;Allows additional succession laws\n;x
+#TOOLTIP_DISALLOW_ADDITIONAL_SUCCESSION_LAWS;Disallows additional succession laws\n;x
+opinion_powerful_vassal_not_voter;Wants Seat on the Council;x
+REQUEST_SUPPORT_INTERACTION_TITLE;Request Council Support;x
+ASK_TO_DECLARE_WAR_INTERACTION_TITLE;Ask to Press Claims;x
+change_council_job_desc;If you think that §Y[Root.GetTitledName]§! is better suited for another job on the council you can exchange [Root.GetHerHis] current council job for another one.;x
+IS_AFFECTED_BY_AN_ACTIVE_REALM_PEACE;Is being affected by an active Realm Peace.;x
+IS_NOT_AFFECTED_BY_AN_ACTIVE_REALM_PEACE;Is NOT being affected by an active Realm Peace.;x
+#alert_high_infamy_instant;§YHigh Infamy§!;x
+#alert_high_infamy_delayed;With §YInfamy§! over §Y25%§! you risk having a coalition forming against you! It will decline slowly over time but you can manually lower it by granting independence to non-dejure land.;x
+#RELEASE_VASSAL_INTERACTION_0;Grant Independence to §Y[Recipient.GetTitledFirstName]§W. [Recipient.GetSubjectPronounCap] will be duly grateful (§G+$OPINION$§! Opinion, §G$INFAMY$%§! Infamy);x
+#GRANT_LANDED_TITLE_INTERACTION_6;Grant the §Y[ThirdPartyTitle.GetFullName]§W and all titles under it to §Y[Recipient.GetTitledFirstName]§W, increasing [Recipient.GetPossPronoun] opinion of you by §G$OPINION$§! and lower your infamy by §G$INFAMY$%§!.;x
+#GRANT_LANDED_TITLE_INTERACTION_1;Grant the §Y[ThirdPartyTitle.GetFullName]§W to §Y[Recipient.GetTitledFirstName]§W, increasing [Recipient.GetPossPronoun] opinion of you by §G$OPINION$§! and lower your infamy by §G$INFAMY$%§!.;x
+horse_death;horsing around;x
+AIREASON_EXPANDING_HORDE;Too busy conquering the world and you're next: ;x
+HAS_LIEGE_ENFORCED_PEACE;$LIEGE|Y$ has enforced peace.;x
+HAS_LIEGE_ENFORCED_PEACE_NOT;$LIEGE|Y$ has not enforced peace.;x
+WILL_LIEGE_ENFORCE_PEACE;$LIEGE|Y$ will enforce peace.;x
+WILL_LIEGE_ENFORCE_PEACE_NOT;$LIEGE|Y$ will not enforce peace.;x
+INTERACTION_TYRANNY_AGAINST_COUNCIL;§RGoing against the will of The Council will be viewed as an act of tyranny!§!;x
+FORCE_JOIN_FACTION_INTERACTION_TITLE;Ask to Join Factions;x
+FORCE_JOIN_FACTION_INTERACTION_DESC;Spend a §YFavor§! to force §Y[Recipient.GetTitledFirstName]§! to join your factions.;x
+FORCE_JOIN_FACTION_INTERACTION_LONG_DESC;You can spend the §YFavor§! §Y[Recipient.GetTitledFirstName]§! owes you to have them join the factions you started.;x
+FORCE_JOIN_FACTION_INTERACTION_LETTER;\nTo return the favor you owe me, I request you join the factions I have started.;x
+FORCE_JOIN_FACTION_INTERACTION_LETTER_GET;\nJoin my factions.;x
+FORCE_JOIN_FACTION_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! used a favor on §Y[Recipient.GetBestName]§! to force them to join all their factions.;x
+CAN_JOIN_FACTION;$RECIPIENT|Y$ can join $FACTION|Y$;x
+CAN_JOIN_ONE_FACTION;$RECIPIENT|Y$ can join at least one of your factions;x
+NOT_DISSUADED_FROM_FACTIONS;$RECIPIENT|Y$ has not been forbidden to join factions;x
+JOIN_FACTION;§YJoin Faction§!;x
+IS_DE_FACTO_LIEGE;Is de facto liege;x
+LEAVE_FACTION_COERCED;Can't leave faction because you were coerced into joining;x
+INVITE_FAVOR_MARRIED;$RECIPIENT|Y$ must not be married;x
+INVITE_FAVOR_LIEGE_RELATIVE;$RECIPIENT|Y$ must not be a close relative of $LIEGE|Y$;x
+INVITE_FAVOR_JOB;$RECIPIENT|Y$ must not have a Council position;x
+AIREASON_LIEGE_HATE;Hates their liege - §Y[GetTitledName]§!;x
+ASK_REALM_PEACE_INTERACTION_TITLE;Ask for Realm Peace;x
+ASK_REALM_PEACE_INTERACTION_DESC;Spend a §YFavor§! to ask your liege to enforce §YRealm Peace§!.;x
+ASK_REALM_PEACE_INTERACTION_LONG_DESC;You can spend the §YFavor§! §Y[Recipient.GetTitledFirstName]§! owes you to force them to start enforcing §YRealm Peace§!.;x
+ASK_REALM_PEACE_INTERACTION_LETTER;\nTo return the favor you owe me, I request you start enforcing peace through the realm.;x
+ASK_REALM_PEACE_INTERACTION_LETTER_GET;\nEnforce Realm Peace.;x
+ASK_REALM_PEACE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! used a favor on §Y[Recipient.GetBestName]§! to force them to enforce the §YRealm Peace§!.;x
+ASK_COUNCIL_POSITION_INTERACTION_TITLE;Demand Council Position;x
+ASK_COUNCIL_POSITION_INTERACTION_DESC;Spend a §YFavor§! to demand a §YCouncil§! position from your liege.;x
+ASK_COUNCIL_POSITION_INTERACTION_LONG_DESC;You can spend the §YFavor§! §Y[Recipient.GetTitledFirstName]§! owes you to force them to give you a position on the §YCouncil§!.;x
+ASK_COUNCIL_POSITION_INTERACTION_LETTER;\nTo return the favor you owe me, I request you give me my rightful position on your council.;x
+ASK_COUNCIL_POSITION_INTERACTION_LETTER_GET;\nIn return for the favor you owe me, give me a position on your council.;x
+ASK_COUNCIL_POSITION_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! used a favor on §Y[Recipient.GetBestName]§! to get the $POSITION|Y$ position$FIRED$;x
+COUNCIL_POSITION_FIRED;, getting $FIRED|Y$ fired in the process.;x
+coerced_into_council_position;Was forced to give a Council Position;x
+DEMAND_POSITION_MUST_HAVE_POSITIONS;$RECIPIENT|Y$ must have §YCouncil§! positions that $ACTOR|Y$ can hold;x
+DEMAND_POSITION_CAN_HOLD_POSITION;$ACTOR|Y$ can be $POSITION|Y$ for $RECIPIENT|Y$;x
+DEMAND_POSITION_MUST_CHOOSE_POSITION;$ACTOR|Y$ must choose a §YCouncil§! Position to ask $RECIPIENT|Y$;x
+#EVTDESC526;I demand that you grant me a position on your council, in return for the favor you owe me.;x
+EVTDESC527;[This.GetTitledFirstName] declined [From.GetTitledFirstName] request to join the council as [Title.GetName], despite the favor owed.;x
+EVTDESC528;[From.GetTitledFirstName] spent the favor [This.GetTitledFirstName] owed [From.GetObjectPronoun] to force the Realm Peace.;x
+EVTDESC529;[This.GetTitledFirstName] declined [From.GetTitledFirstName] request to force the realm peace, despite the favor owed.;x
+EVTDESC530;[From.GetTitledFirstName] spent the favor [This.GetTitledFirstName] owed [From.GetObjectPronoun] to force [This.GetTitledFirstName] to join their Factions.;x
+EVTDESC531;[This.GetTitledFirstName] declined [From.GetTitledFirstName] to join [Actor.GetTitledFirstName]'s factions, despite the favor owed.;x
+HAS_FACTION_TO_JOIN;$ACTOR|Y$ is leading at least one §YFaction§!;x
+KINGDOM_LAW_DESC_CONCLAVE;Crown Laws can only be passed by Kings and Emperors, and concern everyone in the (de facto) kingdom or empire.;x
+CAN_ENFORCE_PEACE;§YRealm Peace§! can be enforced;x
+TOOLTIP_SoA_5357;This option is available to you due to your §YLustful§! and §YCynical§! nature and your high §YIntrigue§!\n.;x
+AIREASON_IS_A_THREAT;Is a threat;x
+stutter_desc;This character is a stutterer. It hampers their ability to communicate effectively with others.;x
+EVTDESC1690;I'm going to be the bestest ruler ever when I grow up!;x
+council_war_off_custom; Council members can join factions freely\n;x
+council_war_on_custom;Council members may only join factions when the Council is §RDiscontent§!\nNomad and tribal Council members can always join factions;x
+CROWN_LAW_CHANGE_TIMEOUT;§RThe Council recently rejected a crown law change. You can attempt to make a crown law change again at $DATE$§!;x
+ALLOW_MATRILINEAL_MARRIAGE_ON;Allow Matrilineal Marriage\n;x
+ALLOW_MATRILINEAL_MARRIAGE_OFF;Disallow Matrilineal Marriage\n;x
+LANDED_TITLE_BEING_CREATED;$TITLE$ is being created;x
+#FORM_NON_AGGRESSION_PACT_INTERACTION_TITLE;Renegotiate Non-Aggression Pact;x
+FORM_NON_AGGRESSION_PACT_INTERACTION_DESC;Form a Non-Aggression Pact between §Y[Actor.GetBestName]§! and §Y[Recipient.GetBestName]§!.;x
+FORM_NON_AGGRESSION_PACT_INTERACTION_LONG_DESC;If your dynastic bonds are close enough, you can offer a Non-Aggression Pact to another character.;x
+FORM_NON_AGGRESSION_PACT_INTERACTION_LETTER;\nI offer to form a Non-Aggression Pact with you.;x
+FORM_NON_AGGRESSION_PACT_INTERACTION_LETTER_GET;\nLet us form a Non-Aggression Pact.;x
+FORM_NON_AGGRESSION_PACT_INTERACTION_REQ;§Y[Actor.GetBestName]§! can form a Non-Aggression Pact with §Y[Recipient.GetBestName]§!;x
+FORM_NON_AGGRESSION_PACT_INTERACTION_REJECTED_REQ;§Y[Recipient.GetBestName]§! has not recently rejected to form a Non-Aggression Pact with §Y[Actor.GetBestName]§!;x
+EVTDESC524;I, [From.GetBestName], accept your proposal for a Non-Aggression Pact!;x
+EVTDESC525;I, [From.GetBestName], unfortunately have to decline your proposal for a Non-Aggression Pact!;x
+EVTOPTA524;A wise choice.;x
+EVTOPTA525;What is the [GetFromRootInsult] planning?;x
+COUNCILOR_LAW_CHANGE_ON_LIEGE_REALM_NOTIFICATION;$COUNCILOR$ has decided to institute the $LAW$ Law in $TITLE$;x
+VOTE_AS_FAVOR_OWNER_SETUP;Vote as favor owner on law change while returning favor;x
+COUNCILOR_LAW_CHANGE_IN_LIEGE_REALM_SETUP;Councilor initiating law change in liege's realm by using favor;x
+COUNCILOR_LAW_CHANGE_IN_LIEGE_REALM_LOG;By calling in a Favor $COUNCILOR|Y$ has forced you to start a vote on the $LAW|Y$ Law in $TITLE|Y$.;x
+ALLIANCE_BROKEN_SETUP;When alliance is broken;x
+ALLIANCE_BROKEN_LOG;The alliance between $CHAR$ and $ALLY$ has broken down;x
+VOTE_AS_REQUESTOR_LOG;$CHARACTER|Y$ has voted $VOTE$ $LAW|Y$ due to $REQUESTOR$ requesting support.;x
+VOTE_AS_REQUESTOR_SETUP;Vote as requestor requesting support on law change;x
+ConclaveDLC;Conclave;x
+UNDECIDED;Undecided;x
+LOWER_RELATIVE_POWER_WITH_ALLIES;Army size with allies is less than $VAL|Y%$ of that of $OTHER|Y$ with allies.;x
+HIGHER_RELATIVE_POWER_WITH_ALLIES;Army size with allies is at least $VAL|Y%$ of that of $OTHER|Y$ with allies.;x
+#INTERACTION_COALITION_REQUIRES_INFAMY_LIMIT;§Y[Recipient.GetTitledFirstName]§! must have at least $NUM|Y0%$ Infamy;x
+#COALITION_SIZE;Infamy: $INFAMY|Y$/$LIMIT|Y$;x
+FAVOR_INVITE;Force acceptance of an Invite to Court proposal;x
+FAVOR_JOIN_WAR;Force acceptance of a Call to Arms;x
+FAVOR_EMBARGO;Force acceptance of an Ask to Embargo proposal;x
+FAVOR_JOIN_FACTION;Force someone to join factions you lead;x
+FAVOR_COUNCIL_POSITION;Force your liege to give you a Council position;x
+FAVOR_PREVENT_ENFORCE_PEACE;Prevent or force a Realm Peace from your liege;x
+CALL_IN_FAVOR_INTERACTION_TITLE;Call in Council Support;x

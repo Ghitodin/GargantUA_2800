@@ -1,0 +1,297 @@
+20619 = {
+	name="Татва"
+	dynasty=1029141
+	martial=4
+	diplomacy=8
+	intrigue=7
+	stewardship=8
+	religion="finnish_pagan"
+	culture=samoyed
+	trait="lustful"
+	trait="wroth"
+	trait="martial_cleric"
+	1039.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+20620 = {
+	name="Юрак"
+	dynasty=1029142
+	religion="finnish_pagan"
+	culture=samoyed
+	trait="lustful"
+	trait="wroth"
+	trait="martial_cleric"
+	1039.1.1={
+		birth=yes
+	}
+	1113.1.1={
+		death=yes
+	}
+}
+
+159716 = {
+	name="Сарак"
+	religion="finnish_pagan"
+	culture=samoyed
+	dynasty=1029139
+	father = 194121
+	830.1.1={
+		birth=yes
+	}
+	920.1.1={
+		death=yes
+	}
+}
+
+159717 = {
+	name="Хасаба"
+	religion="finnish_pagan"
+	culture=samoyed
+	dynasty=1029140
+	father = 194124
+	835.1.1={
+		birth=yes
+	}
+	920.1.1={
+		death=yes
+	}
+}
+
+160065 = {
+	name="Нялку"
+	religion="finnish_pagan"
+	culture=samoyed
+	dynasty=1029140
+	father=159717
+	851.1.1={
+		birth=yes
+	}
+	920.1.1={
+		death=yes
+	}
+}
+160066 = {
+	name="Сюдбя"
+	religion="finnish_pagan"
+	culture=samoyed
+	dynasty=1029140
+	father=159717
+	852.1.1={
+		birth=yes
+	}
+	920.1.1={
+		death=yes
+	}
+}
+160067 = {
+	name="Весей"
+	religion="finnish_pagan"
+	culture=samoyed
+	dynasty=1029140
+	father=159717
+	853.1.1={
+		birth=yes
+	}
+	920.1.1={
+		death=yes
+	}
+}
+160068 = {
+	name="Самату"
+	religion="finnish_pagan"
+	culture=samoyed
+	dynasty=1029139
+	father=159716
+	851.1.1={
+		birth=yes
+	}
+	920.1.1={
+		death=yes
+	}
+}
+160069 = {
+	name="Пудак"
+	religion="finnish_pagan"
+	culture=samoyed
+	dynasty=1029139
+	father=159716
+	852.1.1={
+		birth=yes
+	}
+	920.1.1={
+		death=yes
+	}
+}
+160070 = {
+	name="Мандак"
+	religion="finnish_pagan"
+	culture=samoyed
+	dynasty=1029139
+	father=159716
+	853.1.1={
+		birth=yes
+	}
+	920.1.1={
+		death=yes
+	}
+}
+
+160080 = {
+	name="Неркаг" #
+	religion="finnish_pagan"
+	culture=samoyed
+	dynasty=1029141
+	father=20619
+	1060.1.1={
+		birth="1060.1.1"
+	}
+	1120.1.1={
+		death="1120.1.1"
+	}
+}
+160081 = {
+	name="Харучи" #
+	religion="finnish_pagan"
+	culture=samoyed
+	dynasty=1029141
+	father=20619
+	1061.1.1={
+		birth="1061.1.1"
+	}
+	1120.1.1={
+		death="1120.1.1"
+	}
+}
+160082 = {
+	name="Алик" #
+	religion="finnish_pagan"
+	culture=samoyed
+	dynasty=1029141
+	father=20619
+	1062.1.1={
+		birth="1062.1.1"
+	}
+	1120.1.1={
+		death="1120.1.1"
+	}
+}
+160083 = {
+	name="Сиртя" #
+	religion="finnish_pagan"
+	culture=samoyed
+	dynasty=1029142
+	father=20620
+	1060.1.1={
+		birth="1060.1.1"
+	}
+	1120.1.1={
+		death="1120.1.1"
+	}
+}
+160084 = {
+	name="Сюдбя" #
+	religion="finnish_pagan"
+	culture=samoyed
+	dynasty=1029142
+	father=20620
+	1061.1.1={
+		birth="1061.1.1"
+	}
+	1120.1.1={
+		death="1120.1.1"
+	}
+}
+160085 = {
+	name="Ксырючи" #
+	religion="finnish_pagan"
+	culture=samoyed
+	dynasty=1029142
+	father=20620
+	1062.1.1={
+		birth="1062.1.1"
+	}
+	1120.1.1={
+		death="1120.1.1"
+	}
+}
+194119 = {
+	name="Алик"
+	dynasty = 1029139
+	religion = finnish_pagan
+	culture = samoyed
+	733.1.1 = {
+		birth = yes
+	}
+	799.1.1 = {
+		death = yes
+	}
+}
+194120 = {
+	name="Ноума"
+	dynasty = 1029139
+	religion = finnish_pagan
+	culture = samoyed
+	father = 194119
+	770.1.1 = {
+		birth = yes
+	}
+	822.1.1 = {
+		death = yes
+	}
+}
+194121 = {
+	name="Ядне"
+	dynasty = 1029139
+	religion = finnish_pagan
+	culture = samoyed
+	father = 194120
+	810.1.1 = {
+		birth = yes
+	}
+	866.1.1 = {
+		death = yes
+	}
+}
+194122 = {
+	name="Како"
+	dynasty = 1029140
+	religion = finnish_pagan
+	culture = samoyed
+	733.1.1 = {
+		birth = yes
+	}
+	799.1.1 = {
+		death = yes
+	}
+}
+194123 = {
+	name="Самату"
+	dynasty = 1029140
+	religion = finnish_pagan
+	culture = samoyed
+	father = 194122
+	770.1.1 = {
+		birth = yes
+	}
+	822.1.1 = {
+		death = yes
+	}
+}
+194124 = {
+	name="Сарак"
+	dynasty = 1029140
+	religion = finnish_pagan
+	culture = samoyed
+	father = 194123
+	810.1.1 = {
+		birth = yes
+	}
+	866.1.1 = {
+		death = yes
+	}
+}

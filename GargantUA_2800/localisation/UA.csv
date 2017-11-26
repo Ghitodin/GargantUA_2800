@@ -1,0 +1,1349 @@
+﻿#CODE;UKRAINIAN;x
+AYA_POSTFIX;ая;x
+AYA_MAP_POSTFIX;ая;x
+POSS_PRONOUN_FEM_CAP;Eё;x
+POSS_PRONOUN_MAL_CAP;Eго;x
+GetRelation_Acquaintance_Female;знакомая;x
+GetRelation_GrеatGrandmother;прабабушка;x
+GetRelation_GreatGrandfather;прадед;x
+GetRelation_GreatGranddaughter;правнучка;x
+GetRelation_GreatGrandson;правнук;x
+GetRelation_Concubine;наложница;x
+GetRelation_Guardian_Male;наставник;x
+GetRelation_Guardian_Female;наставница;x
+GetRelation_Ward_Male;воспитанник;x
+GetRelation_Ward_Female;воспитанница;x
+GetRelation_MotherOfWife;тёща;x
+GetRelation_MotherOfHusband;свекровь;x
+GetRelation_FatherOfWife;тесть;x
+GetRelation_FatherOfHusband;свёкор;x
+GetRelation_WifeOfSon;невестка;x
+GetRelation_HusbandOfDaughter;зять;x
+GetViceGluttonous;прожорлив;x
+GetViceEnvious;завистлив;x
+GetViceWroth;гневлив;x
+String_rakshasa;ракхаса;x
+String_rakshasas;ракхасы;x
+String_Requiescat_in_pace;Requiescat in pace;x
+String_GodDAT;Господу;x
+String_ShivaDAT;Шиве;x
+String_Saint_BenedictGEN;Святого Бенедикта;x
+String_Saint_DominicGEN;Святого Доминика;x
+String_Saint_AnthonyGEN;Святого Антония;x
+String_BuddhaGEN;Будды;x
+String_Adi_ShankaraGEN;Ади Шанкары;x
+String_Acharya_KundakundaGEN;Ачарьи Кундакунды;x
+String_Saint_BasilGEN;Святого Василия;x #Saint Basil;x
+String_Saint_AbrahamGEN;Святого Авраама;x #Saint Abraham;x
+String_the_Rule_of_Saint_BenedictGEN;Кодекса Святого Бенедикта;x
+String_the_Rule_of_Saint_AugustineGEN;Кодекса Святого Августина;x
+String_the_Rule_of_Saint_BasilGEN;Кодекса Святого Василия;x
+String_the_Rule_of_Saint_AbrahamGEN;Кодекса Святого Авраама;x
+String_the_Rule_of_Saint_AnthonyGEN;Кодекса Святого Антония;x
+String_the_Noble_Eightfold_PathGEN;Благородного Восьмеричного Пути;x
+String_the_four_PurusarthaGEN;Четырёх Пурушартх;x
+String_the_AnuvrataGEN;Анувраты;x
+String_the_Rule_of_Saint_BenedictDAT;Кодексу Святого Бенедикта;x
+String_the_Rule_of_Saint_AugustineDAT;Кодексу Святого Августина;x
+String_the_Rule_of_Saint_BasilDAT;Кодексу Святого Василия;x
+String_the_Rule_of_Saint_AbrahamDAT;Кодексу Святого Авраама;x
+String_the_Rule_of_Saint_AnthonyDAT;Кодексу Святого Антония;x
+String_the_Noble_Eightfold_PathDAT;Благородному Восьмеричному Пути;x
+String_the_four_PurusarthaDAT;Четырём Пурушартхам;x
+String_the_AnuvrataDAT;Ануврате;x
+String_the_Rule_of_Saint_BenedictINS;Кодексом Святого Бенедикта;x
+String_the_Rule_of_Saint_AugustineINS;Кодексом Святого Августина;x
+String_the_Rule_of_Saint_BasilINS;Кодексом Святого Василия;x
+String_the_Rule_of_Saint_AbrahamINS;Кодексом Святого Авраама;x
+String_the_Rule_of_Saint_AnthonyINS;Кодексом Святого Антония;x
+String_the_Noble_Eightfold_PathINS;Благородным Восьмеричным Путём;x
+String_the_four_PurusarthaINS;Четыремя Пурушартхами;x
+String_the_AnuvrataINS;Анувратой;x
+String_six_pointed_starACC;шестиконечную звезду;x
+String_figurine_of_BuddhaACC;фигурку Будды;x
+String_figurine_of_GaneshaACC;фигурку Ганеши;x
+String_figurine_of_jain_godACC;фигурку Махавиры;x
+String_hermes_trismegistusGEN;Гермеса Триждывеличайшего;x
+String_idrisGEN;Идриса Толкователя;x
+title_hermetics_apprentice_female;Ученица;x
+GetHouseOfWorship_JewishACC;синагогу;x
+GetHouseOfWorship_ChristianPREP;церкви;x
+GetHouseOfWorship_MuslimPREP;мечети;x
+GetHouseOfWorship_PaganPREP;храме;x
+GetHouseOfWorship_ZoroastrianPREP;храме;x
+GetHouseOfWorship_JewishPREP;синагоге;x
+GetHouseOfWorship_HinduPREP;храме;x
+GetHouseOfWorship_BuddhistPREP;храме;x
+GetHouseOfWorship_JainPREP;храме;x
+GetHouseOfWorship_PaganGEN;храма;x
+GetHouseOfWorship_ZoroastrianGEN;храма;x
+GetHouseOfWorship_JewishGEN;синагоги;x
+GetHouseOfWorship_HinduGEN;храма;x
+GetHouseOfWorship_BuddhistGEN;храма;x
+GetHouseOfWorship_JainGEN;храма;x
+String_massGEN;мессы;x
+String_prayerGEN;молитвы;x
+String_worshipGEN;поклонения;x
+String_massINS;мессой;x
+String_prayerINS;молитвой;x
+String_worshipINS;поклонением;x
+String_druzhinnik;дружинник;x
+String_druzhinnikiGEN;дружинников;x
+String_huscarlsGEN;хускарлов;x
+String_men_at_armsGEN;всадников;x
+String_kheshigsGEN;хишигтэнов;x
+String_warriorsGEN;воинов;x
+String_sainikonGEN;сайниконов;x
+String_CatholicP;католи[GetChkaK];x
+String_ChristianP;христиан[GetKaIn];x
+String_MuslimP;мусульман[GetKaIn];x
+String_JewP;иудей[GetEndKa];x
+String_ZoroastrianP;зороастри[GetYkaEts];x
+String_BuddhistP;буддист[GetEndKa];x
+String_JainP;джайнист[GetEndKa];x
+String_HinduP;индуист[GetEndKa];x
+String_NorseP;скандинав[GetEndKa];x
+String_SlavP;родовер[GetEndKa];x
+String_RomuvanP;ромуван[GetKaIn];x
+String_FinnP;фин[GetKaN];x
+String_West_AfricanP;африкан[GetKaEts];x
+String_TengriP;тенгриан[GetKaIn];x
+String_ZunP;зунист[GetEndKa];x
+String_AztecP;ацте[GetChkaK];x
+String_HelleneP;эллин[GetEndKa];x
+String_PaganP;язычни[GetTsaK];x
+String_CatharP;катар[GetEndKa];x
+String_FraticelliP;фратичелли;x
+String_WaldesianP;вальденсиан[GetKaIn];x
+String_LollardP;лоллард[GetEndKa];x
+String_BogomilistP;богомил[GetEndKa];x
+String_MonotheliteP;монофелит[GetEndKa];x
+String_IconoclastP;иконобор[GetKaEts];x
+String_PaulicianP;павликиан[GetKaIn];x
+String_MiaphysiteP;миафизит[GetEndKa];x
+String_MonophysiteP;монофизит[GetEndKa];x
+String_NestorianP;несториан[GetKaEts];x
+String_MessalianP;мессалиан[GetKaIn];x
+String_ZikriP;зикри[GetYkaEts];x
+String_YazidiP;езид[GetEndKa];x
+String_DruzeP;друз[GetEndKa];x
+String_HurufiP;хуруфит[GetEndKa];x
+String_IbadiP;ибадит[GetEndKa];x
+String_KharijiteP;хариджит[GetEndKa];x
+String_SamaritanP;самаритян[GetKaIn];x
+String_KaraiteP;караит[GetEndKa];x
+String_MazdakiP;маздаки[GetYkaEts];x
+String_ManicheanP;манихей[GetEndKa];x
+String_Aztec;ацтек;x
+String_Norses;скандинавы;x
+String_Slavs;славяне;x
+String_Romuvans;ромуване;x
+String_Finns;финны;x
+String_West_Africans;африканцы;x
+String_Tengris;тенгриане;x
+String_Zuns;зунисты;x
+String_Aztecs;ацтеки;x
+String_Hellenes;эллины;x
+String_Pagans;язычники;x
+String_Cathars;катары;x
+String_Waldesians;вальденсы;x
+String_Lollards;лолларды;x
+String_Bogomilists;богомилы;x
+String_Monothelites;монофелиты;x
+String_Iconoclasts;иконоборцы;x
+String_Paulicians;павликиане;x
+String_Miaphysites;миафизиты;x
+String_Monophysites;монофизиты;x
+String_Nestorians;несториане;x
+String_Messalians;мессалиане;x
+String_Zikris;зикрийцы;x
+String_Yazidis;езиды;x
+String_Druzes;друзы;x
+String_Hurufis;хуруфиты;x
+String_Ibadis;ибадиты;x
+String_Kharijites;хариджиты;x
+String_Samaritans;самаритяне;x
+String_Karaites;караиты;x
+String_Mazdakis;маздакийцы;x
+String_Manicheans;манихеи;x
+String_Pagan;языче;x
+String_CatholicPINS;католи[GetChkoyKom];x
+String_ChristianPINS;христиан[GetKoyInom];x
+String_MuslimPINS;мусульман[GetKoyInom];x
+String_JewPINS;иуде[GetYkoyEm];x
+String_ZoroastrianPINS;зороастри[GetYkoyYtsem];x
+String_BuddhistPINS;буддист[GetKoyOm];x
+String_JainPINS;джайнист[GetKoyOm];x
+String_HinduPINS;индуист[GetKoyOm];x
+String_NorsePINS;скандинав[GetKoyOm];x
+String_SlavPINS;родовер[GetKoyOm];x
+String_RomuvanPINS;ромуван[GetKoyInom];x
+String_FinnPINS;фин[GetKoyNom];x
+String_West_AfricanPINS;африкан[GetKoyTsem];x
+String_TengriPINS;тенгриан[GetKoyInom];x
+String_ZunPINS;зунист[GetKoyOm];x
+String_AztecPINS;ацте[GetChkoyKom];x
+String_HellenePINS;эллин[GetKoyOm];x
+String_PaganPINS;язычни[GetTseyKom];x
+String_CatharPINS;катар[GetKoyOm];x
+String_WaldesianPINS;вальденсиан[GetKoyTsem];x
+String_LollardPINS;лоллард[GetKoyOm];x
+String_BogomilistPINS;богомил[GetKoyOm];x
+String_MonothelitePINS;монофелит[GetKoyOm];x
+String_IconoclastPINS;иконобор[GetKoyTsem];x
+String_PaulicianPINS;павликиан[GetKoyInom];x
+String_MiaphysitePINS;миафизит[GetKoyOm];x
+String_MonophysitePINS;монофизит[GetKoyOm];x
+String_NestorianPINS;несториан[GetKoyTsem];x
+String_MessalianPINS;мессалиан[GetKoyInom];x
+String_ZikriPINS;зикри[GetYkoyYtsem];x
+String_YazidiPINS;езид[GetKoyOm];x
+String_DruzePINS;друз[GetKoyOm];x
+String_HurufiPINS;хуруфит[GetKoyOm];x
+String_IbadiPINS;ибадит[GetKoyOm];x
+String_KharijitePINS;хариджит[GetKoyOm];x
+String_SamaritanPINS;самаритян[GetKoyInom];x
+String_KaraitePINS;караит[GetKoyOm];x
+String_MazdakiPINS;маздаки[GetYkoyYtsem];x
+String_ManicheanPINS;манихе[GetYkoyEm];x
+String_saintGEN;святого;x
+String_famous_holy_manGEN;известного праведника;x
+String_great_heroGEN;великого героя;x
+String_saintDAT;святому;x
+String_famous_holy_manDAT;известному праведнику;x
+String_great_heroDAT;великому герою;x
+String_ChristiansGEN;христиан;x
+String_MuslimsGEN;мусульман;x
+String_pagansGEN;язычников;x
+String_ZoroastriansGEN;зороастрийцев;x
+String_JewsGEN;иудеев;x
+String_IndiansGEN;индусов;x
+String_ChristiansDAT;христианам;x
+String_MuslimsDAT;мусульманам;x
+String_pagansDAT;язычникам;x
+String_ZoroastriansDAT;зороастрийцам;x
+String_JewsDAT;иудеям;x
+String_IndiansDAT;индусам;x
+String_ChristiansPREP;христианах;x
+String_MuslimsPREP;мусульманах;x
+String_pagansPREP;язычниках;x
+String_ZoroastriansPREP;зороастрийцах;x
+String_JewsPREP;иудеях;x
+String_IndiansPREP;индусах;x
+String_Hellenic;эллин;x
+String_SunniP;суннит[GetEndKa];x
+String_ShiaP;шиит[GetEndKa];x
+String_SunniPINS;суннит[GetKoyOm];x
+String_ShiaPINS;шиит[GetKoyOm];x
+String_Suomenusko_FollowerINS;привержен[GetKoyTsem] суоменуско;x
+String_Norse_FollowerINS;привержен[GetKoyTsem] асарту;x
+String_Orthodox_ChristianINS;православн[GetOyYm];x
+String_Sunnis;сунниты;x
+String_Shias;шииты;x
+String_Suomenusko_Followers;приверженцы суоменуско;x
+String_Norse_Followers;приверженцы асарту;x
+String_Orthodox_Christians;православные;x
+String_BibleGEN;Библии;x
+String_KoranGEN;Корана;x
+String_TorahGEN;Торы;x
+String_GathasGEN;Гат;x
+String_MahabharataGEN;Махабхараты;x
+String_Angas_SutrasGEN;Анга-сутр;x
+String_BuddhacavanaGEN;Буддакаваны;x
+String_SagasGEN;саг;x
+String_LegendsGEN;легенд;x
+String_AsceticusGEN;Аскетика;x
+String_Book_of_IlluminationGEN;Книги Джилве;x
+String_Epistles_of_WisdomGEN;Посланий Мудрости;x
+String_Great_SecretGEN;Великой Тайны;x
+String_BibleACC;Библию;x
+String_TorahACC;Тору;x
+String_MahabharataACC;Махабхарату;x
+String_BuddhacavanaACC;Буддакавану;x
+String_Book_of_IlluminationACC;Книгу Джилве;x
+String_Great_SecretACC;Великую Тайну;x
+String_Catholic_Bible;латинская Библия;x
+String_Orthodox_Bible;греческая Библия;x
+String_Other_Bible;нетрадиционная Библия;x
+String_Sunni_Koran;суннитские трактовки Корана;x
+String_Shia_Koran;шиитские трактовки Корана;x
+String_Other_Koran;нетрадиционные трактовки Корана;x
+String_Hindu_Mahabharata;индуистские выдержки из Махабхараты;x
+String_Jain_Angas_Sutras;джайнские Анга-сутры;x
+String_Norse_Sagas;скандинавские саги;x
+String_Slavic_Legends;славянские былины;x
+String_Tengri_Legends;тенгрианские предания;x
+String_Romuva_Legends;балтийские сказания;x
+String_Suomenusko_Legends;финские предания;x
+String_West_African_Legends;африканские легенды;x
+String_Zun_Legends;зунские легенды;x
+String_Aztec_Legends;ацтекские легенды;x
+String_Hellenic_Legends;эллинский эпос;x
+String_Pagan_Legends;древние предания;x
+String_Torah_Other;нетрадиционные толкования Торы;x
+String_Catholic_BibleGEN;латинской Библии;x
+String_Orthodox_BibleGEN;греческой Библии;x
+String_Other_BibleGEN;нетрадиционной Библии;x
+String_Sunni_KoranGEN;суннитсктих трактовок Корана;x
+String_Shia_KoranGEN;шиитских трактовок Корана;x
+String_Other_KoranGEN;нетрадиционных трактовок Корана;x
+String_Hindu_MahabharataGEN;индуистских выдержек из Махабхараты;x
+String_Jain_Angas_SutrasGEN;джайнских Анга-сутр;x
+String_Norse_SagasGEN;скандинавских саг;x
+String_Slavic_LegendsGEN;славянских былин;x
+String_Tengri_LegendsGEN;тенгрианских преданий;x
+String_Romuva_LegendsGEN;балтийских сказаний;x
+String_Suomenusko_LegendsGEN;финских преданий;x
+String_West_African_LegendsGEN;африканских легенд;x
+String_Zun_LegendsGEN;зунских легенд;x
+String_Aztec_LegendsGEN;ацтекских легенд;x
+String_Hellenic_LegendsGEN;эллинского эпоса;x
+String_Pagan_LegendsGEN;древних преданий;x
+String_Torah_OtherGEN;нетрадиционных толкований Торы;x
+String_Catholic_BibleACC;латинскую Библию;x
+String_Orthodox_BibleACC;греческую Библию;x
+String_Other_BibleACC;нетрадиционную Библию;x
+GOD_GOD_GEN;Бога;x
+GOD_ALLAH_GEN;Аллаха;x
+GOD_SHAYTAN_GEN;Шайтана;x
+GOD_AHURA_MAZDA_GEN;Ахура Мазды;x
+GOD_BRAHMA_GEN;Брахмы;x
+GOD_THE_TIRTHANKARAS_GEN;Тиртхананкары;x
+GOD_ODIN_GEN;Одина;x
+GOD_PERUN_GEN;Перуна;x
+GOD_DIEVAS_GEN;Диеваса;x
+GOD_THE_CREATOR_GEN;Всевышнего;x
+GOD_ZUN_GEN;Зуна;x
+GOD_SATURN_GEN;Сатурна;x
+GOD_AHURA_MAZDA_ACC;Ахура Мазду;x
+GOD_BRAHMA_ACC;Брахму;x
+GOD_THE_TIRTHANKARAS_ACC;Тиртхананкару;x
+GOD_GOD_DAT;Богу;x
+GOD_ALLAH_DAT;Аллаху;x
+GOD_SHAYTAN_DAT;Шайтану;x
+GOD_AHURA_MAZDA_DAT;Ахура Мазде;x
+GOD_BRAHMA_DAT;Брахме;x
+GOD_THE_TIRTHANKARAS_DAT;Тиртхананкаре;x
+GOD_ODIN_DAT;Одину;x
+GOD_PERUN_DAT;Перуну;x
+GOD_DIEVAS_DAT;Диевасу;x
+GOD_THE_CREATOR_DAT;Творцу;x
+GOD_ZUN_DAT;Зуну;x
+GOD_SATURN_DAT;Сатурну;x
+GOD_GOD_INS;Богом;x
+GOD_ALLAH_INS;Аллахом;x
+GOD_SHAYTAN_INS;Шайтаном;x
+GOD_AHURA_MAZDA_INS;Ахура Маздой;x
+GOD_BRAHMA_INS;Брахмой;x
+GOD_THE_TIRTHANKARAS_INS;Тиртхананкарой;x
+GOD_ODIN_INS;Одином;x
+GOD_PERUN_INS;Перуном;x
+GOD_DIEVAS_INS;Диевасом;x
+GOD_THE_CREATOR_INS;Творцом;x
+GOD_ZUN_INS;Зуном;x
+GOD_SATURN_INS;Сатурном;x
+GOD_GOD_VOC;Боже;x
+GOD_THE_CREATOR_VOC;Всевышний;x
+GOD_ZURVAN_GEN;Зурвана;x
+GOD_ZURVAN_DAT;Зурвану;x
+GOD_ZURVAN_INS;Зурваном;x
+GetHolding_Castle_1GEN;замка;x
+GetHolding_Castle_2GEN;замка;x
+GetHolding_Castle_3GEN;замка;x
+GetHolding_Temple_1GEN;храма;x
+GetHolding_Nomad_1GEN;лагеря;x
+GetHolding_Nomad_2GEN;лагеря;x #encampment
+GetHolding_Nomad_3GEN;лагеря;x #дворца
+GetHolding_Tribal_1GEN;чертога;x #village
+GetHolding_Tribal_2GEN;чертога;x #town
+GetHolding_Tribal_3GEN;чертога;x #fortress
+GetHolding_City_1GEN;города;x
+GetHolding_City_2GEN;города;x
+GetHolding_City_3GEN;города;x #metropolis
+GetHolding_Fallback_1GEN;замка;x #столицы
+GetHolding_Castle_1DAT;замку;x
+GetHolding_Castle_2DAT;замку;x
+GetHolding_Castle_3DAT;замку;x
+GetHolding_Temple_1DAT;храму;x
+GetHolding_Nomad_1DAT;лагерю;x
+GetHolding_Nomad_2DAT;лагерю;x #encampment
+GetHolding_Nomad_3DAT;лагерю;x #дворцу
+GetHolding_Tribal_1DAT;чертогу;x #village
+GetHolding_Tribal_2DAT;чертогу;x #town
+GetHolding_Tribal_3DAT;чертогу;x #fortress
+GetHolding_Fallback_1DAT;замку;x #столице
+String_settlementGEN;города;x
+GetHolding_Castle_1PREP;замке;x
+GetHolding_Castle_2PREP;замке;x
+GetHolding_Castle_3PREP;замке;x #дворце
+GetHolding_Temple_1PREP;храме;x
+GetHolding_Nomad_1PREP;лагере;x
+GetHolding_Nomad_2PREP;лагере;x #encampment
+GetHolding_Nomad_3PREP;лагере;x #дворце
+GetHolding_Tribal_1PREP;чертоге;x #village
+GetHolding_Tribal_2PREP;чертоге;x #town
+GetHolding_Tribal_3PREP;чертоге;x #fortress
+GetHolding_City_1PREP;городе;x
+GetHolding_City_2PREP;городе;x
+GetHolding_City_3PREP;городе;x #metropolis
+GetHolding_Fallback_1PREP;замке;x #столице
+String_settlementPREP;городе;x
+GetHolding_Mansion_1;особняк;x
+GetHolding_Mansion_2;особняк;x
+GetHolding_Mansion_3;особняк;x
+GetHolding_Mansion_1GEN;особняка;x
+GetHolding_Mansion_2GEN;особняка;x
+GetHolding_Mansion_3GEN;особняка;x
+GetHolding_Mansion_1DAT;особняку;x
+GetHolding_Mansion_2DAT;особняку;x
+GetHolding_Mansion_3DAT;особняку;x
+GetHolding_Mansion_1PREP;особняке;x
+GetHolding_Mansion_2PREP;особняке;x
+GetHolding_Mansion_3PREP;особняке;x
+GetChamber_TentACC;палатку;x
+GetChamber_ChambersPREP;покоях;x
+GetChamber_TentPREP;палатке;x
+GetChamber_MyChambers;ои покои;x
+GetChamber_MyTent;оя палатка;x
+GetChamber_MyTentACC;ою палатку;x
+GetChamber_MyChambersPREP;оих покоях;x
+GetChamber_MyTentPREP;оей палатке;x
+String_offspringGEN;отпрыска;x
+String_sonGEN;сына;x
+String_garden;сад;x
+String_sonPREP;сыне;x
+String_daughterPREP;дочери;x
+String_GetHusbandWifeOppPREP;[This.GetHusbandWifePREPOpp];x
+String_investmentsPREP;инвестициях;x
+String_gardenPREP;саде;x
+String_building_plansPREP;строительных планах;x
+String_sword_practicePREP;тренировках;x
+String_tome_collectionPREP;коллекции книг;x
+String_friendsPREP;друзьях;x
+String_lovePREP;любовных делах;x
+String_dogPREP;собаке;x
+String_catPREP;кошке;x
+String_sonPREP_My;моём сыне;x
+String_daughterPREP_My;моей дочери;x
+String_GetHusbandWifeOppPREP_My;мо[This.GetEyYom] [This.GetHusbandWifePREPOpp];x
+String_investmentsPREP_My;моих инвестициях;x
+String_gardenPREP_My;моём саде;x
+String_building_plansPREP_My;моих строительных планах;x
+String_sword_practicePREP_My;моих тренировках;x
+String_tome_collectionPREP_My;моей коллекции книг;x
+String_friendsPREP_My;моих друзьях;x
+String_lovePREP_My;моих любовных делах;x
+String_dogPREP_My;моей собаке;x
+String_catPREP_My;моей кошке;x
+String_healthPREP_My;моём здоровье;x
+String_culture;культурн;x
+String_MammonGEN;Маммоны;x
+String_BeelzebubGEN;Вельзевула;x
+String_AbaddonGEN;Абаддона;x
+String_BelphegorGEN;Бельфегора;x
+String_AsmodeusGEN;Асмодея;x
+String_LeviathanGEN;Левиафана;x
+String_AstarothGEN;Астарота;x
+String_BelialGEN;Белиала;x
+String_BerithGEN;Баалберита;x
+String_PythiusGEN;Пифия;x
+String_AkomanGEN;Акомана;x
+String_IndarGEN;Индара;x
+String_SawarGEN;Савара;x
+String_TaurizGEN;Тауриза;x
+String_AkatashGEN;Акаташа;x
+String_Yabash_HanGEN;Ябаш-хана;x
+String_Kerey_HanGEN;Керей-хана;x
+String_Badysh_HanGEN;Бадыш-хана;x
+String_Shyngay_HanGEN;Шингай-хана;x
+String_Karash_HanGEN;Караш-хана;x
+String_Baba_YagaGEN;Бабы-яги;x
+String_BerstukGEN;Берстука;x
+String_the_ShishigasGEN;Шишиг;x
+String_PolunocnicaGEN;Полуночницы;x
+String_BakasuraGEN;Бакасуры;x
+String_KirmiraGEN;Кирмиры;x
+String_JatasurGEN;Джатасура;x
+String_RavanaGEN;Раваны;x
+String_AngrbodaGEN;Ангербоды;x
+String_FenrirGEN;Фенрира;x
+String_MammonDAT;Маммоне;x
+String_BeelzebubDAT;Вельзевулу;x
+String_AbaddonDAT;Абаддону;x
+String_BelphegorDAT;Бельфегору;x
+String_AsmodeusDAT;Асмодею;x
+String_LeviathanDAT;Левиафану;x
+String_AstarothDAT;Астароту;x
+String_BelialDAT;Белиалу;x
+String_BerithDAT;Баалбериту;x
+String_PythiusDAT;Пифию;x
+String_AkomanDAT;Акоману;x
+String_IndarDAT;Индару;x
+String_SawarDAT;Савару;x
+String_TaurizDAT;Тауризу;x
+String_AkatashDAT;Акаташу;x
+String_Yabash_HanDAT;Ябаш-хану;x
+String_Kerey_HanDAT;Керей-хану;x
+String_Badysh_HanDAT;Бадыш-хану;x
+String_Shyngay_HanDAT;Шингай-хану;x
+String_Karash_HanDAT;Караш-хану;x
+String_Baba_YagaDAT;Бабе-яге;x
+String_BerstukDAT;Берстуку;x
+String_the_ShishigasDAT;Шишигам;x
+String_PolunocnicaDAT;Полуночнице;x
+String_BakasuraDAT;Бакасуре;x
+String_KirmiraDAT;Кирмире;x
+String_JatasurDAT;Джатасуру;x
+String_RavanaDAT;Раване;x
+String_AngrbodaDAT;Ангербоде;x
+String_FenrirDAT;Фенриру;x
+String_scimitarACC;саблю;x
+String_axeACC;секиру;x
+String_maceACC;булаву;x
+String_Sun_englishINS;Солнцем;x
+String_Mercury_englishINS;Меркурием;x
+String_Venus_englishINS;Венерой;x
+String_Earth_englishINS;Землёй;x
+String_Moon_englishINS;Луной;x
+String_Mars_englishINS;Марсом;x
+String_Jupiter_englishINS;Юпитером;x
+String_Saturn_englishINS;Сатурном;x
+String_Uranus_englishINS;Ураном;x
+String_Neptune_englishINS;Нептуном;x
+String_Pluto_englishINS;Плутоном;x
+String_Sun_arabicINS;Шамсом;x
+String_Mercury_arabicINS;Отаредом;x
+String_Venus_arabicINS;Зухрой;x
+String_Earth_arabicINS;Аль-Ардхем;x
+String_Moon_arabicINS;Аль-Камаром;x
+String_Mars_arabicINS;Меррихом;x
+String_Saturn_arabicINS;Зухалом;x
+String_Uranus_arabicINS;Ораносом;x
+String_Neptune_arabicINS;Небтоном;x
+String_Sun_hellenicINS;Гелиосом;x
+String_Mercury_hellenicINS;Гермесом;x
+String_Venus_hellenicINS;Афродитой;x
+String_Earth_hellenicINS;Геей;x
+String_Moon_hellenicINS;Селеной;x
+String_Mars_hellenicINS;Аресом;x
+String_Jupiter_hellenicINS;Зевсом;x
+String_Saturn_hellenicINS;Кроном;x
+String_Uranus_hellenicINS;Ураном;x
+String_Neptune_hellenicINS;Посейдоном;x
+String_Sun_farsiINS;Хоршидом;x
+String_Mercury_farsiINS;Тиром;x
+String_Mars_farsiINS;Бахрамом;x
+String_Jupiter_farsiINS;Берджисом;x
+String_Saturn_farsiINS;Кайвоном;x
+String_Neptune_farsiINS;Нептоном;x
+String_stewardINS;управляющим;x
+String_figtherINS;воином;x
+String_diplomatINS;дипломатом;x
+String_schemerINS;интриганом;x
+String_scholarINS;учёным;x
+String_administrationGEN;экономики;x
+String_battleGEN;военного дела;x
+String_diplomacyGEN;дипломатии;x
+String_intrigueGEN;искусства интриг;x
+String_scholarshipGEN;схоластики;x
+String_administrationACC;экономику;x
+String_diplomacyACC;дипломатию;x
+String_scholarshipACC;схоластику;x
+String_AriesGEN;Овна;x
+String_TaurusGEN;Тельца;x
+String_GeminiGEN;Близнецов;x
+String_CancerGEN;Рака;x
+String_LeoGEN;Льва;x
+String_VirgoGEN;Девы;x
+String_LibraGEN;Весов;x
+String_ScorpiusGEN;Скорпиона;x
+String_SagittariusGEN;Стрельца;x
+String_CapricornGEN;Козерога;x
+String_AquariusGEN;Водолея;x
+String_PiscesGEN;Рыб;x
+String_Universal_TheologyPREPV;в истине Вселенского Богословия;x
+String_origin_of_the_Trinity_before_MessiahPREPV;в истоках Троицы домессианской эпохи;x
+String_QabalahPREPV;в отношении Каббалы к Гермесу Трисмегисту;x
+String_unity_with_the_OnePREPV;в путях достижения Единства;x
+String_nature_of_Prima_materiaPREPV;в природе Первичной материи;x
+String_nature_of_the_Inner_and_the_Outer_cosmosPREPV;в природе Внутреннего и Внешнего;x
+String_Prisca_theologiaPREPV;в единстве с точки зрения Prisca theologia;x
+String_esoteric_meaning_of_the_CaduceusPREPV;в эзотерическом значении Кадуцея;x
+String_truth_inherent_to_Divine_ConsciousnessPREPV;в истине, присущей Божественному Сознанию;x
+String_interaction_of_the_soul_and_alchemyPREPV;во взаимосвязи души и алхимии;x
+String_very_definition_of_a_true_magnum_opusPREPV;в истинном определении magnum opus;x
+String_the_nature_of_the_Judgements_and_the_BazaarPREPV;в природе Суждений и Базара;x
+String_the_movement_of_celestial_bodiesPREPV;в движении небесных тел;x
+String_the_laws_of_the_starsPREPV;в законах звёзд;x
+String_dark_artsGEN;тёмных искусств;x
+String_black_magicGEN;чёрной магии;x
+String_GetDWDarkMagicGEN_fallback;тёмной магии;x
+String_sihrGEN;сихра;x
+String_QliphothGEN;Клипота;x
+String_koldovstvoGEN;колдовства;x
+String_seiрrGEN;сейпра;x
+String_HibiscusGEN;гибискуса;x
+String_Ginger_RootGEN;корня имбиря;x
+String_MandrakeGEN;корня мандрагоры;x
+String_Lemon_GrassGEN;лемонграсса;x
+String_NettlesGEN;крапивы;x
+String_WormwoodGEN;полыни;x
+String_ValerianGEN;валерьяны;x
+String_VioletGEN;лепестков фиалки;x
+String_YarrowGEN;тысячелистника;x
+String_Gall_BladderGEN;желчного пузыря;x
+String_KidneyGEN;свинных почек;x
+String_EyeballsGEN;глазных яблок;x
+String_Cloven_hoovesGEN;раздвоенных копыт;x
+String_AntlersGEN;оленьих рогов;x
+String_SnoutGEN;свинного рыла;x
+String_HeartGEN;кроличьего сердца;x
+String_LiverGEN;гусиной печени;x
+String_IntestinesGEN;овечьих кишок;x
+String_SilverGEN;серебра;x
+String_MercuryGEN;ртути;x
+String_BrimstoneGEN;серы;x
+String_GoldGEN;золота;x
+String_CopperGEN;меди;x
+String_IronGEN;железа;x
+String_TinGEN;олова;x
+String_GetDWDevilGEN_fallback;Дьявола;x
+String_SatanGEN;Сатаны;x
+String_IblisGEN;Иблиса;x
+String_AhrimanGEN;Ахримана;x
+String_ChernobogGEN;Чернобога;x
+String_KaliGEN;Кали Пуруши;x
+String_ErlikGEN;Эрлика;x
+String_GetDWDevilDAT_fallback;Дьяволу;x
+String_SatanDAT;Сатане;x
+String_IblisDAT;Иблису;x
+String_AhrimanDAT;Ахриману;x
+String_ChernobogDAT;Чернобогу;x
+String_KaliDAT;Кали Пуруше;x
+String_ErlikDAT;Эрлику;x
+String_GetDWDevilACC_fallback;Дьявола;x
+String_SatanACC;Сатану;x
+String_IblisACC;Иблиса;x
+String_AhrimanACC;Ахримана;x
+String_ChernobogACC;Чернобога;x
+String_KaliACC;Кали Пурушу;x
+String_ErlikACC;Эрлика;x
+END_IY;ий;x
+END_YY;ый;x
+END_OY;ой;x
+END_OYA;оя;x
+END_A;а;x
+END_E;е;x
+END_IM;им;x
+END_YM;ым;x
+END_OM;ом;x
+END_YOM;ём;x
+END_EM;ем;x
+END_YOL;ел;x
+END_OT;от;x
+END_LAS;лась;x
+END_LSYA;лся;x
+END_SYA;ся;x
+END_U;у;x
+END_YU;ю;x
+END_NA;на;x
+END_SOFT_NA;ьна;x
+END_YNA;йна;x
+END_EN;ен;x
+END_IN;ин;x
+END_INA;ина;x
+END_INOM;ином;x
+END_NOM;ном;x
+END_YKOY;йкой;x
+END_YKA;йка;x
+END_KA;ка;x
+END_AKA;ака;x
+END_K;к;x
+END_KOM;ком;x
+END_KOY;кой;x
+END_TSA;ца;x
+END_TSU;цу;x
+END_TSY;цы;x
+END_TSEY;цей;x
+END_NITSA;ница;x
+END_SOFT_NITSEY;ьницей;x
+END_ETS;ец;x
+END_TSEM;цем;x
+END_YTSEM;йцем;x
+END_CHKA;чка;x
+END_CHKOY;чкой;x
+END_OGO;ого;x
+END_UYU;ую;x
+END_Y;й;x
+END_MU;му;x
+END_GO;го;x
+END_N;н;x
+END_YAYA;яя;x
+WOMAN_ACC;женщину;x
+HUMAN_ACC;человека;x
+HUMAN_FB;человек;x
+GIRL_ACC;девушку;x
+BOY_ACC;юношу;x
+LGIRL_ACC;девочку;x
+LBOY_ACC;мальчика;x
+WOMAN_INS;женщиной;x
+HUMAN_INS;человеком;x
+GIRL_INS;девушкой;x
+BOY_INS;юношей;x
+LGIRL_INS;девочкой;x
+LBOY_INS;мальчиком;x
+WOMAN_DAT;женщине;x
+HUMAN_DAT;человеку;x
+GIRL_DAT;девушке;x
+BOY_DAT;юноше;x
+LGIRL_DAT;девочке;x
+LBOY_DAT;мальчику;x
+WOMAN_GEN;женщины;x
+GIRL_GEN;девушки;x
+BOY_GEN;юноши;x
+LGIRL_GEN;девочки;x
+LADY_GEN;госпожи;x
+LORD_GEN;господина;x
+WIFE_ACC;жену;x
+HUSBAND_INS;мужем;x
+WIFE_INS;женой;x
+HUSBAND_DAT;мужу;x
+WIFE_DAT;жене;x
+HUSBAND_GEN;мужа;x
+WIFE_GEN;жены;x
+HUSBAND_PREP;муже;x
+WIFE_PREP;жене;x
+MAL_OVERLORD;повелитель;x
+MAL_OVERLORD_CAP;Повелитель;x
+FEM_OVERLORD;владычица;x
+FEM_OVERLORD_CAP;Владычица;x
+ZA_MUZH;выйти за муж;x
+ZHENITSA;жениться;x
+ZA_NEGO;за него;x
+NA_NEY;на ней;x
+O_MNOY;о мной;x
+_NEYNIM; н[From.GetEyIm];x
+ADULTERER_L;похотливый мерзавец;x
+ADULTERESS_L;грязная потаскушка;x
+MOM_;мама;x
+DAD_;папа;x
+MOM_CAP;Мама;x
+DAD_CAP;Папа;x
+BRAT_FEM;аленькая дрянь;x
+BRAT_MAL;елкий засранец;x
+N_DEATH;Смерть;x
+N_REAPER;Мрачный Жнец;x
+OLDMAN_FEM;старушка;x
+OLDMAN_MAL;старик;x
+HORSE_MARE;лошадь;x
+HORSE_STEED;конь;x
+HORSE_MARE_CAP;Лошадь;x
+HORSE_STEED_CAP;Конь;x
+HORSE_WRONG_SEX_WITH_MALE;объездили тех, кого
+HORSE_WRONG_SEX_WITH_FEMALE;дали себя объездить тем, кому
+CATHOLIC_ADJ;католиче;x
+CATHAR_ADJ;катар;x
+FRATICELLI_ADJ;фратичеллиан;x
+WALDENSIAN_ADJ;вальденсиан;x
+LOLLARD_ADJ;лоллард;x
+ORTHODOX_ADJ;восточнохристиан;x
+MIAPHYSITE_ADJ;миафизит;x
+MONOPHYSITE_ADJ;монофизит;x
+BOGOMILIST_ADJ;богомил;x
+MONOTHELITE_ADJ;монофелит;x
+ICONOCLAST_ADJ;иконоборче;x
+PAULICIAN_ADJ;павликиан;x
+NESTORIAN_ADJ;несториан;x
+MESSALIAN_ADJ;мессалиан;x
+SUNNI_ADJ;суннит;x
+ZIKRI_ADJ;зикрий;x
+YAZIDI_ADJ;езид;x
+IBADI_ADJ;ибадит;x
+KHARIJITE_ADJ;хариджит;x
+SHIITE_ADJ;шиит;x
+DRUZE_ADJ;друз;x
+HURUFI_ADJ;хуруфий;x
+PAGAN_ADJ;языче;x
+NORSE_PAGAN_ADJ;асарт;x
+TENGRI_PAGAN_ADJ;тенгриан;x
+BALTIC_PAGAN_ADJ;ромуван;x
+FINNISH_PAGAN_ADJ;суом;x
+AZTEC_ADJ;ацтек;x
+SLAVIC_PAGAN_ADJ;родовер;x
+WEST_AFRICAN_PAGAN_ADJ;африкан;x
+ZUN_PAGAN_ADJ;зун;x
+HELLENIC_PAGAN_ADJ;эллин;x
+ZOROASTRIAN_ADJ;зороастрий;x
+MAZDAKI_ADJ;маздакий;x
+MANICHEAN_ADJ;манихей;x
+JEWISH_ADJ;иудей;x
+SAMARITAN_ADJ;самаритян;x
+KARAITE_ADJ;караит;x
+HINDU_ADJ;индуист;x
+BUDDHIST_ADJ;буддист;x
+JAIN_ADJ;джайн;x
+CATHOLIC_ADJ_CAP;Католиче;x
+CATHAR_ADJ_CAP;Катар;x
+FRATICELLI_ADJ_CAP;Фратичеллиан;x
+WALDENSIAN_ADJ_CAP;Вальденсиан;x
+LOLLARD_ADJ_CAP;Лоллард;x
+ORTHODOX_ADJ_CAP;Восточнохристиан;x
+MIAPHYSITE_ADJ_CAP;Миафизит;x
+MONOPHYSITE_ADJ_CAP;Монофизит;x
+BOGOMILIST_ADJ_CAP;Богомил;x
+MONOTHELITE_ADJ_CAP;Монофелит;x
+ICONOCLAST_ADJ_CAP;Иконоборче;x
+PAULICIAN_ADJ_CAP;Павликиан;x
+NESTORIAN_ADJ_CAP;Несториан;x
+MESSALIAN_ADJ_CAP;Мессалиан;x
+SUNNI_ADJ_CAP;Суннит;x
+ZIKRI_ADJ_CAP;Зикрий;x
+YAZIDI_ADJ_CAP;Езид;x
+IBADI_ADJ_CAP;Ибадит;x
+KHARIJITE_ADJ_CAP;Хариджит;x
+SHIITE_ADJ_CAP;Шиит;x
+DRUZE_ADJ_CAP;Друз;x
+HURUFI_ADJ_CAP;Хуруфий;x
+PAGAN_ADJ_CAP;Язычес;x
+NORSE_PAGAN_ADJ_CAP;Асарт;x
+TENGRI_PAGAN_ADJ_CAP;Тенгриан;x
+BALTIC_PAGAN_ADJ_CAP;Ромуван;x
+FINNISH_PAGAN_ADJ_CAP;Суом;x
+AZTEC_ADJ_CAP;Ацтек;x
+SLAVIC_PAGAN_ADJ_CAP;Родовер;x
+WEST_AFRICAN_PAGAN_ADJ_CAP;Африкан;x
+ZUN_PAGAN_ADJ_CAP;Зун;x
+HELLENIC_PAGAN_ADJ_CAP;Эллин;x
+ZOROASTRIAN_ADJ_CAP;Зороастрий;x
+MAZDAKI_ADJ_CAP;Маздакий;x
+MANICHEAN_ADJ_CAP;Манихей;x
+JEWISH_ADJ_CAP;Иудей;x
+SAMARITAN_ADJ_CAP;Самаритян;x
+KARAITE_ADJ_CAP;Караит;x
+HINDU_ADJ_CAP;Индуист;x
+BUDDHIST_ADJ_CAP;Буддист;x
+JAIN_ADJ_CAP;Джайн;x
+CHRISTIAN_F;христианка;x
+CHRISTIAN_M;христианин;x
+CHRISTIAN_F_CAP;Христианка;x
+CHRISTIAN_M_CAP;Христианин;x
+MUSLIM_F;мусульманка;x
+MUSLIM_M;мусульманин;x
+MUSLIM_F_CAP;Мусульманка;x
+MUSLIM_M_CAP;Мусульманин;x
+PAGAN_F;язычница;x
+PAGAN_M;язычник;x
+PAGAN_F_CAP;Язычница;x
+PAGAN_M_CAP;Язычник;x
+ZOROASTRIAN_F;огнепоклонница;x
+ZOROASTRIAN_M;огнепоклонник;x
+ZOROASTRIAN_F_CAP;Огнепоклонница;x
+ZOROASTRIAN_M_CAP;Огнепоклонник;x
+JEWISH_F;иудейка;x
+JEWISH_M;иудей;x
+JEWISH_F_CAP;Иудейка;x
+JEWISH_M_CAP;Иудей;x
+HINDU_F;индуска;x
+HINDU_M;индус;x
+HINDU_F_CAP;Индуска;x
+HINDU_M_CAP;Индус;x
+BUDDHIST_F;буддистка;x
+BUDDHIST_M;буддист;x
+BUDDHIST_F_CAP;Буддистка;x
+BUDDHIST_M_CAP;Буддист;x
+BOZHE_FOA;Боже;x
+GOSPODI_FOA;Господи;x
+SOLNTSE_FOA;Солнце;x
+ALLAH_FOA;Аллах;x
+BOGI_FOA;[Religion.GetHighGodName];x #боги
+DUHI_FOA;Дух предков;x #духи
+NEBO_FOA;Небо;x
+BUDDHA_FOA;Будда;x
+MALAK_FOA;Малак Тавус;x
+MALAK_GEN;Малак Тавуса;x
+MALAK_DAT;Малак Тавусу;x
+MALAK_INS;Малак Тавусом;x
+VOHUMANA_FOA;Воху-Мана;x
+the_assassinsGEN;ассасинов;x
+the_satanistsGEN;Слуг Дьявола;x
+the_cold_onesGEN;хладников;x
+the_trollcraftersGEN;Соратников Хель;x
+the_cult_of_kaliGEN;последователей Кали;x
+the_plaguebringersGEN;Приносящих чуму;x
+monastic_order_benedictineGEN;бенедиктинцев;x
+monastic_order_dominicanGEN;доминиканцев;x
+monastic_order_orthodoxGEN;базилиан;x
+monastic_order_nestorianGEN;авраамитов;x
+monastic_order_monophysiteGEN;антонитов;x
+#monastic_order_jainGEN;Сравака-Самгха;x
+#monastic_order_hinduGEN;Адвайта Матха;x
+#monastic_order_buddhistGEN;Савака-Сангха;x
+hermeticsGEN;герметистов;x
+secret_religious_society_catholicGEN;последователей Иисуса;x
+secret_religious_society_catharGEN;Добрых христиан;x
+secret_religious_society_fraticelliGEN;Духовных францисканцев;x
+secret_religious_society_waldensianGEN;Верных вальденсов;x
+secret_religious_society_lollardGEN;Бедных священников;x
+secret_religious_society_orthodoxGEN;Старых христиан;x
+secret_religious_society_miaphysiteGEN;Верных миафизитов;x
+secret_religious_society_monophysiteGEN;Верных монофизитов;x
+secret_religious_society_bogomilistGEN;Верных богомилов;x
+secret_religious_society_monotheliteGEN;Верных монофелитов;x
+secret_religious_society_iconoclastGEN;иконоборцев;x
+secret_religious_society_paulicianGEN;Верных павликиан;x
+secret_religious_society_nestorianGEN;Верных несториан;x
+secret_religious_society_messalianGEN;Верных мессалиан;x
+secret_religious_society_sunniGEN;исламских братьев;x
+secret_religious_society_zikriGEN;Верных зикру;x
+secret_religious_society_yazidiGEN;Детей ангелов;x
+secret_religious_society_ibadiGEN;Верных ибадитов;x
+secret_religious_society_kharijiteGEN;Обменников;x
+secret_religious_society_shiiteGEN;приверженцев Али;x
+secret_religious_society_druzeGEN;Мудрых;x
+secret_religious_society_hurufiGEN;Верных хуруфитов;x
+secret_religious_society_jewishGEN;Верных Богу;x
+secret_religious_society_karaiteGEN;Чтецов;x
+secret_religious_society_samaritanGEN;Детей Израиля;x
+secret_religious_society_zoroastrianGEN;Верных магов;x
+secret_religious_society_mazdakiGEN;Верных маздакийцев;x
+secret_religious_society_manicheanGEN;Верных манихеев;x
+#secret_religious_society_hinduGEN;Санатана Дхарма;x
+secret_religious_society_buddhistGEN;Верных Восьмеричному пути;x
+secret_religious_society_jainGEN;Безвредных;x
+secret_religious_society_norse_pagan_reformedGEN;Верных клятвам;x
+secret_religious_society_slavic_pagan_reformedGEN;Верных Перуну;x
+secret_religious_society_tengri_pagan_reformedGEN;Всадников синего неба;x
+secret_religious_society_baltic_pagan_reformedGEN;Детей Диеваса;x
+secret_religious_society_finnish_pagan_reformedGEN;Вестников Укко;x
+secret_religious_society_west_african_pagan_reformedGEN;Духовных хранителей;x
+secret_religious_society_zun_pagan_reformedGEN;Хранителей живого огня;x
+secret_religious_society_norse_paganGEN;Верных старым клятвам;x
+secret_religious_society_slavic_paganGEN;Воинов Перуна;x
+secret_religious_society_tengri_paganGEN;Стрел Тенгри;x
+secret_religious_society_baltic_paganGEN;Избранников Диеваса;x
+secret_religious_society_finnish_paganGEN;Топоров Укко;x
+secret_religious_society_west_african_paganGEN;Воинов Духа;x
+secret_religious_society_zun_paganGEN;Несущих свет Зуна;x
+secret_religious_society_aztecGEN;Хранителей тайного огня;x
+secret_religious_society_aztec_reformedGEN;Детей Солнца;x
+d_yaroslavl_adj_finnish;Мерь;x
+d_yaroslavl_adj_komi;Мерь;x
+d_yaroslavl_adj_mordvin;Мерь;x
+d_yaroslavl_adj_samoyed;Мерь;x
+d_yaroslavl_adj_finnish;Мерь;x
+d_yaroslavl_adj_lappish;Мерь;x
+d_ryazan_adj_mordvin;Мещер;x
+c_rostov_adj_komi;Мерь;x
+c_rostov_adj_mordvin;Мерь;x
+c_rostov_adj_samoyed;Мерь;x
+c_rostov_adj_finnish;Мерь;x
+c_rostov_adj_lappish;Мерь;x
+d_vladimir_adj_mordvin;Муром;x
+d_vladimir_adj_samoyed;Муром;x
+d_beloozero_adj_finnish;Чуд;x
+d_beloozero_adj_samoyed;Чуд;x
+d_beloozero_adj_mordvin;Чуд;x
+d_beloozero_adj_lappish;Чуд;x
+d_beloozero_adj_komi;Чуд;x
+d_novgorod_adj_ilmenian;Ильмер;x
+d_novgorod_adj_severian;Ильмер;x
+d_novgorod_adj_volhynian;Ильмер;x
+d_novgorod_adj_finno_ugric;Ильмен;x
+d_tver_adj_ilmenian;Вят;x
+d_tver_adj_severian;Вят;x
+d_tver_adj_volhynian;Вят;x
+d_vladimir_adj_mordvin;Муром;x
+d_vladimir_adj_samoyed;Муром;x
+d_turov_adj_ilmenian;Дрегов;x
+d_vitebsk_adj_ilmenian;Крив;x
+d_smolensk_adj_severian;Радим;x
+d_smolensk_adj_ilmenian;Радим;x
+d_chernigov_adj_severian;Север;x
+d_chernigov_adj_ilmenian;Север;x
+d_chernigov_adj_mordvin;Север;x
+d_chernigov_adj_volhynian;Север;x
+d_kipchak_adj_pecheneg;Печенеж;x
+d_moldau_adj_pecheneg;Печенеж;x
+c_dorpat_adj_russian;Юрьев;x
+c_dorpat_adj_swedish;Дерпт;x
+c_dorpat_adj_danish;Дерпт;x
+c_dorpat_adj_norwegian;Дерпт;x
+c_dorpat_adj_german;Дерпт;x
+c_aoudaghost_adj;Аудагост;x
+c_araouane_adj;Арауан;x
+c_artois_adj;Артуас;x
+c_baluchistan_adj;Белуджистан;x
+c_bambuk_adj;Бамбук;x
+c_bourbon_adj;Бурбон;x
+c_brandenburg_adj;Бранденбург;x
+c_chios_adj;Хиос;x
+c_chur_adj;Кур;x
+c_constantine_adj;Константин;x
+c_dauphine_viennois_adj;Дофин;x
+c_djenne_adj;Дженней;x
+c_gao_adj;Гаос;x
+c_ghana_adj;Ган;x
+c_idjil_adj;Иджиль;x
+c_jask_adj;Яск;x
+c_karelen_adj;Карель;x
+c_mali_adj;Малий;x
+c_moray_adj;Морей;x
+c_ouadane_adj;Уадан;x
+c_oualata_adj;Уалатай;x
+c_sijilmasa_adj;Сиджильмас;x
+c_sistan_adj;Систан;x
+c_tadmekka_adj;Тадмеккий;x
+c_taghaza_adj;Тегазий;x
+c_timbuktu_adj;Тимбуктий;x
+c_tyumen_adj;Тюмен;x
+c_wurzburg_adj;Вюрцбург;x
+d_assassin_adj;Ассасин;x
+d_bourbon_adj;Бурбон;x
+d_ghana_adj;Ган;x
+d_mali_adj;Малий;x
+d_poitou_adj;Пуатий;x
+d_songhay_adj;Сонгай;x
+d_timbuktu_adj;Тимбуктий;x
+d_tripolitania_adj;Триполитан;x
+d_tyrol_adj;Тироль;x
+e_pirates_adj;Пират;x
+k_aydin_adj;Айдын;x
+k_eretnid_adj;Эретний;x
+k_germiyan_adj;Гермиян;x
+k_hammadid_adj;Хаммадид;x
+k_kafsid_adj;Хафсид;x
+k_mali_adj;Малий;x
+k_marinid_adj;Маринид;x
+k_mentese_adj;Ментеший;x
+k_tekke_adj;Теккий;x
+k_zirid_adj;Зирид;x
+Emperor;Император;x
+Empress;Императрица;x
+nick_the_lawgiver_female;Законодательница;x
+nick_the_usurper_female;Узурпаторша;x
+nick_the_hammer_female;Стальная;x
+nick_the_conqueror_female;Завоевательница;x
+nick_the_victorious_female;Победоносная;x
+nick_the_crusader_female;Крестоносец;x
+nick_the_holy_female;Праведница;x
+nick_the_avenger_female;Мстительница;x
+nick_the_brave_female;Храбрая;x
+nick_the_fearless_female;Бесстрашная;x
+nick_the_martyr_female;Мученица;x
+nick_the_unlucky_female;Невезучая;x
+nick_the_lucky_female;Удатная;x
+nick_the_restorer_female;Воскресительница;x
+nick_the_clueless_female;Бестолковая;x
+nick_the_ill_tempered_female;Брюзгливая;x
+nick_the_affable_female;Любезная;x
+nick_the_heathen_female;Язычница;x
+nick_the_liberator_female;Освободительница;x
+nick_haardraade2_female;Суровая;x
+nick_the_jackal_female;Лисица;x
+nick_the_glorious_female;Славная;x
+nick_the_saint_female;Святая;x
+nick_the_young_female;Молодая;x
+nick_the_old_female;Старая;x
+nick_the_accursed_female;Проклятая;x
+nick_the_wicked_female;Порочная;x
+nick_the_bewitched_female;Заколдованная;x
+nick_priest_hater_female;Безбожница;x
+nick_the_pious_female;Благочестивая;x
+nick_the_apostle_female;Апостол;x
+nick_the_blessed_female;Блаженная;x
+nick_the_confessor_female;Исповедница;x
+nick_the_nun;Монахиня;x
+nick_the_chaste_female;Целомудренная;x
+nick_the_hunter_female;Охотница;x
+nick_the_fowler_female;Птицеловка;x
+nick_the_just_female;Справедливая;x
+nick_the_lame_female;Хромая;x
+nick_the_mad_female;Безумная;x
+nick_the_fat_female;Толстая;x
+nick_the_drunkard_female;Пьяница;x
+nick_the_cruel_female;Жестокая;x
+nick_the_wise_female;Премудрая;x
+nick_the_bastard_female;Бастард;x
+nick_the_blind_female;Слепая;x
+nick_half_hand_female;Безрукая;x
+nick_the_ironside_female;Железнобокая;x
+nick_the_lion_female;Львица;x
+nick_the_lionheart_female;Львиное Сердце;x
+nick_the_bold_female;Отважная;x
+nick_the_unready_female;Неразумная;x
+nick_the_ill_ruler_female;Коварная;x
+nick_the_terrible_female;Ужасная;x
+nick_the_magnificent_female;Великолепная;x
+nick_the_quarreller_female;Сварливая;x
+nick_the_builder_female;Строительница;x
+nick_the_devil_female;Дьяволица;x
+nick_the_dragon_female;Дракон;x
+nick_the_careless_female;Беспечная;x
+nick_the_peaceable_female;Миролюбивая;x
+nick_the_prudent_female;Благоразумная;x
+nick_the_unwilling_female;Несклонная;x
+nick_the_lackland_female;Безземельная;x
+nick_the_able_female;Талантливая;x
+nick_the_kind_female;Любезная;x
+nick_the_good_female;Добрая;x
+nick_the_troubadour_female;Трубадур;x
+nick_the_strong_female;Сильная;x
+nick_the_magnanimous_female;Великодушная;x
+nick_the_simple_female;Простоватая;x
+nick_the_merry_female;Весёлая;x
+nick_the_noble_female;Благородная;x
+nick_the_gentle_female;Кроткая;x
+nick_the_proud_female;Гордая;x
+nick_the_silent_female;Молчаливая;x
+nick_the_warlike_female;Воительница;x
+nick_the_great_female;Великая;x
+nick_the_lisp_and_lame_female;Шепелявая и Хромая;x
+nick_the_gouty_female;Подагрик;x
+nick_the_hunchback_female;Горбатая;x
+nick_the_scholar_female;Учёная;x
+nick_the_black_female;Чёрная;x
+nick_the_strange_female;Чудная;x
+nick_the_pilgrim_female;Паломница;x
+nick_the_sword_of_god_female;Клинок Всевышнего;x
+nick_the_decadent_female;Декадент;x
+nick_bloodaxe_female;Кровавый топор;x
+nick_the_viking_female;Викинг;x
+nick_the_unchaste_female;Непристойная;x
+nick_the_unfaithful_female;Неверная;x
+nick_the_jovial_female;Жизнерадостная;x
+nick_the_jolly_female;Игривая;x
+nick_the_gracious_female;Изящная;x
+nick_the_shrewd_female;Прозорливая;x
+nick_the_wily_female;Лукавая;x
+nick_the_fox_female;Лиса;x
+nick_the_whisperer_female;Сплетница;x
+nick_the_impaler_female;Колосажательница;x
+nick_the_rash_female;Безрассудная;x
+nick_the_temptress_female;Искусительница;x
+nick_the_beguiling_female;Обольстительница;x
+nick_the_seducer_female;Соблазнительница;x
+nick_the_lewd_female;Похотливая;x
+nick_the_lecher_female;Развратница;x
+nick_the_ruthless_female;Беспощадная;x
+nick_the_headless_female;Обезглавленная;x
+nick_the_beheader_female;Головорез;x
+nick_haardraade2;Суровый;x
+nick_the_wolf_female;Волчица;x
+nick_the_youthful_female;Вечномолодая;x
+nick_the_survivor_female;Выжившая;x
+nick_the_clumsy_female;Неуклюжая;x
+nick_the_legendary_female;Легендарная;x
+nick_the_resilient_female;Живучая;x
+nick_one_eye_female;Одноглазая;x
+nick_one_hand_female;Однорукая;x
+nick_one_leg_female;Одноногая;x
+nick_of_a_thousand_faces_female;Двуличная;x
+nick_the_cannibal_female;Людоедка;x
+nick_the_frail_female;Утлая;x
+nick_the_weak_female;Слабая;x
+nick_the_plaguebearer_female;Чумная;x
+nick_the_persevering_female;Неугомонная;x
+nick_the_repulsive_female;Мерзкая;x
+nick_the_mule_female;Твердолобая;x
+nick_the_wealthy_female;Богатая;x
+nick_the_lord_of_realm_female;Хозяйка [Root.PrimaryTitle.GetAdjective]ской земли;x
+nick_the_faceless_female;Безликая;x
+nick_the_destroyer_female;Разрушительница;x
+nick_the_slayer_of_culture_female;Убийца [nickname_target.Culture.GetName]ого народа;x
+nick_the_butcher_female;Кровожадная;x
+nick_son_of_evilgod_female;Дочь Дьявола;x #[This.GetSonDaughterCap] of [This.Religion.GetRandomEvilGodName]
+nick_the_witch_hunter_female;Охотница на ведьм;x
+nick_the_vengeful_female;Мстительная;x
+nick_the_betrayer_female;Изменница;x
+nick_the_flayer_female;Живодерка;x
+nick_the_tyrant_female;Тиранка;x
+nick_the_oppressor_female;Угнетательница;x
+nick_the_evil_female;Злая;x
+nick_the_tormentor_female;Мучительница;x
+nick_the_mutilator_female;Расчленительница;x
+nick_the_undying_female;Бессмертная;x
+nick_the_boar_female;Буйволица;x
+nick_the_despoiler_female;Расхитительница;x
+nick_the_depraved_female;Нечестивая;x
+nick_the_culture_marauder_female;[nickname_receiver.Culture.GetName]ая разбойница;x
+#nick_seaking_female;Владычица морей;x
+nick_the_loyal_female;Преданная;x
+nick_the_weaponsmith_female;Оружейница;x
+nick_the_purifier_female;Очистительница;x
+INSULT_BLIND_FEMALE;Слепая;x #adj
+INSULT_LOWBORN_FEMALE;Безродная;x #adj
+INSULT_HERESIARCH;еретичка;x
+INSULT_SYBARITE_FEMALE;сибаритка;x
+INSULT_DECADENT_FEMALE;Изнеженная;x #adj
+INSULT_LUGUBRIOUS_FEMALE;Унылая;x #adj
+INSULT_DEMONIC_FEMALE;Бесноватая;x #adj
+INSULT_LEPER_FEMALE;Прокажённая;x
+INSULT_UNCLEAN_FEMALE;Нечистая;x #adj
+INSULT_SENILE_FEMALE;Дряхлая;x #adj
+INSULT_VEGETABLE_FEMALE;кашолка;x
+INSULT_DRUNKARD_FEMALE;пьянь;x
+INSULT_BESOTTED_FEMALE;Бухая;x #adj
+INSULT_BASEBORN_FEMALE;Безродная;x #adj
+INSULT_KINSLAYER_FEMALE;родоубийца;x
+INSULT_CLUBFOOT_FEMALE;хромоножка;x
+INSULT_LIMPING_FEMALE;Хромоногая;x #adj
+INSULT_HARELIP_FEMALE;морда;x
+INSULT_CLEFT_LIPPED_FEMALE;Двуротая;x #adj
+INSULT_HUNCHBACK_FEMALE;горбунья;x
+INSULT_CROOKED_FEMALE;Кривая;x #adj
+INSULT_FALTERING_FEMALE;Шепелявая;x #adj
+INSULT_STUTTERING_FEMALE;заика;x
+INSULT_HIDEOUS_FEMALE;Отвратительная;x #adj
+INSULT_DWARF_FEMALE;карлица;x
+INSULT_LITTLE_FEMALE;Мелкая;x #adj
+INSULT_IMBECILE_FEMALE;идиотка;x
+INSULT_IDIOT_FEMALE;Дебильная;x #adj
+INSULT_TORTURER_FEMALE;Мучительница;x
+INSULT_EVIL_FEMALE;Злобная;x #adj
+INSULT_GLUTTON_FEMALE;обжора;x
+INSULT_GORGING_FEMALE;Прожорливая;x #adj
+INSULT_BORE_FEMALE;Скучная;x #adj
+INSULT_IDLER_FEMALE;бездельница;x
+INSULT_INDOLENT_FEMALE;Ленивая;x #adj
+INSULT_ENVIOUS_FEMALE;Завистливая;x #adj
+INSULT_DECEITFUL_FEMALE;Лживая;x #adj
+INSULT_SCATTERBRAIN_FEMALE;бестолочь;x
+INSULT_ERRATIC_FEMALE;Взбалмошная;x #adj
+INSULT_UNBELIEVER_FEMALE;бесстыдница;x
+INSULT_BIGOT_FEMALE;изуверка;x
+INSULT_NARROWMINDED_FEMALE;Узколобая;x #adj
+INSULT_PARANOID_FEMALE;Параноидальная;x #adj
+INSULT_FOOL_FEMALE;простушка;x
+INSULT_GULLIBLE_FEMALE;Легковерная;x #adj
+INSULT_USELESS_FEMALE;Бесполезная;x #adj
+INSULT_BLATHERING_FEMALE;Вздорная;x #adj
+INSULT_WINDBAG_FEMALE;балаболка;x
+INSULT_MULE_FEMALE;ослица;x
+INSULT_PIGHEADED_FEMALE;Твердолобая;x #adj
+INSULT_SCARECROW_FEMALE;развратница;x
+INSULT_LOVER_OF_HEATHENS_FEMALE;подстилка нечестивцев;x
+INSULT_UNPRINCIPLED_FEMALE;Беспринципная;x #adj
+INSULT_SNEAK_FEMALE;приставала;x
+INSULT_LUNATIC_FEMALE;маньячка;x
+INSULT_CRAZED_FEMALE;Чокнутая;x #adj
+INSULT_COWARD_FEMALE;сикуха;x
+INSULT_JUNGLE_SNAKE_FEMALE;маугли;x
+INSULT_DESERT_RAT_FEMALE;пескоструйка;x
+INSULT_CREEPY_FEMALE;Жуткая;x #adj
+INSULT_SNEAKING;Трусливая;x #adj
+INSULT_SCHEMING_FEMALE;Подлая;x
+INSULT_BLABBERER_FEMALE;сплетница;x
+INSULT_INSTIGATOR_FEMALE;подстрекательница;x
+INSULT_BOOKWORM_FEMALE;книжная моль;x
+INSULT_SQUINTEYED_FEMALE;Близорукая;x #adj
+INSULT_UPSTART_FEMALE;выскочка;x
+INSULT_GRABBING_FEMALE;Разбойная;x #adj
+INSULT_BRAT_FEMALE;дрянь;x
+INSULT_ARROGANT_FEMALE;Напыщенная;x #adj
+INSULT_CLINGY_FEMALE;Слащавая;x #adj
+INSULT_TICK_FEMALE;прилипала;x
+INSULT_RUFFIAN_FEMALE;задира;x
+INSULT_WILD_FEMALE;Неугомонная;x #adj
+INSULT_WORM_FEMALE;козявка;x
+INSULT_FANATIC_FEMALE;фанатичка;x
+INSULT_TWOFACED_FEMALE;Двуличная;x #adj
+INSULT_MISERLY_FEMALE;Жадная;x #adj
+INSULT_GROVELING_FEMALE;Подхалимистая;x #adj
+INSULT_GRUMBLER_FEMALE;плакса;x #adj
+INSULT_SYPHILITIC_FEMALE;Заразная;x #adj
+INSULT_DECAYING_FEMALE;Гниющая;x #adj
+INSULT_RENEGADE_FEMALE;изменница;x
+INSULT_GODLESS_FEMALE;Безбожная;x #adj
+INSULT_TREEHUGGER;землеройка;x
+INSULT_DRIVELING_FEMALE;мракобесная;x #adj
+INSULT_SPINELESS_FEMALE;Бесхребетная;x #adj
+INSULT_SNEAK_CHILD;подлюга;x
+INSULT_EVIL_CHILD;злыдня;x
+INSULT_TROLL_CHILD;тварюга;x
+INSULT_CREEPY_CHILD;дрочила;x
+INSULT_WUSSY_CHILD;ссыкунишка;x
+INSULT_IDIOT_CHILD;ослина;x
+INSULT_BORE_CHILD;зануда;x
+INSULT_SICKLY_FEMALE;Тщедушная;x #adj
+INSULT_POX_RIDDEN_FEMALE;Струпная;x #adj
+INSULT_POX_RIDDEN_CHILD;чучело;x
+INSULT_SMELLY_FEMALE;Вонючая;x #adj
+INSULT_SMELLY_CHILD;вонючка;x
+#INSULT_SICKLY_CHILD;;x
+INSULT_INVALID_FEMALE;Немощная;x #adj
+#INSULT_INVALID_CHILD;;x
+INSULT_BLIND_CHILD;слепошара;x
+INSULT_MAIMED_FEMALE;Изувеченная;x #adj
+#INSULT_MAIMED_CHILD;;x
+INSULT_LIMPING_CHILD;хромоножка;x
+INSULT_FREAK_FEMALE;мерзость;x
+INSULT_FREAK_CHILD;образина;x
+INSULT_HEINOUS_FEMALE;Гнусная;x #adj
+#INSULT_HEINOUS_CHILD;;x
+INSULT_PUTRID_FEMALE;Подгнившая;x #adj
+INSULT_MANIAC_FEMALE;маньячка;x
+#INSULT_MANIAC_CHILD;;x
+INSULT_RABID_FEMALE;Взбесившаяся;x #adj
+INSULT_RABID_CHILD;бесюга;x
+INSULT_WITHERING_FEMALE;Трухлявая;x #adj
+#INSULT_WITHERING_CHILD;;x
+#INSULT_SCARECROW_CHILD;;x
+INSULT_OCCULTIST_FEMALE;чернокнижница;x
+INSULT_CANNIBAL_FEMALE;дюдоедка;x
+INSULT_CANNIBALISTIC_FEMALE;Людоедская;x #adj
+INSULT_DEMENTED_FEMALE;Умалишённая;x #adj
+COMPL_PURPLE_BORN_FEMALE;Багрянородная;x #adj
+COMPL_AUGUSTUS_FEMALE;августа;x
+COMPL_HOLY_WARRIOR_FEMALE;Святая воительница;x
+COMPL_BERSERKER_FEMALE;сорвиголова;x
+COMPL_SAOSHYANT_FEMALE;саошиант;x
+COMPL_PIRATE_FEMALE;пиратка;x
+COMPL_HAJJAJ_FEMALE;хаджи;x
+COMPL_WISE_FEMALE;Мудрая;x #adj
+COMPL_PILGRIM_FEMALE;паломница;x
+COMPL_MIRZA_FEMALE;мирза;x
+COMPL_BRILLIANT_FEMALE;Гениальная;x #adj
+COMPL_LEARNED_FEMALE;Премудрая;x #adj
+COMPL_MYSTIC_FEMALE;кудесница;x
+COMPL_POET_FEMALE;сказительница;x
+COMPL_VIVACIOUS_FEMALE;Жизнерадостная;x
+COMPL_CHASTE_FEMALE;Добродетельная;x #adj
+COMPL_GOOD_FEMALE;Великодушная;x #adj
+COMPL_DILIGENT_FEMALE;Усердная;x #adj
+COMPL_PROUD_FEMALE;Гордая;x #adj
+COMPL_HUMBLE_FEMALE;Смиренная;x #adj
+COMPL_BRAVE_FEMALE;Храбрая;x #adj
+COMPL_WIT_FEMALE;затейница;x
+COMPL_JUST_FEMALE;Справедливая;x #adj
+COMPL_WRY_FEMALE;Ироничная;x #adj
+COMPL_RIGHTEOUS_FEMALE;Праведная;x #adj
+COMPL_SWEET_FEMALE;Милая;x #adj
+COMPL_ARCHITECT_FEMALE;искусница;x
+COMPL_SCHOLAR_FEMALE;эрудитка;x
+COMPL_CONQUEROR_FEMALE;завоевательница;x
+COMPL_AUDACIOUS_FEMALE;Отважная;x #adj
+COMPL_CLEVER_FEMALE;хитроумная;x #adj
+COMPL_LOVELY_FEMALE;чудесная;x #adj
+COMPL_THRIFTY_FEMALE;Бережливая;x #adj
+COMPL_ELOQUENT_FEMALE;Красноречивая;x #adj
+COMPL_VIRTUOUS_FEMALE;Непорочная;x #adj
+COMPL_CLEVER_CHILD;всезнайка;x
+COMPL_NICE_CHILD;симпатяжка;x
+COMPL_GOOD_CHILD;умница;x
+city_job_spiritual_hellenic_pagan;Авгур;x
+expel_the_jomsvikings;Изгнать Йомсвикингов;x
+temple_baron_female_baltic_pagan;Жрица;x
+temple_baron_female_baltic_pagan_reformed;Жрица;x
+d_altay_adj;Алтай;x
+d_otuken_adj;Отюкен;x
+d_khangai_adj;Хангай;x
+d_ikh_bogd_adj;Богд;x
+k_khotan_adj;Хотан;x
+d_kashgar_adj;Кашгар;x
+d_khotan_adj;Хотан;x
+d_karashar_adj;Карашар;x
+d_kumul_adj;Кумул;x
+e_chagatai_adj;Чагатай;x
+horse_trait;Непарнокопытное;x #[GetMareSteedCap];x
+horse_trait_desc;Это существо - сам[GetAyaYy] настоящ[GetAyaIy] [GetMareSteed].;x
+EVTOPTC_ZE_8012;Правитель отвечает за своих людей, а не врёт.;x

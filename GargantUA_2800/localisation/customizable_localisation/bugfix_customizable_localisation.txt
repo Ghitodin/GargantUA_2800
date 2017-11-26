@@ -1,0 +1,2492 @@
+#PREV
+defined_text = {
+	name = GetPrevVsRelation
+
+	text = {
+		localisation_key = GetRelation_Wife
+		trigger = {
+			is_female = yes
+			any_spouse = { character = PREV }
+			NOT = { is_child_of = PREV }
+			NOT = { any_child = { character = PREV } }
+			sibling_of_prev_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Husband
+		trigger = {
+			is_female = no
+			any_spouse = { character = PREV }
+			NOT = { is_child_of = PREV }
+			NOT = { any_child = { character = PREV } }
+			sibling_of_prev_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Concubine
+		trigger = {
+			is_female = yes
+			is_consort = PREV
+			NOT = { any_spouse = { character = PREV } }
+			NOT = { is_child_of = PREV }
+			NOT = { any_child = { character = PREV } }
+			sibling_of_prev_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_MotherWife
+		trigger = {
+			is_female = yes
+			any_spouse = { character = PREV }
+			any_child = { character = PREV }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_FatherHusband
+		trigger = {
+			is_female = no
+			any_spouse = { character = PREV }
+			any_child = { character = PREV }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_DaughterWife
+		trigger = {
+			is_female = yes
+			any_spouse = { character = PREV }
+			is_child_of = PREV
+		}
+	}
+	text = {
+		localisation_key = GetRelation_SonHusband
+		trigger = {
+			is_female = no
+			any_spouse = { character = PREV }
+			is_child_of = PREV
+		}
+	}
+	text = {
+		localisation_key = GetRelation_SisterWife
+		trigger = {
+			is_female = yes
+			any_spouse = { character = PREV }
+			sibling_of_prev_trigger = yes
+		}
+	}
+	text = {
+		localisation_key = GetRelation_BrotherHusband
+		trigger = {
+			is_female = no
+			any_spouse = { character = PREV }
+			sibling_of_prev_trigger = yes
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Mother
+		trigger = {
+			is_female = yes
+			any_child = { character = PREV }
+			NOT = { any_spouse = { character = PREV } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Father
+		trigger = {
+			is_female = no
+			any_child = { character = PREV }
+			NOT = { any_spouse = { character = PREV } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Grandmother
+		trigger = {
+			is_female = yes
+			any_child = { any_child = { character = PREV } }
+			NOT = { any_spouse = { character = PREV } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Grandfather
+		trigger = {
+			is_female = no
+			any_child = { any_child = { character = PREV } }
+			NOT = { any_spouse = { character = PREV } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_GreatGrandmother
+		trigger = {
+			is_female = yes
+			any_child = { any_child = { any_child = { character = PREV } } }
+			NOT = { any_spouse = { character = PREV } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_GreatGrandfather
+		trigger = {
+			is_female = no
+			any_child = { any_child = { any_child = { character = PREV } } }
+			NOT = { any_spouse = { character = PREV } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Daughter
+		trigger = {
+			is_female = yes
+			is_child_of = PREV
+			NOT = { any_spouse = { character = PREV } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Son
+		trigger = {
+			is_female = no
+			is_child_of = PREV
+			NOT = { any_spouse = { character = PREV } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Granddaughter
+		trigger = {
+			is_female = yes
+			grandchild_of_prev_trigger = yes
+			NOT = { any_spouse = { character = PREV } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Grandson
+		trigger = {
+			is_female = no
+			grandchild_of_prev_trigger = yes
+			NOT = { any_spouse = { character = PREV } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_GreatGranddaughter
+		trigger = {
+			is_female = yes
+			greatgrandchild_of_prev_trigger = yes
+			NOT = { any_spouse = { character = PREV } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_GreatGrandson
+		trigger = {
+			is_female = no
+			greatgrandchild_of_prev_trigger = yes
+			NOT = { any_spouse = { character = PREV } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Sister
+		trigger = {
+			is_female = yes
+			sibling_of_prev_trigger = yes
+			NOT = { any_spouse = { character = PREV } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Brother
+		trigger = {
+			is_female = no
+			sibling_of_prev_trigger = yes
+			NOT = { any_spouse = { character = PREV } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Niece
+		trigger = {
+			is_female = yes
+			sibling_child_of_prev_trigger = yes
+			NOT = { any_spouse = { character = PREV } }
+			relationship_with_prev_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Nephew
+		trigger = {
+			is_female = no
+			sibling_child_of_prev_trigger = yes
+			NOT = { any_spouse = { character = PREV } }
+			relationship_with_prev_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Aunt
+		trigger = {
+			is_female = yes
+			parent_sibling_of_prev_trigger = yes
+			NOT = { any_spouse = { character = PREV } }
+			relationship_with_prev_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Uncle
+		trigger = {
+			is_female = no
+			parent_sibling_of_prev_trigger = yes
+			NOT = { any_spouse = { character = PREV } }
+			relationship_with_prev_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Cousin_Male
+		trigger = {
+			is_female = no
+			sibling_in_law_of_prev_trigger = yes
+			NOT = { any_spouse = { character = PREV } }
+			relationship_with_prev_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Cousin_Female
+		trigger = {
+			is_female = yes
+			sibling_in_law_of_prev_trigger = yes
+			NOT = { any_spouse = { character = PREV } }
+			relationship_with_prev_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_SisterInLaw
+		trigger = {
+			is_female = yes
+			sibling_in_law_of_prev_trigger = yes
+			NOT = { is_close_relative = PREV }
+			relationship_with_prev_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_BrotherInLaw
+		trigger = {
+			is_female = no
+			sibling_in_law_of_prev_trigger = yes
+			NOT = { is_close_relative = PREV }
+			relationship_with_prev_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Rival_Male
+		trigger = {
+			is_female = no
+			is_rival = PREV
+			NOT = { is_close_relative = PREV }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Rival_Female
+		trigger = {
+			is_female = yes
+			is_rival = PREV
+			NOT = { is_close_relative = PREV }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Friend_Male
+		trigger = {
+			is_female = no
+			is_friend = PREV
+			NOT = { is_close_relative = PREV }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Friend_Female
+		trigger = {
+			is_female = yes
+			is_friend = PREV
+			NOT = { is_close_relative = PREV }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Lover_Male
+		trigger = {
+			is_female = no
+			is_lover = PREV
+			NOT = { is_close_relative = PREV }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Lover_Female
+		trigger = {
+			is_female = yes
+			is_lover = PREV
+			NOT = { is_close_relative = PREV }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Kinswoman
+		trigger = {
+			is_female = yes
+			relationship_with_prev_trigger = no
+			family_of_prev_trigger = no
+			parent_or_child_in_law_of_prev_trigger = no
+			dynasty = PREV
+			NOT = { dynasty = none }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Kinsman
+		trigger = {
+			is_female = no
+			relationship_with_prev_trigger = no
+			family_of_prev_trigger = no
+			parent_or_child_in_law_of_prev_trigger = no
+			dynasty = PREV
+			NOT = { dynasty = none }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Liege_Male
+		trigger = {
+			is_female = no
+			relationship_with_prev_trigger = no
+			family_of_prev_trigger = no
+			is_liege_of = PREV
+			OR = {
+				NOT = { dynasty = PREV }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Liege_Female
+		trigger = {
+			is_female = yes
+			relationship_with_prev_trigger = no
+			family_of_prev_trigger = no
+			is_liege_of = PREV
+			OR = {
+				NOT = { dynasty = PREV }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Guardian_Male
+		trigger = {
+			is_female = no
+			relationship_with_prev_trigger = no
+			family_of_prev_trigger = no
+			NOT = { is_liege_of = PREV }
+			OR = {
+				NOT = { dynasty = PREV }
+				dynasty = none
+			}
+			is_guardian = PREV
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Guardian_Female
+		trigger = {
+			is_female = yes
+			relationship_with_prev_trigger = no
+			family_of_prev_trigger = no
+			NOT = { is_liege_of = PREV }
+			OR = {
+				NOT = { dynasty = PREV }
+				dynasty = none
+			}
+			is_guardian = PREV
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Ward_Male
+		trigger = {
+			is_female = no
+			relationship_with_prev_trigger = no
+			family_of_prev_trigger = no
+			parent_or_child_in_law_of_prev_trigger = no
+			NOT = { is_liege_of = PREV }
+			NAND = {
+				is_landed = yes
+				liege = { character = PREV }
+			}
+			OR = {
+				NOT = { dynasty = PREV }
+				dynasty = none
+			}
+			guardian = { character = PREV }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Ward_Female
+		trigger = {
+			is_female = yes
+			relationship_with_prev_trigger = no
+			family_of_prev_trigger = no
+			NOT = { is_liege_of = PREV }
+			parent_or_child_in_law_of_prev_trigger = no
+			NAND = {
+				is_landed = yes
+				liege = { character = PREV }
+			}
+			OR = {
+				NOT = { dynasty = PREV }
+				dynasty = none
+			}
+			guardian = { character = PREV }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Vassal_Male
+		trigger = {
+			is_female = no
+			relationship_with_prev_trigger = no
+			family_of_prev_trigger = no
+			parent_or_child_in_law_of_prev_trigger = no
+			is_landed = yes
+			liege = { character = PREV }
+			OR = {
+				NOT = { dynasty = PREV }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Vassal_Female
+		trigger = {
+			is_female = yes
+			relationship_with_prev_trigger = no
+			family_of_prev_trigger = no
+			parent_or_child_in_law_of_prev_trigger = no
+			is_landed = yes
+			liege = { character = PREV }
+			OR = {
+				NOT = { dynasty = PREV }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Courtier_Male
+		trigger = {
+			is_female = no
+			relationship_with_prev_trigger = no
+			family_of_prev_trigger = no
+			parent_or_child_in_law_of_prev_trigger = no
+			is_landed = no
+			liege = { character = PREV }
+			OR = {
+				NOT = { dynasty = PREV }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Courtier_Female
+		trigger = {
+			is_female = yes
+			relationship_with_prev_trigger = no
+			family_of_prev_trigger = no
+			parent_or_child_in_law_of_prev_trigger = no
+			is_landed = no
+			liege = { character = PREV }
+			OR = {
+				NOT = { dynasty = PREV }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Acquaintance
+		trigger = {
+			is_female = no
+			NOR = { 
+				relationship_with_prev_trigger = yes
+				family_of_prev_trigger = yes
+				parent_or_child_in_law_of_prev_trigger = no
+				liege = { character = PREV }
+				is_liege_of = PREV
+				AND = {
+					dynasty = PREV
+					NOT = { dynasty = none }
+				}
+			} 
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Acquaintance_Female
+		trigger = { 
+			is_female = yes
+			NOR = { 
+				relationship_with_prev_trigger = yes
+				family_of_prev_trigger = yes
+				parent_or_child_in_law_of_prev_trigger = no
+				liege = { character = PREV }
+				is_liege_of = PREV
+				AND = {
+					dynasty = PREV
+					NOT = { dynasty = none }
+				}
+			} 
+		}
+	}
+	text = {
+		localisation_key = GetRelation_MotherOfWife
+		trigger = {
+			is_female = yes
+			NOR = { 
+				relationship_with_prev_trigger = yes
+				family_of_prev_trigger = yes
+				is_liege_of = PREV
+				is_guardian = PREV
+				is_consort = PREV
+			}
+			any_child = {
+				is_female = yes
+				any_spouse = { character = PREV }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_MotherOfHusband
+		trigger = {
+			is_female = yes
+			NOR = { 
+				relationship_with_prev_trigger = yes
+				family_of_prev_trigger = yes
+				is_liege_of = PREV
+				is_guardian = PREV
+				is_consort = PREV
+			}
+			any_child = {
+				is_female = no
+				any_spouse = { character = PREV }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_FatherOfWife
+		trigger = {
+			is_female = no
+			NOR = { 
+				relationship_with_prev_trigger = yes
+				family_of_prev_trigger = yes
+				is_liege_of = PREV
+				is_guardian = PREV
+			}
+			any_child = {
+				is_female = yes
+				any_spouse = { character = PREV }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_FatherOfHusband
+		trigger = {
+			is_female = no
+			NOR = { 
+				relationship_with_prev_trigger = yes
+				family_of_prev_trigger = yes
+				is_liege_of = PREV
+				is_guardian = PREV
+			}
+			any_child = {
+				is_female = no
+				any_spouse = { character = PREV }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_WifeOfSon
+		trigger = {
+			is_female = yes
+			NOR = { 
+				relationship_with_prev_trigger = yes
+				family_of_prev_trigger = yes
+				is_liege_of = PREV
+				is_guardian = PREV
+				is_consort = PREV
+			}
+			OR = {
+				any_spouse = { mother_even_if_dead = { character = PREV } }
+				any_spouse = { father_even_if_dead = { character = PREV } }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_HusbandOfDaughter
+		trigger = {
+			is_female = no
+			NOR = { 
+				relationship_with_prev_trigger = yes
+				family_of_prev_trigger = yes
+				is_liege_of = PREV
+				is_guardian = PREV
+			}
+			OR = {
+				any_spouse = { mother_even_if_dead = { character = PREV } }
+				any_spouse = { father_even_if_dead = { character = PREV } }
+			}
+		}
+	}
+}
+#FROM
+defined_text = {
+	name = GetFromVsRelation
+
+	text = {
+		localisation_key = GetRelation_Wife
+		trigger = {
+			is_female = yes
+			any_spouse = { character = FROM }
+			NOT = { is_child_of = FROM }
+			NOT = { any_child = { character = FROM } }
+			sibling_of_from_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Husband
+		trigger = {
+			is_female = no
+			any_spouse = { character = FROM }
+			NOT = { is_child_of = FROM }
+			NOT = { any_child = { character = FROM } }
+			sibling_of_from_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Concubine
+		trigger = {
+			is_female = yes
+			is_consort = FROM
+			NOT = { any_spouse = { character = FROM } }
+			NOT = { is_child_of = FROM }
+			NOT = { any_child = { character = FROM } }
+			sibling_of_from_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_MotherWife
+		trigger = {
+			is_female = yes
+			any_spouse = { character = FROM }
+			any_child = { character = FROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_FatherHusband
+		trigger = {
+			is_female = no
+			any_spouse = { character = FROM }
+			any_child = { character = FROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_DaughterWife
+		trigger = {
+			is_female = yes
+			any_spouse = { character = FROM }
+			is_child_of = FROM
+		}
+	}
+	text = {
+		localisation_key = GetRelation_SonHusband
+		trigger = {
+			is_female = no
+			any_spouse = { character = FROM }
+			is_child_of = FROM
+		}
+	}
+	text = {
+		localisation_key = GetRelation_SisterWife
+		trigger = {
+			is_female = yes
+			any_spouse = { character = FROM }
+			sibling_of_from_trigger = yes
+		}
+	}
+	text = {
+		localisation_key = GetRelation_BrotherHusband
+		trigger = {
+			is_female = no
+			any_spouse = { character = FROM }
+			sibling_of_from_trigger = yes
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Mother
+		trigger = {
+			is_female = yes
+			any_child = { character = FROM }
+			NOT = { any_spouse = { character = FROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Father
+		trigger = {
+			is_female = no
+			any_child = { character = FROM }
+			NOT = { any_spouse = { character = FROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Grandmother
+		trigger = {
+			is_female = yes
+			any_child = { any_child = { character = FROM } }
+			NOT = { any_spouse = { character = FROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Grandfather
+		trigger = {
+			is_female = no
+			any_child = { any_child = { character = FROM } }
+			NOT = { any_spouse = { character = FROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_GreatGrandmother
+		trigger = {
+			is_female = yes
+			any_child = { any_child = { any_child = { character = FROM } } }
+			NOT = { any_spouse = { character = FROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_GreatGrandfather
+		trigger = {
+			is_female = no
+			any_child = { any_child = { any_child = { character = FROM } } }
+			NOT = { any_spouse = { character = FROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Daughter
+		trigger = {
+			is_female = yes
+			is_child_of = FROM
+			NOT = { any_spouse = { character = FROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Son
+		trigger = {
+			is_female = no
+			is_child_of = FROM
+			NOT = { any_spouse = { character = FROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Granddaughter
+		trigger = {
+			is_female = yes
+			grandchild_of_from_trigger = yes
+			NOT = { any_spouse = { character = FROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Grandson
+		trigger = {
+			is_female = no
+			grandchild_of_from_trigger = yes
+			NOT = { any_spouse = { character = FROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_GreatGranddaughter
+		trigger = {
+			is_female = yes
+			greatgrandchild_of_from_trigger = yes
+			NOT = { any_spouse = { character = FROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_GreatGrandson
+		trigger = {
+			is_female = no
+			greatgrandchild_of_from_trigger = yes
+			NOT = { any_spouse = { character = FROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Sister
+		trigger = {
+			is_female = yes
+			sibling_of_from_trigger = yes
+			NOT = { any_spouse = { character = FROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Brother
+		trigger = {
+			is_female = no
+			sibling_of_from_trigger = yes
+			NOT = { any_spouse = { character = FROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Niece
+		trigger = {
+			is_female = yes
+			sibling_child_of_from_trigger = yes
+			NOT = { any_spouse = { character = FROM } }
+			relationship_with_from_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Nephew
+		trigger = {
+			is_female = no
+			sibling_child_of_from_trigger = yes
+			NOT = { any_spouse = { character = FROM } }
+			relationship_with_from_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Aunt
+		trigger = {
+			is_female = yes
+			parent_sibling_of_from_trigger = yes
+			NOT = { any_spouse = { character = FROM } }
+			relationship_with_from_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Uncle
+		trigger = {
+			is_female = no
+			parent_sibling_of_from_trigger = yes
+			NOT = { any_spouse = { character = FROM } }
+			relationship_with_from_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Cousin_Male
+		trigger = {
+			is_female = no
+			sibling_in_law_of_from_trigger = yes
+			NOT = { any_spouse = { character = FROM } }
+			relationship_with_from_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Cousin_Female
+		trigger = {
+			is_female = yes
+			sibling_in_law_of_from_trigger = yes
+			NOT = { any_spouse = { character = FROM } }
+			relationship_with_from_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_SisterInLaw
+		trigger = {
+			is_female = yes
+			sibling_in_law_of_from_trigger = yes
+			NOT = { is_close_relative = FROM }
+			relationship_with_from_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_BrotherInLaw
+		trigger = {
+			is_female = no
+			sibling_in_law_of_from_trigger = yes
+			NOT = { is_close_relative = FROM }
+			relationship_with_from_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Rival_Male
+		trigger = {
+			is_female = no
+			is_rival = FROM
+			NOT = { is_close_relative = FROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Rival_Female
+		trigger = {
+			is_female = yes
+			is_rival = FROM
+			NOT = { is_close_relative = FROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Friend_Male
+		trigger = {
+			is_female = no
+			is_friend = FROM
+			NOT = { is_close_relative = FROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Friend_Female
+		trigger = {
+			is_female = yes
+			is_friend = FROM
+			NOT = { is_close_relative = FROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Lover_Male
+		trigger = {
+			is_female = no
+			is_lover = FROM
+			NOT = { is_close_relative = FROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Lover_Female
+		trigger = {
+			is_female = yes
+			is_lover = FROM
+			NOT = { is_close_relative = FROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Kinswoman
+		trigger = {
+			is_female = yes
+			relationship_with_from_trigger = no
+			family_of_from_trigger = no
+			parent_or_child_in_law_of_from_trigger = no
+			dynasty = FROM
+			NOT = { dynasty = none }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Kinsman
+		trigger = {
+			is_female = no
+			relationship_with_from_trigger = no
+			family_of_from_trigger = no
+			parent_or_child_in_law_of_from_trigger = no
+			dynasty = FROM
+			NOT = { dynasty = none }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Liege_Male
+		trigger = {
+			is_female = no
+			relationship_with_from_trigger = no
+			family_of_from_trigger = no
+			is_liege_of = FROM
+			OR = {
+				NOT = { dynasty = FROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Liege_Female
+		trigger = {
+			is_female = yes
+			relationship_with_from_trigger = no
+			family_of_from_trigger = no
+			is_liege_of = FROM
+			OR = {
+				NOT = { dynasty = FROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Guardian_Male
+		trigger = {
+			is_female = no
+			relationship_with_from_trigger = no
+			family_of_from_trigger = no
+			NOT = { is_liege_of = FROM }
+			OR = {
+				NOT = { dynasty = FROM }
+				dynasty = none
+			}
+			is_guardian = FROM
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Guardian_Female
+		trigger = {
+			is_female = yes
+			relationship_with_from_trigger = no
+			family_of_from_trigger = no
+			NOT = { is_liege_of = FROM }
+			OR = {
+				NOT = { dynasty = FROM }
+				dynasty = none
+			}
+			is_guardian = FROM
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Ward_Male
+		trigger = {
+			is_female = no
+			relationship_with_from_trigger = no
+			family_of_from_trigger = no
+			parent_or_child_in_law_of_from_trigger = no
+			NOT = { is_liege_of = FROM }
+			NAND = {
+				is_landed = yes
+				liege = { character = FROM }
+			}
+			OR = {
+				NOT = { dynasty = FROM }
+				dynasty = none
+			}
+			guardian = { character = FROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Ward_Female
+		trigger = {
+			is_female = yes
+			relationship_with_from_trigger = no
+			family_of_from_trigger = no
+			NOT = { is_liege_of = FROM }
+			parent_or_child_in_law_of_from_trigger = no
+			NAND = {
+				is_landed = yes
+				liege = { character = FROM }
+			}
+			OR = {
+				NOT = { dynasty = FROM }
+				dynasty = none
+			}
+			guardian = { character = FROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Vassal_Male
+		trigger = {
+			is_female = no
+			relationship_with_from_trigger = no
+			family_of_from_trigger = no
+			parent_or_child_in_law_of_from_trigger = no
+			is_landed = yes
+			liege = { character = FROM }
+			OR = {
+				NOT = { dynasty = FROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Vassal_Female
+		trigger = {
+			is_female = yes
+			relationship_with_from_trigger = no
+			family_of_from_trigger = no
+			parent_or_child_in_law_of_from_trigger = no
+			is_landed = yes
+			liege = { character = FROM }
+			OR = {
+				NOT = { dynasty = FROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Courtier_Male
+		trigger = {
+			is_female = no
+			relationship_with_from_trigger = no
+			family_of_from_trigger = no
+			parent_or_child_in_law_of_from_trigger = no
+			is_landed = no
+			liege = { character = FROM }
+			OR = {
+				NOT = { dynasty = FROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Courtier_Female
+		trigger = {
+			is_female = yes
+			relationship_with_from_trigger = no
+			family_of_from_trigger = no
+			parent_or_child_in_law_of_from_trigger = no
+			is_landed = no
+			liege = { character = FROM }
+			OR = {
+				NOT = { dynasty = FROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Acquaintance
+		trigger = {
+			is_female = no
+			NOR = { 
+				relationship_with_from_trigger = yes
+				family_of_from_trigger = yes
+				parent_or_child_in_law_of_from_trigger = no
+				liege = { character = FROM }
+				is_liege_of = FROM
+				AND = {
+					dynasty = FROM
+					NOT = { dynasty = none }
+				}
+			} 
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Acquaintance_Female
+		trigger = { 
+			is_female = yes
+			NOR = { 
+				relationship_with_from_trigger = yes
+				family_of_from_trigger = yes
+				parent_or_child_in_law_of_from_trigger = no
+				liege = { character = FROM }
+				is_liege_of = FROM
+				AND = {
+					dynasty = FROM
+					NOT = { dynasty = none }
+				}
+			} 
+		}
+	}
+	text = {
+		localisation_key = GetRelation_MotherOfWife
+		trigger = {
+			is_female = yes
+			NOR = { 
+				relationship_with_from_trigger = yes
+				family_of_from_trigger = yes
+				is_liege_of = FROM
+				is_guardian = FROM
+				is_consort = FROM
+			}
+			any_child = {
+				is_female = yes
+				any_spouse = { character = FROM }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_MotherOfHusband
+		trigger = {
+			is_female = yes
+			NOR = { 
+				relationship_with_from_trigger = yes
+				family_of_from_trigger = yes
+				is_liege_of = FROM
+				is_guardian = FROM
+				is_consort = FROM
+			}
+			any_child = {
+				is_female = no
+				any_spouse = { character = FROM }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_FatherOfWife
+		trigger = {
+			is_female = no
+			NOR = { 
+				relationship_with_from_trigger = yes
+				family_of_from_trigger = yes
+				is_liege_of = FROM
+				is_guardian = FROM
+			}
+			any_child = {
+				is_female = yes
+				any_spouse = { character = FROM }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_FatherOfHusband
+		trigger = {
+			is_female = no
+			NOR = { 
+				relationship_with_from_trigger = yes
+				family_of_from_trigger = yes
+				is_liege_of = FROM
+				is_guardian = FROM
+			}
+			any_child = {
+				is_female = no
+				any_spouse = { character = FROM }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_WifeOfSon
+		trigger = {
+			is_female = yes
+			NOR = { 
+				relationship_with_from_trigger = yes
+				family_of_from_trigger = yes
+				is_liege_of = FROM
+				is_guardian = FROM
+				is_consort = FROM
+			}
+			OR = {
+				any_spouse = { mother_even_if_dead = { character = FROM } }
+				any_spouse = { father_even_if_dead = { character = FROM } }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_HusbandOfDaughter
+		trigger = {
+			is_female = no
+			NOR = { 
+				relationship_with_from_trigger = yes
+				family_of_from_trigger = yes
+				is_liege_of = FROM
+				is_guardian = FROM
+			}
+			OR = {
+				any_spouse = { mother_even_if_dead = { character = FROM } }
+				any_spouse = { father_even_if_dead = { character = FROM } }
+			}
+		}
+	}
+}
+#FROMFROM
+defined_text = {
+	name = GetFromFromVsRelation
+
+	text = {
+		localisation_key = GetRelation_Wife
+		trigger = {
+			is_female = yes
+			any_spouse = { character = FROMFROM }
+			NOT = { is_child_of = FROMFROM }
+			NOT = { any_child = { character = FROMFROM } }
+			sibling_of_fromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Husband
+		trigger = {
+			is_female = no
+			any_spouse = { character = FROMFROM }
+			NOT = { is_child_of = FROMFROM }
+			NOT = { any_child = { character = FROMFROM } }
+			sibling_of_fromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Concubine
+		trigger = {
+			is_female = yes
+			is_consort = FROMFROM
+			NOT = { any_spouse = { character = FROMFROM } }
+			NOT = { is_child_of = FROMFROM }
+			NOT = { any_child = { character = FROMFROM } }
+			sibling_of_fromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_MotherWife
+		trigger = {
+			is_female = yes
+			any_spouse = { character = FROMFROM }
+			any_child = { character = FROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_FatherHusband
+		trigger = {
+			is_female = no
+			any_spouse = { character = FROMFROM }
+			any_child = { character = FROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_DaughterWife
+		trigger = {
+			is_female = yes
+			any_spouse = { character = FROMFROM }
+			is_child_of = FROMFROM
+		}
+	}
+	text = {
+		localisation_key = GetRelation_SonHusband
+		trigger = {
+			is_female = no
+			any_spouse = { character = FROMFROM }
+			is_child_of = FROMFROM
+		}
+	}
+	text = {
+		localisation_key = GetRelation_SisterWife
+		trigger = {
+			is_female = yes
+			any_spouse = { character = FROMFROM }
+			sibling_of_fromfrom_trigger = yes
+		}
+	}
+	text = {
+		localisation_key = GetRelation_BrotherHusband
+		trigger = {
+			is_female = no
+			any_spouse = { character = FROMFROM }
+			sibling_of_fromfrom_trigger = yes
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Mother
+		trigger = {
+			is_female = yes
+			any_child = { character = FROMFROM }
+			NOT = { any_spouse = { character = FROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Father
+		trigger = {
+			is_female = no
+			any_child = { character = FROMFROM }
+			NOT = { any_spouse = { character = FROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Grandmother
+		trigger = {
+			is_female = yes
+			any_child = { any_child = { character = FROMFROM } }
+			NOT = { any_spouse = { character = FROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Grandfather
+		trigger = {
+			is_female = no
+			any_child = { any_child = { character = FROMFROM } }
+			NOT = { any_spouse = { character = FROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_GreatGrandmother
+		trigger = {
+			is_female = yes
+			any_child = { any_child = { any_child = { character = FROMFROM } } }
+			NOT = { any_spouse = { character = FROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_GreatGrandfather
+		trigger = {
+			is_female = no
+			any_child = { any_child = { any_child = { character = FROMFROM } } }
+			NOT = { any_spouse = { character = FROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Daughter
+		trigger = {
+			is_female = yes
+			is_child_of = FROMFROM
+			NOT = { any_spouse = { character = FROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Son
+		trigger = {
+			is_female = no
+			is_child_of = FROMFROM
+			NOT = { any_spouse = { character = FROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Granddaughter
+		trigger = {
+			is_female = yes
+			grandchild_of_fromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Grandson
+		trigger = {
+			is_female = no
+			grandchild_of_fromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_GreatGranddaughter
+		trigger = {
+			is_female = yes
+			greatgrandchild_of_fromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_GreatGrandson
+		trigger = {
+			is_female = no
+			greatgrandchild_of_fromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Sister
+		trigger = {
+			is_female = yes
+			sibling_of_fromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Brother
+		trigger = {
+			is_female = no
+			sibling_of_fromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Niece
+		trigger = {
+			is_female = yes
+			sibling_child_of_fromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROM } }
+			relationship_with_fromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Nephew
+		trigger = {
+			is_female = no
+			sibling_child_of_fromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROM } }
+			relationship_with_fromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Aunt
+		trigger = {
+			is_female = yes
+			parent_sibling_of_fromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROM } }
+			relationship_with_fromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Uncle
+		trigger = {
+			is_female = no
+			parent_sibling_of_fromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROM } }
+			relationship_with_fromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Cousin_Male
+		trigger = {
+			is_female = no
+			sibling_in_law_of_fromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROM } }
+			relationship_with_fromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Cousin_Female
+		trigger = {
+			is_female = yes
+			sibling_in_law_of_fromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROM } }
+			relationship_with_fromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_SisterInLaw
+		trigger = {
+			is_female = yes
+			sibling_in_law_of_fromfrom_trigger = yes
+			NOT = { is_close_relative = FROMFROM }
+			relationship_with_fromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_BrotherInLaw
+		trigger = {
+			is_female = no
+			sibling_in_law_of_fromfrom_trigger = yes
+			NOT = { is_close_relative = FROMFROM }
+			relationship_with_fromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Rival_Male
+		trigger = {
+			is_female = no
+			is_rival = FROMFROM
+			NOT = { is_close_relative = FROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Rival_Female
+		trigger = {
+			is_female = yes
+			is_rival = FROMFROM
+			NOT = { is_close_relative = FROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Friend_Male
+		trigger = {
+			is_female = no
+			is_friend = FROMFROM
+			NOT = { is_close_relative = FROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Friend_Female
+		trigger = {
+			is_female = yes
+			is_friend = FROMFROM
+			NOT = { is_close_relative = FROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Lover_Male
+		trigger = {
+			is_female = no
+			is_lover = FROMFROM
+			NOT = { is_close_relative = FROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Lover_Female
+		trigger = {
+			is_female = yes
+			is_lover = FROMFROM
+			NOT = { is_close_relative = FROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Kinswoman
+		trigger = {
+			is_female = yes
+			relationship_with_fromfrom_trigger = no
+			family_of_fromfrom_trigger = no
+			parent_or_child_in_law_of_fromfrom_trigger = no
+			dynasty = FROMFROM
+			NOT = { dynasty = none }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Kinsman
+		trigger = {
+			is_female = no
+			relationship_with_fromfrom_trigger = no
+			family_of_fromfrom_trigger = no
+			parent_or_child_in_law_of_fromfrom_trigger = no
+			dynasty = FROMFROM
+			NOT = { dynasty = none }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Liege_Male
+		trigger = {
+			is_female = no
+			relationship_with_fromfrom_trigger = no
+			family_of_fromfrom_trigger = no
+			is_liege_of = FROMFROM
+			OR = {
+				NOT = { dynasty = FROMFROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Liege_Female
+		trigger = {
+			is_female = yes
+			relationship_with_fromfrom_trigger = no
+			family_of_fromfrom_trigger = no
+			is_liege_of = FROMFROM
+			OR = {
+				NOT = { dynasty = FROMFROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Guardian_Male
+		trigger = {
+			is_female = no
+			relationship_with_fromfrom_trigger = no
+			family_of_fromfrom_trigger = no
+			NOT = { is_liege_of = FROMFROM }
+			OR = {
+				NOT = { dynasty = FROMFROM }
+				dynasty = none
+			}
+			is_guardian = FROMFROM
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Guardian_Female
+		trigger = {
+			is_female = yes
+			relationship_with_fromfrom_trigger = no
+			family_of_fromfrom_trigger = no
+			NOT = { is_liege_of = FROMFROM }
+			OR = {
+				NOT = { dynasty = FROMFROM }
+				dynasty = none
+			}
+			is_guardian = FROMFROM
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Ward_Male
+		trigger = {
+			is_female = no
+			relationship_with_fromfrom_trigger = no
+			family_of_fromfrom_trigger = no
+			parent_or_child_in_law_of_fromfrom_trigger = no
+			NOT = { is_liege_of = FROMFROM }
+			NAND = {
+				is_landed = yes
+				liege = { character = FROMFROM }
+			}
+			OR = {
+				NOT = { dynasty = FROMFROM }
+				dynasty = none
+			}
+			guardian = { character = FROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Ward_Female
+		trigger = {
+			is_female = yes
+			relationship_with_fromfrom_trigger = no
+			family_of_fromfrom_trigger = no
+			NOT = { is_liege_of = FROMFROM }
+			parent_or_child_in_law_of_fromfrom_trigger = no
+			NAND = {
+				is_landed = yes
+				liege = { character = FROMFROM }
+			}
+			OR = {
+				NOT = { dynasty = FROMFROM }
+				dynasty = none
+			}
+			guardian = { character = FROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Vassal_Male
+		trigger = {
+			is_female = no
+			relationship_with_fromfrom_trigger = no
+			family_of_fromfrom_trigger = no
+			parent_or_child_in_law_of_fromfrom_trigger = no
+			is_landed = yes
+			liege = { character = FROMFROM }
+			OR = {
+				NOT = { dynasty = FROMFROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Vassal_Female
+		trigger = {
+			is_female = yes
+			relationship_with_fromfrom_trigger = no
+			family_of_fromfrom_trigger = no
+			parent_or_child_in_law_of_fromfrom_trigger = no
+			is_landed = yes
+			liege = { character = FROMFROM }
+			OR = {
+				NOT = { dynasty = FROMFROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Courtier_Male
+		trigger = {
+			is_female = no
+			relationship_with_fromfrom_trigger = no
+			family_of_fromfrom_trigger = no
+			parent_or_child_in_law_of_fromfrom_trigger = no
+			is_landed = no
+			liege = { character = FROMFROM }
+			OR = {
+				NOT = { dynasty = FROMFROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Courtier_Female
+		trigger = {
+			is_female = yes
+			relationship_with_fromfrom_trigger = no
+			family_of_fromfrom_trigger = no
+			parent_or_child_in_law_of_fromfrom_trigger = no
+			is_landed = no
+			liege = { character = FROMFROM }
+			OR = {
+				NOT = { dynasty = FROMFROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Acquaintance
+		trigger = {
+			is_female = no
+			NOR = { 
+				relationship_with_fromfrom_trigger = yes
+				family_of_fromfrom_trigger = yes
+				parent_or_child_in_law_of_fromfrom_trigger = no
+				liege = { character = FROMFROM }
+				is_liege_of = FROMFROM
+				AND = {
+					dynasty = FROMFROM
+					NOT = { dynasty = none }
+				}
+			} 
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Acquaintance_Female
+		trigger = { 
+			is_female = yes
+			NOR = { 
+				relationship_with_fromfrom_trigger = yes
+				family_of_fromfrom_trigger = yes
+				parent_or_child_in_law_of_fromfrom_trigger = no
+				liege = { character = FROMFROM }
+				is_liege_of = FROMFROM
+				AND = {
+					dynasty = FROMFROM
+					NOT = { dynasty = none }
+				}
+			} 
+		}
+	}
+	text = {
+		localisation_key = GetRelation_MotherOfWife
+		trigger = {
+			is_female = yes
+			NOR = { 
+				relationship_with_fromfrom_trigger = yes
+				family_of_fromfrom_trigger = yes
+				is_liege_of = FROMFROM
+				is_guardian = FROMFROM
+				is_consort = FROMFROM
+			}
+			any_child = {
+				is_female = yes
+				any_spouse = { character = FROMFROM }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_MotherOfHusband
+		trigger = {
+			is_female = yes
+			NOR = { 
+				relationship_with_fromfrom_trigger = yes
+				family_of_fromfrom_trigger = yes
+				is_liege_of = FROMFROM
+				is_guardian = FROMFROM
+				is_consort = FROMFROM
+			}
+			any_child = {
+				is_female = no
+				any_spouse = { character = FROMFROM }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_FatherOfWife
+		trigger = {
+			is_female = no
+			NOR = { 
+				relationship_with_fromfrom_trigger = yes
+				family_of_fromfrom_trigger = yes
+				is_liege_of = FROMFROM
+				is_guardian = FROMFROM
+			}
+			any_child = {
+				is_female = yes
+				any_spouse = { character = FROMFROM }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_FatherOfHusband
+		trigger = {
+			is_female = no
+			NOR = { 
+				relationship_with_fromfrom_trigger = yes
+				family_of_fromfrom_trigger = yes
+				is_liege_of = FROMFROM
+				is_guardian = FROMFROM
+			}
+			any_child = {
+				is_female = no
+				any_spouse = { character = FROMFROM }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_WifeOfSon
+		trigger = {
+			is_female = yes
+			NOR = { 
+				relationship_with_fromfrom_trigger = yes
+				family_of_fromfrom_trigger = yes
+				is_liege_of = FROMFROM
+				is_guardian = FROMFROM
+				is_consort = FROMFROM
+			}
+			OR = {
+				any_spouse = { mother_even_if_dead = { character = FROMFROM } }
+				any_spouse = { father_even_if_dead = { character = FROMFROM } }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_HusbandOfDaughter
+		trigger = {
+			is_female = no
+			NOR = { 
+				relationship_with_fromfrom_trigger = yes
+				family_of_fromfrom_trigger = yes
+				is_liege_of = FROMFROM
+				is_guardian = FROMFROM
+			}
+			OR = {
+				any_spouse = { mother_even_if_dead = { character = FROMFROM } }
+				any_spouse = { father_even_if_dead = { character = FROMFROM } }
+			}
+		}
+	}
+}
+#FROMFROMFROM
+defined_text = {
+	name = GetFromFromFromVsRelation
+
+	text = {
+		localisation_key = GetRelation_Wife
+		trigger = {
+			is_female = yes
+			any_spouse = { character = FROMFROMFROM }
+			NOT = { is_child_of = FROMFROMFROM }
+			NOT = { any_child = { character = FROMFROMFROM } }
+			sibling_of_fromfromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Husband
+		trigger = {
+			is_female = no
+			any_spouse = { character = FROMFROMFROM }
+			NOT = { is_child_of = FROMFROMFROM }
+			NOT = { any_child = { character = FROMFROMFROM } }
+			sibling_of_fromfromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Concubine
+		trigger = {
+			is_female = yes
+			is_consort = FROMFROMFROM
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+			NOT = { is_child_of = FROMFROMFROM }
+			NOT = { any_child = { character = FROMFROMFROM } }
+			sibling_of_fromfromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_MotherWife
+		trigger = {
+			is_female = yes
+			any_spouse = { character = FROMFROMFROM }
+			any_child = { character = FROMFROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_FatherHusband
+		trigger = {
+			is_female = no
+			any_spouse = { character = FROMFROMFROM }
+			any_child = { character = FROMFROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_DaughterWife
+		trigger = {
+			is_female = yes
+			any_spouse = { character = FROMFROMFROM }
+			is_child_of = FROMFROMFROM
+		}
+	}
+	text = {
+		localisation_key = GetRelation_SonHusband
+		trigger = {
+			is_female = no
+			any_spouse = { character = FROMFROMFROM }
+			is_child_of = FROMFROMFROM
+		}
+	}
+	text = {
+		localisation_key = GetRelation_SisterWife
+		trigger = {
+			is_female = yes
+			any_spouse = { character = FROMFROMFROM }
+			sibling_of_fromfromfrom_trigger = yes
+		}
+	}
+	text = {
+		localisation_key = GetRelation_BrotherHusband
+		trigger = {
+			is_female = no
+			any_spouse = { character = FROMFROMFROM }
+			sibling_of_fromfromfrom_trigger = yes
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Mother
+		trigger = {
+			is_female = yes
+			any_child = { character = FROMFROMFROM }
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Father
+		trigger = {
+			is_female = no
+			any_child = { character = FROMFROMFROM }
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Grandmother
+		trigger = {
+			is_female = yes
+			any_child = { any_child = { character = FROMFROMFROM } }
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Grandfather
+		trigger = {
+			is_female = no
+			any_child = { any_child = { character = FROMFROMFROM } }
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_GreatGrandmother
+		trigger = {
+			is_female = yes
+			any_child = { any_child = { any_child = { character = FROMFROMFROM } } }
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_GreatGrandfather
+		trigger = {
+			is_female = no
+			any_child = { any_child = { any_child = { character = FROMFROMFROM } } }
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Daughter
+		trigger = {
+			is_female = yes
+			is_child_of = FROMFROMFROM
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Son
+		trigger = {
+			is_female = no
+			is_child_of = FROMFROMFROM
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Granddaughter
+		trigger = {
+			is_female = yes
+			grandchild_of_fromfromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Grandson
+		trigger = {
+			is_female = no
+			grandchild_of_fromfromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_GreatGranddaughter
+		trigger = {
+			is_female = yes
+			greatgrandchild_of_fromfromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_GreatGrandson
+		trigger = {
+			is_female = no
+			greatgrandchild_of_fromfromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Sister
+		trigger = {
+			is_female = yes
+			sibling_of_fromfromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Brother
+		trigger = {
+			is_female = no
+			sibling_of_fromfromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Niece
+		trigger = {
+			is_female = yes
+			sibling_child_of_fromfromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+			relationship_with_fromfromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Nephew
+		trigger = {
+			is_female = no
+			sibling_child_of_fromfromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+			relationship_with_fromfromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Aunt
+		trigger = {
+			is_female = yes
+			parent_sibling_of_fromfromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+			relationship_with_fromfromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Uncle
+		trigger = {
+			is_female = no
+			parent_sibling_of_fromfromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+			relationship_with_fromfromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Cousin_Male
+		trigger = {
+			is_female = no
+			sibling_in_law_of_fromfromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+			relationship_with_fromfromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Cousin_Female
+		trigger = {
+			is_female = yes
+			sibling_in_law_of_fromfromfrom_trigger = yes
+			NOT = { any_spouse = { character = FROMFROMFROM } }
+			relationship_with_fromfromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_SisterInLaw
+		trigger = {
+			is_female = yes
+			sibling_in_law_of_fromfromfrom_trigger = yes
+			NOT = { is_close_relative = FROMFROMFROM }
+			relationship_with_fromfromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_BrotherInLaw
+		trigger = {
+			is_female = no
+			sibling_in_law_of_fromfromfrom_trigger = yes
+			NOT = { is_close_relative = FROMFROMFROM }
+			relationship_with_fromfromfrom_trigger = no
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Rival_Male
+		trigger = {
+			is_female = no
+			is_rival = FROMFROMFROM
+			NOT = { is_close_relative = FROMFROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Rival_Female
+		trigger = {
+			is_female = yes
+			is_rival = FROMFROMFROM
+			NOT = { is_close_relative = FROMFROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Friend_Male
+		trigger = {
+			is_female = no
+			is_friend = FROMFROMFROM
+			NOT = { is_close_relative = FROMFROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Friend_Female
+		trigger = {
+			is_female = yes
+			is_friend = FROMFROMFROM
+			NOT = { is_close_relative = FROMFROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Lover_Male
+		trigger = {
+			is_female = no
+			is_lover = FROMFROMFROM
+			NOT = { is_close_relative = FROMFROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Lover_Female
+		trigger = {
+			is_female = yes
+			is_lover = FROMFROMFROM
+			NOT = { is_close_relative = FROMFROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Kinswoman
+		trigger = {
+			is_female = yes
+			relationship_with_fromfromfrom_trigger = no
+			family_of_fromfromfrom_trigger = no
+			parent_or_child_in_law_of_fromfromfrom_trigger = no
+			dynasty = FROMFROMFROM
+			NOT = { dynasty = none }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Kinsman
+		trigger = {
+			is_female = no
+			relationship_with_fromfromfrom_trigger = no
+			family_of_fromfromfrom_trigger = no
+			parent_or_child_in_law_of_fromfromfrom_trigger = no
+			dynasty = FROMFROMFROM
+			NOT = { dynasty = none }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Liege_Male
+		trigger = {
+			is_female = no
+			relationship_with_fromfromfrom_trigger = no
+			family_of_fromfromfrom_trigger = no
+			is_liege_of = FROMFROMFROM
+			OR = {
+				NOT = { dynasty = FROMFROMFROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Liege_Female
+		trigger = {
+			is_female = yes
+			relationship_with_fromfromfrom_trigger = no
+			family_of_fromfromfrom_trigger = no
+			is_liege_of = FROMFROMFROM
+			OR = {
+				NOT = { dynasty = FROMFROMFROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Guardian_Male
+		trigger = {
+			is_female = no
+			relationship_with_fromfromfrom_trigger = no
+			family_of_fromfromfrom_trigger = no
+			NOT = { is_liege_of = FROMFROMFROM }
+			OR = {
+				NOT = { dynasty = FROMFROMFROM }
+				dynasty = none
+			}
+			is_guardian = FROMFROMFROM
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Guardian_Female
+		trigger = {
+			is_female = yes
+			relationship_with_fromfromfrom_trigger = no
+			family_of_fromfromfrom_trigger = no
+			NOT = { is_liege_of = FROMFROMFROM }
+			OR = {
+				NOT = { dynasty = FROMFROMFROM }
+				dynasty = none
+			}
+			is_guardian = FROMFROMFROM
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Ward_Male
+		trigger = {
+			is_female = no
+			relationship_with_fromfromfrom_trigger = no
+			family_of_fromfromfrom_trigger = no
+			parent_or_child_in_law_of_fromfromfrom_trigger = no
+			NOT = { is_liege_of = FROMFROMFROM }
+			NAND = {
+				is_landed = yes
+				liege = { character = FROMFROMFROM }
+			}
+			OR = {
+				NOT = { dynasty = FROMFROMFROM }
+				dynasty = none
+			}
+			guardian = { character = FROMFROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Ward_Female
+		trigger = {
+			is_female = yes
+			relationship_with_fromfromfrom_trigger = no
+			family_of_fromfromfrom_trigger = no
+			NOT = { is_liege_of = FROMFROMFROM }
+			parent_or_child_in_law_of_fromfromfrom_trigger = no
+			NAND = {
+				is_landed = yes
+				liege = { character = FROMFROMFROM }
+			}
+			OR = {
+				NOT = { dynasty = FROMFROMFROM }
+				dynasty = none
+			}
+			guardian = { character = FROMFROMFROM }
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Vassal_Male
+		trigger = {
+			is_female = no
+			relationship_with_fromfromfrom_trigger = no
+			family_of_fromfromfrom_trigger = no
+			parent_or_child_in_law_of_fromfromfrom_trigger = no
+			is_landed = yes
+			liege = { character = FROMFROMFROM }
+			OR = {
+				NOT = { dynasty = FROMFROMFROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Vassal_Female
+		trigger = {
+			is_female = yes
+			relationship_with_fromfromfrom_trigger = no
+			family_of_fromfromfrom_trigger = no
+			parent_or_child_in_law_of_fromfromfrom_trigger = no
+			is_landed = yes
+			liege = { character = FROMFROMFROM }
+			OR = {
+				NOT = { dynasty = FROMFROMFROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Courtier_Male
+		trigger = {
+			is_female = no
+			relationship_with_fromfromfrom_trigger = no
+			family_of_fromfromfrom_trigger = no
+			parent_or_child_in_law_of_fromfromfrom_trigger = no
+			is_landed = no
+			liege = { character = FROMFROMFROM }
+			OR = {
+				NOT = { dynasty = FROMFROMFROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Courtier_Female
+		trigger = {
+			is_female = yes
+			relationship_with_fromfromfrom_trigger = no
+			family_of_fromfromfrom_trigger = no
+			parent_or_child_in_law_of_fromfromfrom_trigger = no
+			is_landed = no
+			liege = { character = FROMFROMFROM }
+			OR = {
+				NOT = { dynasty = FROMFROMFROM }
+				dynasty = none
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Acquaintance
+		trigger = {
+			is_female = no
+			NOR = { 
+				relationship_with_fromfromfrom_trigger = yes
+				family_of_fromfromfrom_trigger = yes
+				parent_or_child_in_law_of_fromfromfrom_trigger = no
+				liege = { character = FROMFROMFROM }
+				is_liege_of = FROMFROMFROM
+				AND = {
+					dynasty = FROMFROMFROM
+					NOT = { dynasty = none }
+				}
+			} 
+		}
+	}
+	text = {
+		localisation_key = GetRelation_Acquaintance_Female
+		trigger = { 
+			is_female = yes
+			NOR = { 
+				relationship_with_fromfromfrom_trigger = yes
+				family_of_fromfromfrom_trigger = yes
+				parent_or_child_in_law_of_fromfromfrom_trigger = no
+				liege = { character = FROMFROMFROM }
+				is_liege_of = FROMFROMFROM
+				AND = {
+					dynasty = FROMFROMFROM
+					NOT = { dynasty = none }
+				}
+			} 
+		}
+	}
+	text = {
+		localisation_key = GetRelation_MotherOfWife
+		trigger = {
+			is_female = yes
+			NOR = { 
+				relationship_with_fromfromfrom_trigger = yes
+				family_of_fromfromfrom_trigger = yes
+				is_liege_of = FROMFROMFROM
+				is_guardian = FROMFROMFROM
+				is_consort = FROMFROMFROM
+			}
+			any_child = {
+				is_female = yes
+				any_spouse = { character = FROMFROMFROM }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_MotherOfHusband
+		trigger = {
+			is_female = yes
+			NOR = { 
+				relationship_with_fromfromfrom_trigger = yes
+				family_of_fromfromfrom_trigger = yes
+				is_liege_of = FROMFROMFROM
+				is_guardian = FROMFROMFROM
+				is_consort = FROMFROMFROM
+			}
+			any_child = {
+				is_female = no
+				any_spouse = { character = FROMFROMFROM }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_FatherOfWife
+		trigger = {
+			is_female = no
+			NOR = { 
+				relationship_with_fromfromfrom_trigger = yes
+				family_of_fromfromfrom_trigger = yes
+				is_liege_of = FROMFROMFROM
+				is_guardian = FROMFROMFROM
+			}
+			any_child = {
+				is_female = yes
+				any_spouse = { character = FROMFROMFROM }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_FatherOfHusband
+		trigger = {
+			is_female = no
+			NOR = { 
+				relationship_with_fromfromfrom_trigger = yes
+				family_of_fromfromfrom_trigger = yes
+				is_liege_of = FROMFROMFROM
+				is_guardian = FROMFROMFROM
+			}
+			any_child = {
+				is_female = no
+				any_spouse = { character = FROMFROMFROM }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_WifeOfSon
+		trigger = {
+			is_female = yes
+			NOR = { 
+				relationship_with_fromfromfrom_trigger = yes
+				family_of_fromfromfrom_trigger = yes
+				is_liege_of = FROMFROMFROM
+				is_guardian = FROMFROMFROM
+				is_consort = FROMFROMFROM
+			}
+			OR = {
+				any_spouse = { mother_even_if_dead = { character = FROMFROMFROM } }
+				any_spouse = { father_even_if_dead = { character = FROMFROMFROM } }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetRelation_HusbandOfDaughter
+		trigger = {
+			is_female = no
+			NOR = { 
+				relationship_with_fromfromfrom_trigger = yes
+				family_of_fromfromfrom_trigger = yes
+				is_liege_of = FROMFROMFROM
+				is_guardian = FROMFROMFROM
+			}
+			OR = {
+				any_spouse = { mother_even_if_dead = { character = FROMFROMFROM } }
+				any_spouse = { father_even_if_dead = { character = FROMFROMFROM } }
+			}
+		}
+	}
+}

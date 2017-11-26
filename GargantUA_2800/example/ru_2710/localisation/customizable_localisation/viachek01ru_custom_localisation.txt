@@ -1,0 +1,49 @@
+#Окончание на овка/а(воровка/вора)
+defined_text = {
+	name = GetOvkuA
+
+	text = {
+		trigger = { is_female = no }
+		localisation_key = END_A
+	}
+	text = {
+		trigger = { is_female = yes }
+		localisation_key = END_Ovku
+	}
+}
+#женат/замужем
+defined_text = {
+	name = GetZamuzemZhenat
+	text = {
+		trigger = { is_female = yes }
+		localisation_key = END_Zamuzem
+	}
+	text = {
+		trigger = { is_female = no }
+		localisation_key = END_Zhenat
+	}
+}
+#ица/ец
+defined_text = {
+	name = GetItsaEts
+	text = {
+		trigger = { is_female = yes }
+		localisation_key = END_Itsa
+	}
+	text = {
+		trigger = { is_female = no }
+		localisation_key = END_Ets
+	}
+}
+#сестра/брат
+defined_text = {
+	name = GetSisterBrother
+	text = {
+		trigger = { is_female = yes }
+		localisation_key = END_Sister
+	}
+	text = {
+		trigger = { is_female = no }
+		localisation_key = END_Brother
+	}
+}
