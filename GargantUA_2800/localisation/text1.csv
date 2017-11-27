@@ -1,30 +1,30 @@
 #CODE;UKRAINIAN;x
-AIREASON_TOO_OLD;§Y[GetTitledFirstName]§! is past childbearing age;x
-AIREASON_OPINION;Opinion of §Y[GetTitledFirstName]§!;x
-AIREASON_SKILLS;Skills of §Y[GetTitledFirstName]§!;x
-AIREASON_REALPOLITIK;Political Concerns;x
-AIREASON_REALPOLITIK_VS;Political Concerns vs §Y[GetTitledFirstName]§!;x
-AIREASON_WRONG_RELIGION;False Religion;x
-AIREASON_WRONG_CULTURE;Foreign Culture;x
-AIREASON_TOO_WEAK;Weaker than I am;x
-AIREASON_WEAKNESS;Lack of Power;x
-AIREASON_STRENGTH;Power;x
-AIREASON_IS_RULER;Is a Ruler;x
-AIREASON_NOT_DE_JURE_LIEGE;Not my de jure Liege;x
-AIREASON_CANNOT_AFFORD;Cannot Afford;x
-AIREASON_NO_INTEREST_IN_CHAR;No interest in §Y[GetTitledFirstName]§!;x
-AIREASON_SAME_DYNASTY_AS_TARGET;Same Dynasty as §Y[GetTitledFirstName]§!;x
-AIREASON_TOO_CLOSE_FOR_SUCC_MARR;§Y[GetTitledFirstName]§! is too high in the line of succession;x
-AIREASON_SUCC_LOWLY_RANK;§Y[GetTitledFirstName]§! is of too lowly rank for a regular marriage;x
-AIREASON_NOT_A_SUCCESSION_MARRIAGE;§Y[GetTitledFirstName]§! would prefer a Matrilineal Marriage;x
-AIREASON_POWER_TO_PRESS_CLAIMS;§Y[GetTitledFirstName]§! has the power to press my claims;x
-AIREASON_UNABLE_PRESS_CLAIMS;§Y[GetTitledFirstName]§! is unable to press my claims;x
-AIREASON_REBELLIOUS;Rebellious;x
-AIREASON_AGE_FACTOR;Age of §Y[GetTitledFirstName]§!;x
-AIREASON_IS_MY_LIEGE;§Y[GetTitledFirstName]§! is my Liege;x
-AIREASON_PRESTIGE_EFFECTS;Prestige Effects;x
-AIREASON_WANTS_FREEDOM;Wants Freedom;x
-AIREASON_CLOSE_RELATIVE;§Y[GetTitledFirstName]§! is a Close Relative;x
+AIREASON_TOO_OLD;§Y[GetTitledFirstName]§! неспроможна мати дітей;x
+AIREASON_OPINION;Думка про персонажа §Y[GetTitledFirstName]§!;x
+AIREASON_SKILLS;Має навички §Y[GetTitledFirstName]§!;x
+AIREASON_REALPOLITIK;Політично зацікавлений;x
+AIREASON_REALPOLITIK_VS;Політичний противник §Y[GetTitledFirstName]§!;x
+AIREASON_WRONG_RELIGION;Інша релігія;x
+AIREASON_WRONG_CULTURE;Інша культура;x
+AIREASON_TOO_WEAK;Слабкіше мене;x
+AIREASON_WEAKNESS;Відсутність влади;x
+AIREASON_STRENGTH;Влада;x
+AIREASON_IS_RULER;Є правителем;x
+AIREASON_NOT_DE_JURE_LIEGE;Де-юре не є моїм сюзереном;x
+AIREASON_CANNOT_AFFORD;Не може дозволити собі;x
+AIREASON_NO_INTEREST_IN_CHAR;Немає ніякого інтересу до §Y[GetTitledFirstName]§!;x
+AIREASON_SAME_DYNASTY_AS_TARGET;Та ж династія що й §Y[GetTitledFirstName]§!;x
+AIREASON_TOO_CLOSE_FOR_SUCC_MARR;§Y[GetTitledFirstName]§! потенціалній спадкоємець;x
+AIREASON_SUCC_LOWLY_RANK;§Y[GetTitledFirstName]§! занадто низького походження;x
+AIREASON_NOT_A_SUCCESSION_MARRIAGE;§Y[GetTitledFirstName]§! воліє шлюб по жіночій лінії;x
+AIREASON_POWER_TO_PRESS_CLAIMS;§Y[GetTitledFirstName]§! можє допомогти виконати мої вимоги;x
+AIREASON_UNABLE_PRESS_CLAIMS;§Y[GetTitledFirstName]§! не можє допомогти виконати мої вимоги;x
+AIREASON_REBELLIOUS;Бунтівний;x
+AIREASON_AGE_FACTOR;має вік §Y[GetTitledFirstName]§!;x
+AIREASON_IS_MY_LIEGE;§Y[GetTitledFirstName]§! мій Сюзерен;x
+AIREASON_PRESTIGE_EFFECTS;Вплив на престиж;x
+AIREASON_WANTS_FREEDOM;хоче свободи;x
+AIREASON_CLOSE_RELATIVE;§Y[GetTitledFirstName]§! близкий родич;x
 AIREASON_DARE_NOT_REFUSE;Dare not refuse;x
 AIREASON_CONFLICTING_INTERESTS;Conflicting Interests;x
 AIREASON_SAME_REALM;Same Realm;x
