@@ -1,7 +1,6 @@
 /*
 !/GargantUA_2800
 !.gitignore
-!/GargantUA_2800.mod
-
-
+!GargantUA_2800.mod
+!Readme.md
 *.db
