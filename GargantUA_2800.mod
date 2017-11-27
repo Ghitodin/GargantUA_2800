@@ -1,4 +1,4 @@
-	name="GanrantUA"
+	name="GargantUA"
 	path="mod/GargantUA_2800"
 	tags=
 	{
